@@ -1,0 +1,52 @@
+.forewords-body {
+  font-family: "Noto Sans KR", sans-serif;
+  padding: 2rem;
+  word-break: keep-all;
+}
+//title
+.forewords-title {
+  font-size: 40pt;
+}
+
+.forewords-title-eng {
+  font-size: 28pt;
+  font-weight: lighter;
+}
+
+.forewords-sub {
+  font-size: 20pt;
+}
+
+//paper
+.forewords-overlap {
+  position: relative;
+}
+
+.paper-wrap {
+  position: relative;
+}
+
+.paper-text {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: 20pt;
+}
+
+.paper-top-img {
+  width: 1728px;
+  height: 1152px;
+}
+
+.paper-bottom {
+  top: -100px;
+}
+
+.paper-bottom-img {
+  width: 1187px;
+  height: 1738px;
+}
+
+.text-20 {
+  font-size: 20pt;
+}

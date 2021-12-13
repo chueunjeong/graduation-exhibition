@@ -1,0 +1,44 @@
+.guestbook-body {
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 10rem 0;
+}
+// .name-container {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   height: 500px;
+// }
+
+.leave-name,
+.say-hello {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.ellipse {
+  justify-content: center;
+  align-items: center;
+}
+
+.ellipse-img {
+  width: 26.76px;
+  height: 26.76px;
+}
+
+.text-32 {
+  font-size: 32pt;
+}
+
+.text-26 {
+  font-size: 26pt;
+}
+
+.text-24 {
+  font-size: 24pt;
+}
+
+.text1-sub {
+  font-size: 24pt;
+  font-weight: lighter;
+}

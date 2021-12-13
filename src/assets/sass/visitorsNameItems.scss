@@ -1,0 +1,41 @@
+//방문객 이름 목록
+.visitor-name-insert {
+  margin: 5rem 0;
+}
+
+.visitor-name-input {
+  border: none;
+  width: 30%;
+}
+
+.guestbook-name-btn-wrap {
+  position: relative;
+}
+
+.guestbook-name-btn-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.guestbook-name-btn-img {
+  width: 91px;
+  height: 44px;
+}
+
+.guestbook-name-list {
+  border: 1px solid black;
+}
+
+.text-20 {
+  font-size: 20t;
+}
+
+.border-r {
+  border-right: 1px solid black;
+}
+
+.border-b {
+  border-bottom: 1px solid black;
+}

@@ -1,0 +1,70 @@
+.artist-img-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.artist-img {
+  width: 368px;
+  height: 368px;
+  &:hover {
+    filter: brightness(150%) grayscale(100%);
+    cursor: pointer;
+  }
+}
+
+.korean-name {
+  font-size: 36pt;
+}
+
+.englist-name {
+  font-size: 20pt;
+  font-weight: lighter;
+}
+
+.artist-option {
+  font-size: 15pt;
+}
+
+.ellipse-item {
+  position: relative;
+  //border: 1px solid black;
+}
+
+.ellipse-img-wrap {
+  //border: 1px solid green;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ellipse-img {
+  width: 16px;
+  height: 16px;
+}
+
+.ellipse-img-overlay {
+  width: 24px;
+  height: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+
+  bottom: 3px;
+  //border: 1px solid red;
+}
+
+.alt-text-img {
+  width: 22.18px;
+  height: 20.77px;
+}
+
+.sound-subtitle-img {
+  width: 21.73px;
+  height: 22.78px;
+}

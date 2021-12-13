@@ -1,0 +1,24 @@
+.header-logo {
+  width: 912.79px;
+  height: 127.73px;
+}
+
+.header-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.icon-rotate {
+  transform: rotate(0deg);
+  transition: 0.5s;
+
+  &:hover {
+    transform: rotate(45deg);
+  }
+}
+
+.modal-icon {
+  &:hover {
+    cursor: pointer;
+  }
+}
