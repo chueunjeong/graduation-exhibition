@@ -13,7 +13,7 @@ export default function App() {
       >
         <Link to="/intro">intro</Link> |<Link to="/main">main</Link> |<Link to="/forewords">forewords</Link> |
         <Link to="/guestbook">guestbook</Link> |<Link to="/artistlist">artistlist</Link> |
-        <Link to="/artistdetail">artistdetail</Link>
+        <Link to="/booktest">booktest</Link>
       </nav>
     </div>
   );

@@ -23,7 +23,7 @@ const VisitorsNameList = (props) => {
   return (
     <>
       <div className="row justify-content-center">
-        <div className="col-10 p-4 text-20 guestbook-name-list ">
+        <div className="col-8 p-4 guestbook-name-list ">
           <div className="row text-center px-1">
             <div className="col-6 border-r border-b p-2">이름</div>
             <div className="col-6 border-b p-2">방문 일자</div>

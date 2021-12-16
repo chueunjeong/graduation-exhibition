@@ -3,6 +3,7 @@ import CommonFooter from "../components/CommonFooter";
 import CommonHeader from "../components/CommonHeader";
 import ArtistImg1 from "../../assets/images/artist-img1.png";
 import ArtistItems from "./ArtistItems";
+import "../../assets/sass/artistItems.scss";
 
 const ArtistList = () => {
   const artist_count = 48;
@@ -41,7 +42,7 @@ const ArtistList = () => {
     const result = [];
     for (let i = 0; i < rows; i++) {
       result.push(
-        <div className="row" key={i}>
+        <div className="row artist-list" key={i}>
           <ArtistItems artistInfo={artistInfoList[0]} />
           <ArtistItems artistInfo={artistInfoList[1]} />
           <ArtistItems artistInfo={artistInfoList[2]} />
@@ -51,14 +52,14 @@ const ArtistList = () => {
       if (i === rows - 1 && remainder !== 0) {
         if (remainder === 1) {
           result.push(
-            <div className="row" key={i + 1}>
+            <div className="row artist-list" key={i + 1}>
               <ArtistItems artistInfo={artistInfoList[1]} />
             </div>,
           );
         }
         if (remainder === 2) {
           result.push(
-            <div className="row" key={i + 1}>
+            <div className="row artist-list" key={i + 1}>
               <ArtistItems artistInfo={artistInfoList[1]} />
               <ArtistItems artistInfo={artistInfoList[2]} />
             </div>,
@@ -73,7 +74,7 @@ const ArtistList = () => {
   return (
     <div className="container">
       <CommonHeader />
-      <div className="row">
+      <div className="row artist-row">
         <div className="container">{artistListArr()}</div>
       </div>
       <CommonFooter />

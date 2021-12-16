@@ -2,13 +2,17 @@
   border: 1px solid black;
   margin: 3rem 0;
   padding: 1rem;
-  width: 560px;
-  height: 360px;
+  width: 560px * 0.75;
+  height: 360px * 0.75;
   box-shadow: 3px 3px grey;
 }
 
-.text-20 {
-  font-size: 20pt;
+.text-size20 {
+  font-size: 20px * 0.75;
+}
+
+.text-size16 {
+  font-size: 16px * 0.75;
 }
 
 .greeting-name-input {
@@ -16,16 +20,20 @@
   width: 50%;
 }
 
+.greeting-send-btn-wrap {
+  text-align: end;
+}
+
 .greeting-send-btn-img {
-  width: 122px;
-  height: 71px;
+  width: 122px * 0.75;
+  height: 71px * 0.75;
   &:hover {
     cursor: pointer;
   }
 }
 
 .writing-greeting-textbox {
-  margin: 3rem 0;
+  margin: 1.5rem 0;
 }
 
 .greeting-send-text {
@@ -44,8 +52,8 @@
   border: 1px solid black;
   margin: 3rem 0;
   padding: 1rem;
-  width: 560px;
-  height: 360px;
+  width: 560px * 0.75;
+  height: 360px * 0.75;
   box-shadow: 3px 3px grey;
 }
 

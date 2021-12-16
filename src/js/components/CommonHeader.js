@@ -22,17 +22,24 @@ const CommonHeader = () => {
   return (
     <div className="row main-header">
       <div className="col-8">
-        <img className="header-logo" alt="header-logo" src={HeaderLogo}></img>
+        <a href="/main">
+          <img className="header-logo pointer" alt="header-logo" src={HeaderLogo}></img>
+        </a>
       </div>
-      <div className="col-4">
-        <div className="row justify-content-end">
-          <div className="col-2">
-            <img className="header-icon icon-rotate" alt="header-icon1" src={HeaderIcon1}></img>
+      <div className="col-4 align-center justify-content-end">
+        <div className="row">
+          <div className="col-3"></div>
+          <div className="col-3">
+            <a href="/forewords">
+              <img className="header-icon icon-rotate" alt="header-icon1" src={HeaderIcon1}></img>
+            </a>
           </div>
-          <div className="col-2">
-            <img className="header-icon icon-rotate" alt="header-icon2" src={HeaderIcon2}></img>
+          <div className="col-3">
+            <a href="/guestbook">
+              <img className="header-icon icon-rotate" alt="header-icon2" src={HeaderIcon2}></img>
+            </a>
           </div>
-          <div className="col-2 ">
+          <div className="col-3">
             <img className="header-icon modal-icon" alt="header-icon3" src={HeaderIcon3} onClick={openModal}></img>
           </div>
         </div>

@@ -1,15 +1,14 @@
 .modal-container {
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 100%;
   z-index: 1;
-  top: 0;
+  top: 70px;
   left: 0;
   right: 0;
   bottom: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
 }
 
 .modal-overlay {
@@ -26,8 +25,8 @@
   // box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   text-align: center;
   background-image: url(../images/main-popup-paper.png);
-  width: 602px;
-  height: 764px;
+  width: 602px * 0.75;
+  height: 764px * 0.75;
   background-size: cover;
   font-family: "Noto Sans KR", sans-serif;
 }
@@ -59,48 +58,114 @@
 }
 
 .body-title {
-  font-size: 24pt;
+  font-size: 24px * 0.75;
   font-weight: bold;
 }
 
 .body-title-sub {
-  font-size: 16pt;
+  font-size: 16px * 0.75;
 }
 
 .answer {
-  font-size: 20pt;
-  vertical-align: baseline;
+  font-size: 20px * 0.65;
+  display: table-cell;
+  vertical-align: bottom;
+}
+//글씨 크기
+.text-sz20 {
+  font-size: 20px * 0.75;
 }
 
-.text-20 {
-  font-size: 20pt;
+.text-sz18 {
+  font-size: 18px * 0.75;
 }
 
-.text-18 {
-  font-size: 18pt;
+.text-sz16 {
+  font-size: 16px * 0.75;
 }
 
-.text-16 {
-  font-size: 16pt;
-}
-
-.text-14 {
-  font-size: 14pt;
+.text-sz14 {
+  font-size: 14px * 0.75;
   font-weight: lighter;
 }
-
+//질문 선택
 .question-ellipse {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.question-ellipse-img-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+}
+
 .question-ellipse-img {
-  width: 20px;
-  height: 20px;
+  width: 20px * 0.75;
+  height: 20px * 0.75;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.search-option1-img {
+  width: 31.02px;
+  height: 31.75px;
+}
+
+.search-option2-img {
+  width: 27.62px;
+  height: 29.84px;
+}
+
+.search-option3-img {
+  width: 27.02px;
+  height: 27.85px;
+}
+
+.search-option4-img {
+  width: 17.42px;
+  height: 19.93px;
+}
+
+.search-option5-img {
+  width: 31.02px;
+  height: 29.05px;
+}
+
+.search-option6-img {
+  width: 26.58px;
+  height: 27.85px;
+}
+.addtext {
+  white-space: pre-wrap;
+}
+
+//보러가기 버튼
+
+.modal-btn-loc {
+  display: flex;
+  justify-content: center;
 }
 
 .modal-btn-wrap {
+  width: 164.41px * 0.75;
+  height: 54.98px * 0.75;
   position: relative;
+  &:hover {
+    cursor: pointer;
+  }
+  justify-self: center;
+}
+
+.modal-btn-wrap a {
+  color: black;
+  &:hover {
+    color: rgba(0, 0, 0, 0.178);
+  }
 }
 
 .btn-text {
@@ -111,6 +176,6 @@
 }
 
 .modal-btn-img {
-  width: 164.41px;
-  height: 54.98px;
+  width: 164.41px * 0.75;
+  height: 54.98px * 0.75;
 }

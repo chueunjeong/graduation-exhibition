@@ -1,52 +1,61 @@
 .forewords-body {
   font-family: "Noto Sans KR", sans-serif;
-  padding: 2rem;
+  padding: 3rem;
   word-break: keep-all;
+}
+
+.forewords-contents {
+  padding-bottom: 0;
 }
 //title
 .forewords-title {
-  font-size: 40pt;
+  font-size: 40px * 0.6;
 }
 
 .forewords-title-eng {
-  font-size: 28pt;
+  font-size: 28px * 0.6;
   font-weight: lighter;
 }
 
 .forewords-sub {
-  font-size: 20pt;
+  font-size: 20px * 0.6;
 }
 
 //paper
-.forewords-overlap {
-  position: relative;
-}
 
 .paper-wrap {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .paper-text {
-  position: absolute;
-  top: 10%;
-  left: 10%;
-  font-size: 20pt;
+  font-size: 20pt * 0.6;
 }
 
-.paper-top-img {
-  width: 1728px;
-  height: 1152px;
+.paper-top {
+  background-image: url(../images/forewords-paper1.png);
+  height: 1728px * 0.6;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .paper-bottom {
+  background-image: url(../images/forewords-paper2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1738px * 0.65;
+  padding: 0 9rem;
+  // padding-left: 6rem;
+  // padding-right: 6rem;
+}
+.paper-bottom-loc {
   top: -100px;
 }
 
-.paper-bottom-img {
-  width: 1187px;
-  height: 1738px;
-}
-
-.text-20 {
-  font-size: 20pt;
+.thanksto-text {
+  font-size: 20px * 0.6;
+  text-align: left;
 }

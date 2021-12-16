@@ -1,0 +1,55 @@
+.imglist-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px * 0.75;
+  overflow: hidden;
+  padding: 0;
+  margin: 3rem 0;
+}
+
+.imglist-row {
+  transform-style: preserve-3d; //요소의 자식이 3D 공간에 배치
+  animation: three-dimensions-circle 50s linear infinite;
+  width: 100%;
+  padding: 0;
+}
+
+.imglist-item {
+  width: 200px * 0.75;
+  height: 200px * 0.75;
+  //border: 1px solid hotpink;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backface-visibility: hidden;
+}
+
+@for $i from 1 through 30 {
+  .imglist-item:nth-child(#{$i}) {
+    transform: translate(-50%, -50%) rotate(#{$i * 12 - 12}deg) translateY(-600%) rotateX(90deg);
+  }
+}
+
+@keyframes three-dimensions-circle {
+  0% {
+    transform: rotateX(-90deg) rotate(0);
+  }
+  100% {
+    transform: rotateX(-90deg) rotate(-360deg);
+  }
+}
+
+.imglist-image {
+  width: 164px * 0.75;
+  height: 164px * 0.75;
+}
+
+.imglist-ellipse {
+  width: 20px * 0.75;
+  height: 20px * 0.75;
+  margin: 0.5rem;
+}

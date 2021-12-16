@@ -1,3 +1,19 @@
+.artist-row {
+  margin: 3rem 0;
+}
+
+.artist-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.artist-title-option {
+  display: flex;
+  justify-content: flex-end;
+}
+
+//아티스트 상세
 .artist-img-item {
   display: flex;
   justify-content: center;
@@ -5,8 +21,8 @@
 }
 
 .artist-img {
-  width: 368px;
-  height: 368px;
+  width: 368px * 0.75;
+  height: 368px * 0.75;
   &:hover {
     filter: brightness(150%) grayscale(100%);
     cursor: pointer;
@@ -14,57 +30,63 @@
 }
 
 .korean-name {
-  font-size: 36pt;
+  font-size: 36px * 0.75;
 }
 
 .englist-name {
-  font-size: 20pt;
+  font-size: 20px * 0.7;
   font-weight: lighter;
+  opacity: 50%;
 }
 
 .artist-option {
-  font-size: 15pt;
+  font-size: 15px * 0.75;
+  text-align: end;
+  padding: 0.5rem 0;
 }
 
 .ellipse-item {
-  position: relative;
+  //position: relative;
   //border: 1px solid black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .ellipse-img-wrap {
   //border: 1px solid green;
-  width: 24px;
-  height: 24px;
+  width: 24px * 0.75;
+  height: 24px * 0.75;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .ellipse-img {
-  width: 16px;
-  height: 16px;
+  width: 16px * 0.75;
+  height: 16px * 0.75;
 }
 
 .ellipse-img-overlay {
-  width: 24px;
-  height: 24px;
+  width: 24px * 0.75;
+  height: 24px * 0.75;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
   position: absolute;
-
-  bottom: 3px;
+  right: 0px;
+  bottom: 10px;
   //border: 1px solid red;
 }
 
 .alt-text-img {
-  width: 22.18px;
-  height: 20.77px;
+  width: 22.18px * 0.75;
+  height: 20.77px * 0.75;
 }
 
 .sound-subtitle-img {
-  width: 21.73px;
-  height: 22.78px;
+  width: 21.73px * 0.75;
+  height: 22.78px * 0.75;
 }

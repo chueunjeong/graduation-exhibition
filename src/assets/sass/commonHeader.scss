@@ -1,11 +1,15 @@
+.main-header {
+  position: relative;
+}
+
 .header-logo {
-  width: 912.79px;
-  height: 127.73px;
+  width: 912.79px * 0.6;
+  height: 127.73px * 0.6;
 }
 
 .header-icon {
-  width: 48px;
-  height: 48px;
+  width: 48px * 0.75;
+  height: 48px * 0.75;
 }
 
 .icon-rotate {
@@ -14,6 +18,7 @@
 
   &:hover {
     transform: rotate(45deg);
+    cursor: pointer;
   }
 }
 

@@ -10,6 +10,7 @@ import Forewords from "./js/forewords/Forewords";
 import GuestBook from "./js/guestbook/GuestBook";
 import ArtistList from "./js/artistlist/ArtistList";
 import ArtistDetail from "./js/artistdetail/ArtistDetail";
+import Book from "./js/components/Book";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -21,6 +22,7 @@ ReactDOM.render(
       <Route path="/guestbook" element={<GuestBook />} />
       <Route path="/artistlist" element={<ArtistList />} />
       <Route path="/artistdetail" element={<ArtistDetail />} />
+      <Route path="/booktest" element={<Book />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById("root"),

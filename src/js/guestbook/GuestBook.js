@@ -40,13 +40,14 @@ const GuestBook = () => {
       <div className="row guestbook-body">
         <div className="col-6 title-container">
           <div className="row justify-content-center leave-name" onClick={onToggleLeft}>
-            <div className="col-1 ellipse">
-              <img className="ellipse-img" alt="ellipse-img" src={leftTitleItems.ellipseImg}></img>
-            </div>
             <div className="col-6">
               <div className="row">
-                <div className="col-12 text1 text-32">이름만 남기기</div>
-                <div className="col-12 text1-sub">Leave Name</div>
+                <div className="col-1 ellipse">
+                  <img className="ellipse-img" alt="ellipse-img" src={leftTitleItems.ellipseImg}></img>
+                </div>
+                <div className="col-10 text1 guestbook-subtitle-text">이름만 남기기</div>
+                <div className="col-1 ellipse"></div>
+                <div className="col-10 text1-sub">Leave Name</div>
               </div>
             </div>
           </div>
@@ -56,13 +57,14 @@ const GuestBook = () => {
 
         <div className="col-6 title-container">
           <div className="row justify-content-center say-hello" onClick={onToggleRight}>
-            <div className="col-1 ellipse">
-              <img className="ellipse-img" alt="ellipse-img" src={rightTitleItems.ellipseImg}></img>
-            </div>
             <div className="col-6">
               <div className="row">
-                <div className="col-12 text1 text-32">인사말 남기기</div>
-                <div className="col-12 text1-sub">Say Hello</div>
+                <div className="col-1 ellipse">
+                  <img className="ellipse-img" alt="ellipse-img" src={rightTitleItems.ellipseImg}></img>
+                </div>
+                <div className="col-10 text1 guestbook-subtitle-text">인사말 남기기</div>
+                <div className="col-1 ellipse"></div>
+                <div className="col-10 text1-sub">Say Hello</div>
               </div>
             </div>
           </div>

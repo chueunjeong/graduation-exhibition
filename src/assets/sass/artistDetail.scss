@@ -1,3 +1,15 @@
+.artistdetail-title-container {
+  display: flex;
+  align-items: center;
+  margin: 5rem 0;
+}
+
+.artwork-titles {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
 .artistdetail-title-item {
   margin: 3rem 0;
 }
@@ -8,17 +20,20 @@
 }
 
 .artistdetail-title-img {
-  width: 412px;
-  height: 412px;
+  width: 412px * 0.75;
+  height: 412px * 0.75;
 }
 
 .artistdetail-korean-name {
-  font-size: 52pt;
+  font-size: 52px * 0.75;
+  padding: 0;
 }
 
 .artistdetail-englist-name {
-  font-size: 24pt;
+  font-size: 24px * 0.75;
   font-weight: lighter;
+  opacity: 50%;
+  padding: 0;
 }
 
 .artistdetail-ellipse-img-wrap {
@@ -28,21 +43,92 @@
 }
 
 .artistdetail-ellipse-img {
-  width: 32px;
-  height: 32px;
+  width: 32px * 0.75;
+  height: 32px * 0.75;
 }
 
 .artwork-title-text {
-  font-size: 20pt;
+  font-size: 20px * 0.75;
 }
 
 .artwork-img {
-  width: 1600px;
-  height: 940px;
+  width: 1600px * 0.75;
+  height: 940px * 0.75;
   margin: 2rem 0;
 }
 
 .artwork-detail-title-text {
-  font-size: 24pt;
+  font-size: 24px * 0.75;
+  margin: 1rem 0;
+}
+
+.artwork {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15rem;
+}
+
+.artwork-descripton-icon-img {
+  width: 22.18px;
+  height: 20.77px;
+}
+
+.artwork-description {
+  display: inline;
+  font-size: 16px * 0.75;
+  opacity: 35%;
+}
+
+.special-character {
+  margin: 5rem 0;
+}
+
+.artwork-contents {
+  word-break: keep-all;
+  //line-height: 1.5rem;
+  font-size: 20px * 0.75;
+}
+
+//각 이미지 사이즈
+.artwork21-img {
+  width: 1252px;
+  height: 835px;
+  margin: 1rem 0;
+}
+
+.artwork22-img {
+  width: 825px;
+  height: 811px;
+  margin: 1rem 0;
+}
+
+.artwork23-img {
+  width: 825px;
+  height: 585px;
+  margin: 1rem 0;
+}
+
+.artwork31-img {
+  width: 1600px;
+  height: 1021px;
+  margin: 1rem 0;
+}
+
+.artwork32-img {
+  width: 1061px;
+  height: 1298px;
+  margin: 1rem 0;
+}
+
+.artwork33-img {
+  width: 1600px;
+  height: 531px;
+  margin: 1rem 0;
+}
+
+.artwork34-img {
+  width: 856px;
+  height: 949px;
   margin: 1rem 0;
 }

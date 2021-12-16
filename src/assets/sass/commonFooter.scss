@@ -1,26 +1,38 @@
 .main-footer {
   font-family: "Noto Sans KR", sans-serif;
-  font-size: 14pt;
-  vertical-align: bottom;
+  font-size: 14px * 0.75;
+}
+
+.footer-text1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-left: 0;
+}
+
+.footer-text2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .footer-icon {
-  text-align: center;
-  vertical-align: middle;
-  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-icon1 {
-  width: 28.57px;
-  height: 20px;
+  width: 28.57px * 0.75;
+  height: 20px * 0.75;
 }
 
 .footer-icon2 {
-  width: 20px;
-  height: 20px;
+  width: 20px * 0.75;
+  height: 20px * 0.75;
 }
 
 .footer-icon3 {
-  width: 48px;
-  height: 48px;
+  width: 48px * 0.75;
+  height: 48px * 0.75;
 }

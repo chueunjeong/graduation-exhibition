@@ -1,3 +1,56 @@
 .intro-title {
-  font-size: 64pt;
+  font-size: 64px * 0.75;
+}
+
+.intro-ellipse-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-ellipse {
+  width: 64px * 0.75;
+  height: 64px * 0.75;
+}
+
+.fade-in-box {
+  animation: fadein 10s;
+  -moz-animation: fadein 10s; /* Firefox */
+  -webkit-animation: fadein 10s; /* Safari and Chrome */
+  -o-animation: fadein 10s; /* Opera */
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

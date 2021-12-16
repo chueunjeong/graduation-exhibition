@@ -1,0 +1,59 @@
+.book-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1200px;
+  background: #ccc;
+}
+
+.book {
+  transform-style: preserve-3d;
+  position: relative;
+  height: 764px * 0.75;
+
+  backface-visibility: visible;
+}
+
+.front,
+.back {
+  transform-style: preserve-3d;
+  position: absolute;
+  top: 0;
+  left: calc(602px * 0.75 / 2);
+  transform-origin: left center;
+
+  transition: transform 3s ease-in-out, opacity 0.5s ease-out 3s;
+}
+
+.front,
+.back {
+  background-image: url("../images/main-popup-paper-half.png");
+  width: calc(602px * 0.75 / 2);
+  height: 764px * 0.75;
+}
+
+.book:hover .front {
+  transform: rotateY(-180deg);
+  box-shadow: 0 1em 3em 0 rgba(0, 0, 0, 0.2);
+  opacity: 0;
+}
+
+.book:hover .back {
+  transform: rotateY(-0deg);
+  opacity: 0;
+}
+
+.book:hover .all-page {
+  opacity: 1;
+  transition: opacity ease-in;
+  transition-delay: 3s;
+}
+
+.all-page {
+  background-image: url("../images/main-popup-paper.png");
+  width: 602px * 0.75;
+  height: 764px * 0.75;
+  opacity: 0;
+}

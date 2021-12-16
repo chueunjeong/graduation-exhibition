@@ -8,8 +8,16 @@
   width: 30%;
 }
 
+.visitor-name-input {
+  font-size: 26px * 0.75;
+}
+
 .guestbook-name-btn-wrap {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
 }
 
 .guestbook-name-btn-text {
@@ -17,19 +25,18 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 20px * 0.75;
 }
 
 .guestbook-name-btn-img {
-  width: 91px;
-  height: 44px;
+  width: 91px * 0.75;
+  height: 44px * 0.75;
 }
 
 .guestbook-name-list {
   border: 1px solid black;
-}
-
-.text-20 {
-  font-size: 20t;
+  font-size: 20px * 0.75;
+  box-shadow: 3px 3px grey;
 }
 
 .border-r {

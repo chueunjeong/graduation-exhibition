@@ -13,10 +13,11 @@ const Main = () => {
     <div className="container">
       <CommonHeader />
       <div className="row main-body">
-        <div className="col-12">
+        <div className="col-12 p-0">
           <ImageList />
         </div>
-        <div className="col-12">
+
+        <div className="col-12 p-0">
           <ImageList />
         </div>
       </div>

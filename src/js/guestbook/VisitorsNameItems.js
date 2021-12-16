@@ -75,20 +75,20 @@ const VisitorsNameItems = () => {
   return (
     <div>
       <div className="row justify-content-center visitor-name-insert">
-        <div className="col-8 text-26">
-          방문객 이름 : &#40;{" "}
+        <div className="col-8 text-center visitor-name-input-text">
+          방문객 이름 : &#40;
           <input
             className="visitor-name-input"
             name="visitors-name"
-            placeholder="홍길동"
+            placeholder="    홍길동"
             onChange={onChange}
             value={nameInput}
-          />{" "}
+          />
           &#41;
         </div>
         <div className="w-100"></div>
-        <div className="col-3 guestbook-name-btn-wrap" onClick={onCreate}>
-          <div className="guestbook-name-btn-text text-20">
+        <div className="col-3 guestbook-name-btn-wrap pointer" onClick={onCreate}>
+          <div className="guestbook-name-btn-text">
             <strong>적기</strong>
           </div>
           <div className="guestbook-name-btn-img-wrap">

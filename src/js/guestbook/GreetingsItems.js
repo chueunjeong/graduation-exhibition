@@ -55,7 +55,7 @@ const GreetingsItems = () => {
   return (
     <div>
       <div className="row justify-content-center">
-        <div className="col-8 writing-greeting text-20">
+        <div className="col-8 writing-greeting text-size20">
           <div className="row">
             <div className="col-6">
               <input
@@ -67,7 +67,7 @@ const GreetingsItems = () => {
               />
               에게
             </div>
-            <div className="col-6 text-left" onClick={onCreate}>
+            <div className="col-6 greeting-send-btn-wrap" onClick={onCreate}>
               <img className="greeting-send-btn-img" alt="greeting-send-btn" src={GuestBookGreetingsBtn}></img>
             </div>
           </div>
@@ -86,7 +86,7 @@ const GreetingsItems = () => {
           </div>
 
           <div className="row justify-content-end">
-            <div className="col-6">
+            <div className="col-6 text-right">
               <input
                 className="greeting-name-input"
                 name="sender"
@@ -104,16 +104,16 @@ const GreetingsItems = () => {
         {greetings.map((greeting) => (
           <div className="col-8 greeting-card">
             <div className="row">
-              <div className="col-6 text-left text-20">
+              <div className="col-6 text-left text-size20">
                 {greeting.id}
                 {greeting.recipient}에게
               </div>
             </div>
             <div className="row justify-content-center greeting-card-maintext">
-              <div className="col-12">{greeting.maintext}</div>
+              <div className="col-12 text-size16">{greeting.maintext}</div>
             </div>
             <div className="row justify-content-end greeting-card-bottom">
-              <div className="col-6 text-right text-20">{greeting.sender} 드림</div>
+              <div className="col-6 text-right text-size20">{greeting.sender} 드림</div>
             </div>
           </div>
         ))}
