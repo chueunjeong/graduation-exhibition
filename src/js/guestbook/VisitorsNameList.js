@@ -5,7 +5,7 @@ import { paginate } from "../components/utils/paginate";
 const VisitorsNameList = (props) => {
   const [nameListInfo, setNameListInfo] = useState({
     nameList: props.visitors,
-    pageSize: 3, // 한 페이지에 보여줄 아이템(영화목록) 개수
+    pageSize: 10, // 한 페이지에 보여줄 아이템(영화목록) 개수
     currentPage: 1, // 현재 활성화된 페이지 위치
   });
 
