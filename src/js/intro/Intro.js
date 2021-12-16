@@ -1,6 +1,5 @@
 import React from "react";
 import "../../assets/sass/intro.scss";
-import Ellipse from "../../assets/images/ellipse.png";
 
 const Intro = () => {
   return (
@@ -9,9 +8,15 @@ const Intro = () => {
         <div className="col-4">
           <div className="row fade-in-box">
             <div className="col-2 intro-ellipse-wrap">
-              <img className="intro-ellipse" alt="intro-ellipse" src={Ellipse}></img>
+              <div className="intro-ellipse"></div>
+              {/* <img className="intro-ellipse" alt="intro-ellipse" src={Ellipse}></img> */}
             </div>
-            <div className="col-10 text-center intro-title">안녕하세요?</div>
+
+            <div className="col-10 text-center intro-title">
+              <a className="intro-title-a" href="/main">
+                안녕하세요?
+              </a>
+            </div>
           </div>
         </div>
       </div>

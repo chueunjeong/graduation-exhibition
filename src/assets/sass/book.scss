@@ -11,49 +11,69 @@
 .book {
   transform-style: preserve-3d;
   position: relative;
-  height: 764px * 0.75;
-
   backface-visibility: visible;
+
+  height: 764px * 0.75;
+  width: 602px * 0.75;
 }
 
-.front,
-.back {
+.front {
   transform-style: preserve-3d;
   position: absolute;
   top: 0;
   left: calc(602px * 0.75 / 2);
   transform-origin: left center;
 
-  transition: transform 3s ease-in-out, opacity 0.5s ease-out 3s;
-}
-
-.front,
-.back {
-  background-image: url("../images/main-popup-paper-half.png");
+  background-image: url("../images/modal-paper-left-img.jpg");
   width: calc(602px * 0.75 / 2);
   height: 764px * 0.75;
 }
 
-.book:hover .front {
+.book-open {
   transform: rotateY(-180deg);
-  box-shadow: 0 1em 3em 0 rgba(0, 0, 0, 0.2);
-  opacity: 0;
+  transition: transform 3s ease-in-out 5s;
 }
 
-.book:hover .back {
-  transform: rotateY(-0deg);
-  opacity: 0;
-}
+.back {
+  //transform-style: preserve-3d;
+  position: absolute;
+  top: 0;
+  left: calc(602px * 0.75 / 2);
+  transform-origin: left center;
 
-.book:hover .all-page {
-  opacity: 1;
-  transition: opacity ease-in;
-  transition-delay: 3s;
-}
-
-.all-page {
-  background-image: url("../images/main-popup-paper.png");
-  width: 602px * 0.75;
+  background-image: url("../images/modal-paper-right-img.jpg");
+  width: calc(602px * 0.75 / 2);
   height: 764px * 0.75;
-  opacity: 0;
+}
+
+// .front:hover {
+//   transform: rotateY(-180deg);
+//   box-shadow: 0 1em 3em 0 rgba(0, 0, 0, 0.2);
+// }
+
+.book-btn:hover {
+  cursor: pointer;
+}
+
+.text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  //opacity: 0;
+  animation: textView 5s ease-in-out;
+}
+
+.text-view {
+  opacity: 1;
+  transition: opacity 3s ease-in-out 3s;
+}
+
+@keyframes textView {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

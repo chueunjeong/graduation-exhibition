@@ -3,6 +3,7 @@ import HeaderLogo from "../../assets/images/header-logo.png";
 import HeaderIcon1 from "../../assets/images/header-icon1.png";
 import HeaderIcon2 from "../../assets/images/header-icon2.png";
 import HeaderIcon3 from "../../assets/images/header-icon3.png";
+import HeaderIcon3Close from "../../assets/images/header-icon3-close.png";
 
 import Modal from "../../js/components/Modal.js";
 
@@ -40,11 +41,16 @@ const CommonHeader = () => {
             </a>
           </div>
           <div className="col-3">
-            <img className="header-icon modal-icon" alt="header-icon3" src={HeaderIcon3} onClick={openModal}></img>
+            <img
+              className="header-icon modal-icon"
+              alt="header-icon3"
+              src={`${showModal ? HeaderIcon3Close : HeaderIcon3}`}
+              onClick={showModal ? closeModal : openModal}
+            ></img>
           </div>
         </div>
       </div>
-      {showModal && <Modal closeModal={closeModal}></Modal>}
+      {showModal && <Modal showModal={showModal} closeModal={closeModal}></Modal>}
     </div>
   );
 };

@@ -1,16 +1,33 @@
+.intro-title-a {
+  text-decoration: none;
+  color: black;
+  &:hover {
+    text-decoration: none;
+    color: black;
+  }
+}
 .intro-title {
   font-size: 64px * 0.75;
+  &:hover {
+    cursor: pointer;
+  }
 }
-
+//타원
 .intro-ellipse-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
 }
 
 .intro-ellipse {
   width: 64px * 0.75;
   height: 64px * 0.75;
+  background-image: url("../images/ellipse.png");
+  background-size: cover;
+  &:hover {
+    background-image: url("../images/filled_ellipse.png");
+  }
 }
 
 .fade-in-box {
@@ -19,6 +36,8 @@
   -webkit-animation: fadein 10s; /* Safari and Chrome */
   -o-animation: fadein 10s; /* Opera */
 }
+
+//애니메이션
 @keyframes fadein {
   from {
     opacity: 0;

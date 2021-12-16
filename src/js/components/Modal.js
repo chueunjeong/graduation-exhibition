@@ -4,7 +4,7 @@ import "../../assets/sass/modal.scss";
 import ModalBtn from "../../assets/images/modal-btn.png";
 import ModalOption from "./ModalOption";
 
-const Modal = ({ closeModal }) => {
+const Modal = ({ showModal, closeModal }) => {
   const [searchOption, setSearchOption] = useState({
     flatWorks: false,
     threeDWorks: false,
@@ -45,6 +45,8 @@ const Modal = ({ closeModal }) => {
       <div className="modal-container">
         <div className="modal-overlay" onClick={closeModal}></div>
         <div className="modal-contents">
+          <div className="paper-left"></div>
+          <div className="paper-right"></div>
           <div className="container modal-body">
             <div className="row body-title">
               <div className="col-8 text-left">질문</div>
