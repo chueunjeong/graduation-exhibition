@@ -43,7 +43,6 @@ const Modal = ({ showModal, closeModal }) => {
   return (
     <div className="container">
       <div className="modal-container">
-        <div className="modal-overlay" onClick={closeModal}></div>
         <div className="modal-contents">
           <div className="paper-left"></div>
           <div className="paper-right"></div>

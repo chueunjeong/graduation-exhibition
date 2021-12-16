@@ -1,3 +1,12 @@
+.title {
+  &:hover {
+    cursor: pointer;
+  }
+  &:hover .intro-ellipse {
+    background-image: url("../images/filled_ellipse.png");
+  }
+}
+
 .intro-title-a {
   text-decoration: none;
   color: black;
@@ -6,11 +15,8 @@
     color: black;
   }
 }
-.intro-title {
+.intro-title-text {
   font-size: 64px * 0.75;
-  &:hover {
-    cursor: pointer;
-  }
 }
 //타원
 .intro-ellipse-wrap {
@@ -25,9 +31,6 @@
   height: 64px * 0.75;
   background-image: url("../images/ellipse.png");
   background-size: cover;
-  &:hover {
-    background-image: url("../images/filled_ellipse.png");
-  }
 }
 
 .fade-in-box {
