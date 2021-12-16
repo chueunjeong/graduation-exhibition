@@ -1,5 +1,15 @@
-div {
-  border: 1px solid green;
+// div {
+//   border: 1px solid green;
+// }
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 3rem;
 }
 
 .img-fluid {

@@ -6,9 +6,7 @@
 .visitor-name-input {
   border: none;
   width: 30%;
-}
-
-.visitor-name-input {
+  background-color: #f2f2f2;
   font-size: 26px * 0.75;
 }
 
@@ -34,7 +32,7 @@
 }
 
 .guestbook-name-list {
-  border: 1px solid black;
+  border: 1px solid #707070;
   font-size: 20px * 0.75;
   box-shadow: 3px 3px grey;
 }

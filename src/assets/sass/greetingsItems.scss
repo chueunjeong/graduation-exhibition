@@ -18,6 +18,7 @@
 .greeting-name-input {
   border: none;
   width: 50%;
+  background-color: #f2f2f2;
 }
 
 .greeting-send-btn-wrap {
@@ -40,10 +41,10 @@
   overflow: hidden;
   border: none;
   resize: none;
-
-  background-image: linear-gradient(to right, white 10px, transparent 10px),
-    linear-gradient(to left, white 10px, transparent 10px),
-    repeating-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);
+  //background-color: #f2f2f2;
+  background-image: linear-gradient(to right, #f2f2f2 10px, transparent 10px),
+    linear-gradient(to left, #f2f2f2 10px, transparent 10px),
+    repeating-linear-gradient(#f2f2f2, #f2f2f2 30px, black 30px, black 31px, white 31px);
   line-height: 31px;
 }
 

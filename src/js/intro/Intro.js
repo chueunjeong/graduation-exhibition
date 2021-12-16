@@ -4,7 +4,7 @@ import "../../assets/sass/intro.scss";
 const Intro = () => {
   return (
     <div className="container">
-      <div className="row align-items-center d-flex justify-content-center">
+      <div className="row align-items-center d-flex justify-content-center intro">
         <div className="col-4 title">
           <a className="intro-title-a" href="/main">
             <div className="row fade-in-box">

@@ -28,7 +28,7 @@ const CommonFooter = () => {
             </a>
           </div>
           <div className="col-1 footer-icon">
-            <a href="https://www.instagram.com/karts.global/">
+            <a href="https://www.instagram.com/2021_knuart/">
               <img className="footer-icon2" alt="footer-icon2" src={FooterIcon2}></img>
             </a>
           </div>

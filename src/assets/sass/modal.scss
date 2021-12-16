@@ -47,7 +47,7 @@
   width: calc(602px * 0.75 / 2);
   height: 764px * 0.75;
   transform: rotateY(-180deg);
-  animation: bookOpen 3s ease-out;
+  animation: bookOpen 2s ease-in-out;
 }
 
 .paper-right {
@@ -73,12 +73,13 @@
 }
 
 .modal-body {
+  background-color: transparent;
   padding: 2rem;
   text-align: center;
   position: absolute;
   z-index: 1;
   //opacity: 0;
-  animation: textFadeIn 12s ease-in;
+  animation: textFadeIn 10s ease-in;
 }
 
 .body-title {
