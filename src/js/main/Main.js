@@ -10,19 +10,19 @@ import "../../assets/sass/main.scss";
 
 const Main = () => {
   return (
-    <div className="container">
-      <CommonHeader />
-      <div className="row main-body">
-        <div className="col-12 p-0">
-          <ImageList />
-        </div>
-
-        <div className="col-12 p-0">
-          <ImageList />
-        </div>
+    <>
+      <div className="container">
+        <CommonHeader />
       </div>
-      <CommonFooter />
-    </div>
+      <div className="container image-belt">
+        <ImageList />
+        <ImageList />
+      </div>
+
+      <div className="container">
+        <CommonFooter />
+      </div>
+    </>
   );
 };
 

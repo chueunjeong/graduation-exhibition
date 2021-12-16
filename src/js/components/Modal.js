@@ -4,6 +4,23 @@ import "../../assets/sass/modal.scss";
 import ModalBtn from "../../assets/images/modal-btn.png";
 import ModalOption from "./ModalOption";
 
+import SearchOption6 from "../../assets/images/searchOption6.png";
+
+// const data = [
+//   {
+//     q: "평면 작품을 볼까요?",
+//     answer: false,
+//     imgLeft: SearchOption6,
+//     imgRight: SearchOption6,
+//   },
+//   {
+//     q: "평면 작품을 볼까요?",
+//     answer: false,
+//     imgLeft: SearchOption6,
+//     imgRight: SearchOption6,
+//   },
+// ]
+
 const Modal = ({ showModal, closeModal }) => {
   const [searchOption, setSearchOption] = useState({
     flatWorks: false,
@@ -38,7 +55,11 @@ const Modal = ({ showModal, closeModal }) => {
       console.log(searchOption);
       console.log(searchOptionView);
     };
-  });
+  }, [searchOption, searchOptionView]);
+
+  const handleSubmit = () => {
+    // alert(JSON.stringify(searchOption))
+  };
 
   return (
     // <div className="container">
@@ -119,7 +140,9 @@ const Modal = ({ showModal, closeModal }) => {
           <div className="row modal-btn-loc">
             <div className="modal-btn-wrap">
               <a href="/artistlist">
-                <div className="btn-text text-sz20">보러가기</div>
+                <div onClick={handleSubmit} className="btn-text text-sz20">
+                  보러가기
+                </div>
                 <div className="btn-img">
                   <img className="modal-btn-img" alt="modal-btn-img" src={ModalBtn}></img>
                 </div>

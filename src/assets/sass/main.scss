@@ -1,6 +1,6 @@
-// div {
-//   border: 1px solid green;
-// }
+div {
+  border: 1px solid green;
+}
 
 input:focus,
 textarea:focus {
@@ -27,5 +27,9 @@ textarea:focus {
 }
 
 .main-body {
-  margin: 3rem 0;
+  //margin: 3rem 0;
+}
+
+.image-belt {
+  padding: 0;
 }
