@@ -4,7 +4,7 @@ import "../../assets/sass/modal.scss";
 import ModalBtn from "../../assets/images/modal-btn.png";
 import ModalOption from "./ModalOption";
 
-import SearchOption6 from "../../assets/images/searchOption6.png";
+// import SearchOption6 from "../../assets/images/searchOption6.png";
 
 // const data = [
 //   {

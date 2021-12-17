@@ -1,3 +1,9 @@
+//폰트
+// @font-face {
+//   font-family: "AnimalsOldCuts";
+//   src: local("AnimalsOldCuts"), url(../../fonts/AnimalsOldCuts.ttf) format("truetype");
+// }
+
 .intro {
   height: 90vmin;
 }
@@ -8,6 +14,13 @@
   }
   &:hover .intro-ellipse {
     background-image: url("../images/filled_ellipse.png");
+  }
+  &:hover .show-hover {
+    display: block;
+    font-family: "AnimalsOldCuts";
+  }
+  &:hover .hidden-hover {
+    display: none;
   }
 }
 
@@ -21,7 +34,14 @@
 }
 .intro-title-text {
   font-size: 64px * 0.75;
+  font-family: "Noto Sans KR", sans-serif;
 }
+
+.show-hover {
+  display: none;
+  font-size: 64px * 0.4;
+}
+
 //타원
 .intro-ellipse-wrap {
   display: flex;

@@ -158,8 +158,8 @@ const ArtistDetail = () => {
             </div>
 
             <div className="w-100"></div>
-            <div className="col-3 special-character">St m</div>
-            <div className="col-3 special-character">, ※ ... ?</div>
+            <div className="col-3 special-character font1">St m</div>
+            <div className="col-3 special-character font1">, ※ ... ?</div>
             <div className="w-100"></div>
             <div className="col-11 artwork-contents">
               <p>

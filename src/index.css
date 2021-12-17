@@ -1,3 +1,14 @@
 body {
   margin: 0;
 }
+
+@font-face {
+  font-family: "AnimalsOldCuts";
+  font-style: normal;
+  src: url(../src/fonts/AnimalsOldCuts.ttf) format("truetype");
+}
+@font-face {
+  font-family: theartisan;
+  font-style: normal;
+  src: url(../src/fonts/theartisan.otf) format("opentype");
+}

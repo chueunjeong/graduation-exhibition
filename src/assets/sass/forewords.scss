@@ -1,13 +1,10 @@
 .forewords-body {
   font-family: "Noto Sans KR", sans-serif;
-  padding: 3rem;
   word-break: keep-all;
 }
 
-.forewords-contents {
-  padding-bottom: 0;
-}
 //title
+
 .forewords-title {
   font-size: 40px * 0.6;
 }
@@ -17,8 +14,9 @@
   font-weight: lighter;
 }
 
-.forewords-sub {
+.forewords-title-sub {
   font-size: 20px * 0.6;
+  //padding-right: 0;
 }
 
 //paper
@@ -56,6 +54,103 @@
 }
 
 .thanksto-text {
-  font-size: 20px * 0.6;
+  font-size: 20px * 0.7;
   text-align: left;
+  padding: 0;
+  line-height: 1.2rem;
+  position: relative;
+}
+
+.credits {
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 20px * 0.65;
+}
+
+.thanksto-text-loc {
+  top: -200px;
+}
+
+//특수문자들
+
+.char-float {
+  position: absolute;
+  font-size: 72px * 0.75;
+}
+
+.char-b {
+  font-family: AnimalsOldCuts;
+  top: 600px;
+  left: 30px;
+}
+
+.char-q {
+  font-family: "Noto Sans KR", sans-serif;
+  top: 620px;
+  left: 100px;
+}
+
+.char-a {
+  font-family: AnimalsOldCuts;
+  top: 300px;
+  left: -100px;
+}
+
+.char-special {
+  font-family: "Noto Sans KR", sans-serif;
+  top: 260px;
+  left: -10px;
+}
+
+//떠 있는 원들
+.ellipse-float {
+  background-image: url("../images/float-ellipse.png");
+  width: 26.76px * 0.75;
+  height: 26.76px * 0.75;
+  background-size: cover;
+  position: absolute;
+}
+
+.ef-top1 {
+  top: 225px;
+  left: 800px;
+  z-index: 1;
+}
+
+.ef-top2 {
+  top: 800px;
+  left: 145px;
+  z-index: 1;
+}
+
+.ef-top3 {
+  top: 807px;
+  left: 138px;
+  z-index: 1;
+}
+
+.ef-top4 {
+  top: 900px;
+  left: 600px;
+  z-index: 1;
+}
+
+.ef-top5 {
+  top: 400px;
+  left: -730px;
+}
+.ef-top6 {
+  top: 600px;
+  left: -70px;
+  z-index: 1;
+}
+.ef-top7 {
+  top: 1000px;
+  left: -600px;
+  z-index: 1;
+}
+.ef-top8 {
+  top: 1030px;
+  left: -570px;
+  z-index: 1;
 }
