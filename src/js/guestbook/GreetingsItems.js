@@ -1,5 +1,5 @@
-import React, { useRef, useState } from "react";
-import _ from "lodash";
+import React, { useState } from "react";
+// import _ from "lodash";
 import "../../assets/sass/greetingsItems.scss";
 import GuestBookGreetingsBtn from "../../assets/images/guestbook-greetings-btn.png";
 

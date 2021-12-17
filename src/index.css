@@ -12,3 +12,9 @@ body {
   font-style: normal;
   src: url(../src/fonts/theartisan.otf) format("opentype");
 }
+
+@font-face {
+  font-family: NanumMyeongjo;
+  font-style: normal;
+  src: url(../src/fonts/NanumMyeongjo.ttf) format("truetype");
+}
