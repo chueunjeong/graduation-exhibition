@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import CommonFooter from "../components/CommonFooter";
 import CommonHeader from "../components/CommonHeader";
@@ -16,19 +16,26 @@ import Artwork31 from "../../assets/images/artwork3-1.png";
 import Artwork32 from "../../assets/images/artwork3-2.png";
 import Artwork33 from "../../assets/images/artwork3-3.png";
 import Artwork34 from "../../assets/images/artwork3-4.png";
+import ScrollToTop from "../components/ScrollToTop";
 
 import "../../assets/sass/artistDetail.scss";
 
 const ArtistDetail = () => {
   const location = useLocation();
   const artistInfo = location.state.artistInfo;
-
+  const [currentTab, setCurrentTab] = useState();
+  const [data, setData] = useState({});
   const tabRef = useRef([]);
 
-  const [currentTab, setCurrentTab] = useState();
+  useEffect(() => {
+    init();
+  }, []);
+
+  const init = () => {};
 
   return (
     <div className="container">
+      <ScrollToTop />
       <CommonHeader />
       <div className="row ">
         <div className="container">

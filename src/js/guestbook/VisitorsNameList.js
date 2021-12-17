@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+
 import Pagination from "../components/Pagination";
 import { paginate } from "../components/utils/paginate";
+import { dateType } from "../../common/method";
 
 const VisitorsNameList = (props) => {
   const [nameListInfo, setNameListInfo] = useState({
@@ -28,10 +30,10 @@ const VisitorsNameList = (props) => {
             <div className="col-6 border-r border-b p-2">이름</div>
             <div className="col-6 border-b p-2">방문 일자</div>
           </div>
-          {nameListOnPage.map((visitor) => (
+          {nameListOnPage.reverse().map((visitor) => (
             <div className="row text-center px-1" key={visitor.id}>
               <div className="col-6 border-r p-2">{visitor.visitorName}</div>
-              <div className="col-6 p-2">{visitor.visitDate}</div>
+              <div className="col-6 p-2">{dateType(visitor.visitDate)}</div>
             </div>
           ))}
 

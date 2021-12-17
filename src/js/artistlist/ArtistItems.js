@@ -14,19 +14,21 @@ const ArtistItems = (props) => {
   };
 
   return (
-    <div className="col-3">
-      <div className="row">
-        <div className="col-12 artist-img-item">
-          <img className="artist-img" alt="artist-img" src={artistInfo.artistImg} onClick={onChangePage}></img>
-        </div>
-        <div className="w-100 my-2"></div>
-        <div className="col-6">
+    <div onClick={onChangePage} className="col-4 pointer" style={{ padding: "0 4rem 143px 4rem" }}>
+      <div className="artist-img-item">
+        <img className="artist-img" alt="artist-img" src={artistInfo.artistImg} />
+      </div>
+
+      <div className="flex-row" style={{ marginTop: 38 }}>
+        <div className="col-6 pl-0 pr-0">
           <div className="row justify-content-start">
             <div className="col-12 korean-name">{artistInfo.koreanName}</div>
             <div className="col-12 englist-name">{artistInfo.englishName}</div>
           </div>
         </div>
-        <div className="col-6">
+        {/* left box */}
+
+        <div className="col-6 pl-0 pr-0">
           <div className="row artist-title-option">
             <div className="col-1 ellipse-item">
               <div className="ellipse-img-wrap">
@@ -39,9 +41,7 @@ const ArtistItems = (props) => {
               )}
             </div>
             <div className="col-6 artist-option">대체 텍스트</div>
-
             <div className="w-100"></div>
-
             <div className="col-1 ellipse-item">
               <div className="ellipse-img-wrap">
                 <img className="ellipse-img" alt="ellipse-img" src={Ellipse}></img>
@@ -55,6 +55,7 @@ const ArtistItems = (props) => {
             <div className="col-6 artist-option">사운드 자막</div>
           </div>
         </div>
+        {/* right box */}
       </div>
     </div>
   );

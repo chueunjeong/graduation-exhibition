@@ -21,8 +21,10 @@
 }
 
 .artist-img {
-  width: 368px * 0.75;
-  height: 368px * 0.75;
+  // width: 368px * 0.75;
+  // height: 368px * 0.75;
+  width: 100%;
+  height: auto;
   &:hover {
     filter: brightness(150%) grayscale(100%);
     cursor: pointer;

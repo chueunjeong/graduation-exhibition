@@ -10,30 +10,11 @@ import "../../assets/sass/visitorsNameItems.scss";
 
 const VisitorsNameItems = () => {
   const [nameInput, setNameInput] = useState("");
+  const [visitors, setVisitors] = useState([]);
 
-  const onChange = (e) => {
-    setNameInput(e.target.value);
-  };
-
-  const [visitors, setVisitors] = useState([
-    {
-      id: 1,
-      visitorName: "최윤식",
-      visitDate: "2021.12.7",
-    },
-    {
-      id: 2,
-      visitorName: "배민진",
-      visitDate: "2021.12.6",
-    },
-    {
-      id: 3,
-      visitorName: "최희수",
-      visitDate: "2021.12.5",
-    },
-  ]);
-
-  const nextId = useRef(4);
+  useEffect(() => {
+    init();
+  }, []);
 
   useEffect(() => {
     console.log("방문자리스트 값이 설정됨");
@@ -48,28 +29,52 @@ const VisitorsNameItems = () => {
     };
   }, [visitors]);
 
+  const init = () => {
+    // get data from server
+    const getData = [
+      {
+        id: "123123",
+        visitorName: "최윤식",
+        visitDate: new Date(),
+      },
+      {
+        id: "12443123",
+        visitorName: "배민진",
+        visitDate: new Date(),
+      },
+      {
+        id: "12312223",
+        visitorName: "최희수",
+        visitDate: new Date(),
+      },
+    ];
+
+    setVisitors(getData);
+  };
+
+  const onChange = (e) => {
+    setNameInput(e.target.value);
+  };
+
+  // const nextId = useRef(4);
+
   const onCreate = () => {
-    let date = new Date();
-
-    let year = date.getFullYear();
-    let month = date.getMonth() + 1;
-    let day = date.getDate();
-
-    let today = year + "." + month + "." + day;
+    if (nameInput === "") return;
 
     const visitor = {
-      id: nextId.current,
+      id: Date.now(),
       visitorName: nameInput,
-      visitDate: today,
+      visitDate: new Date(),
     };
 
-    const addedVisitors = visitors.concat(visitor);
-    const reversedVisitors = _.orderBy(addedVisitors, "id", "desc");
+    setVisitors((prev) => [...prev, visitor]);
 
-    setVisitors(reversedVisitors);
+    // const addedVisitors = visitors.concat(visitor);
+    // const reversedVisitors = _.orderBy(addedVisitors, "id", "desc");
+    // nextId.current += 1;
 
-    nextId.current += 1;
     setNameInput("");
+    // init();
   };
 
   return (
@@ -78,9 +83,9 @@ const VisitorsNameItems = () => {
         <div className="col-8 text-center visitor-name-input-text">
           방문객 이름 : &#40;
           <input
-            className="visitor-name-input"
+            className="visitor-name-input text-center"
             name="visitors-name"
-            placeholder="    홍길동"
+            placeholder=""
             onChange={onChange}
             value={nameInput}
           />

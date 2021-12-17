@@ -4,11 +4,21 @@ import "../../assets/sass/greetingsItems.scss";
 import GuestBookGreetingsBtn from "../../assets/images/guestbook-greetings-btn.png";
 
 const GreetingsItems = () => {
+  // const nextId = useRef(2);
   const [inputs, setInputs] = useState({
     recipient: "",
     maintext: "",
     sender: "",
   });
+  const [greetings, setGreetings] = useState([
+    {
+      id: 1,
+      recipient: "최윤식",
+      maintext:
+        "이것은 더미 텍스트입니다. 관객이 방명록을 남길 수 있습니다. 위 입력창에 적어 보낸  메세지가 이렇게 표시됩니다. 최근 메세지일수록 위에 배치됩니다. 세 줄까지 생각중입니다. 세 줄을 꽉 채워도 공백 포함 130자 쯤 됩니다. ",
+      sender: "홍길동",
+    },
+  ]);
   const { recipient, maintext, sender } = inputs;
 
   const onChange = (e) => {
@@ -19,37 +29,29 @@ const GreetingsItems = () => {
     });
   };
 
-  const [greetings, setGreetings] = useState([
-    {
-      id: 1,
-      recipient: "최윤식",
-      maintext:
-        "이것은 더미 텍스트입니다. 관객이 방명록을 남길 수 있습니다. 위 입력창에 적어 보낸  메세지가 이렇게 표시됩니다. 최근 메세지일수록 위에 배치됩니다. 세 줄까지 생각중입니다. 세 줄을 꽉 채워도 공백 포함 130자 쯤 됩니다. ",
-      sender: "홍길동",
-    },
-  ]);
-
-  const nextId = useRef(2);
-
   const onCreate = () => {
+    if (inputs.recipient === "") return alert("받는 사람을 입력해주세요.");
+    if (inputs.maintext === "") return alert("내용을 입력해주세요.");
+    if (inputs.sender === "") return alert("보내는 사람을 입력해주세요.");
+
     const greeting = {
-      id: nextId.current,
+      id: Date.now(),
       recipient,
       maintext,
       sender,
     };
 
-    const addedGreetings = greetings.concat(greeting);
-    const reverseGreetings = _.sortBy(addedGreetings, "id").reverse();
+    setGreetings((prev) => [...prev, greeting]);
 
-    setGreetings(reverseGreetings);
+    // const addedGreetings = greetings.concat(greeting);
+    // const reverseGreetings = _.sortBy(addedGreetings, "id").reverse();
 
     setInputs({
       recipient: "",
       maintext: "",
       sender: "",
     });
-    nextId.current += 1;
+    // nextId.current += 1;
   };
 
   return (
@@ -61,7 +63,7 @@ const GreetingsItems = () => {
               <input
                 className="greeting-name-input"
                 name="recipient"
-                placeholder="홍길동"
+                placeholder="받는이"
                 value={recipient}
                 onChange={onChange}
               />
@@ -92,7 +94,7 @@ const GreetingsItems = () => {
                 name="sender"
                 value={sender}
                 onChange={onChange}
-                placeholder="홍길동"
+                placeholder="쓰는이"
               />
               드림
             </div>
@@ -101,7 +103,7 @@ const GreetingsItems = () => {
       </div>
 
       <div className="row justify-content-center greeting-list">
-        {greetings.map((greeting) => (
+        {greetings.reverse().map((greeting) => (
           <div className="col-8 greeting-card">
             <div className="row">
               <div className="col-6 text-left text-size20">
