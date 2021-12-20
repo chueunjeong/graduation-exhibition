@@ -58,6 +58,10 @@
   background-size: cover;
   padding: 20px 10px;
 }
+.paper-top-m > p,
+.paper-bottom-m > p {
+  font-size: 14px;
+}
 
 .paper-bottom {
   background-image: url(../images/forewords-paper2.jpg);
