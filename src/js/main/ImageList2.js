@@ -17,7 +17,7 @@ const ImageList = () => {
 
     setArtistInfo(getData);
   };
-
+  //본문
   return (
     <div className="container imglist-container">
       <div className="row imglist-row">
