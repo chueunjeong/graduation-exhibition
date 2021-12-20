@@ -3,6 +3,7 @@ import React from "react";
 import CommonHeader from "../components/CommonHeader";
 
 import ImageList from "./ImageList";
+import ImageList2 from "./ImageList2";
 
 import CommonFooter from "../components/CommonFooter";
 
@@ -16,7 +17,7 @@ const Main = () => {
       </div>
       <div className="container image-belt">
         <ImageList />
-        <ImageList />
+        <ImageList2 />
       </div>
 
       <div className="container">

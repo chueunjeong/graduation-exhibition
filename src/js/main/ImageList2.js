@@ -22,7 +22,7 @@ const ImageList = () => {
     <div className="container imglist-container">
       <div className="row imglist-row">
         {artistInfo.map((artist, index) => (
-          <div className="row text-center imglist-item">
+          <div className="row text-center imglist-item2">
             <div className="col-12">
               <img className="imglist-image" src={artist.titleImage} key={index} alt={artist.name} />
             </div>

@@ -15,7 +15,8 @@
   padding: 0;
 }
 
-.imglist-item {
+.imglist-item,
+.imglist-item2 {
   width: 200px * 0.75;
   height: 200px * 0.75;
   //border: 1px solid hotpink;
@@ -30,7 +31,13 @@
 
 @for $i from 1 through 48 {
   .imglist-item:nth-child(#{$i}) {
-    transform: translate(-25%, -25%) rotate(#{$i * 7.5 - 7.5}deg) translateY(-700%) rotateX(90deg);
+    transform: translate(-50%, -50%) rotate(#{$i * 7.5 - 7.5}deg) translateY(-700%) rotateX(90deg);
+  }
+}
+
+@for $i from 1 through 48 {
+  .imglist-item2:nth-child(#{$i}) {
+    transform: translate(-25%, -25%) rotate(#{$i * 7.5 - 7.5}deg) translateY(700%) rotateX(90deg);
   }
 }
 
