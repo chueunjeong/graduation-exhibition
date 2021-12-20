@@ -147,7 +147,7 @@ const ArtistDetail = () => {
               </div>
             ))}
           {artistInfo.titleText !== "" && (
-            <div className="row">
+            <div className="row" style={{ paddingBottom: 400 }}>
               <div className="w-100"></div>
               <div className="col-12 special-character font1 text-center">St m , ※ ... ?</div>
               {/* <div className="col-3 special-character font1">, ※ ... ?</div> */}

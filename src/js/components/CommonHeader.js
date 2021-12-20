@@ -19,25 +19,25 @@ const CommonHeader = () => {
 
   return (
     <div className="row main-header">
-      <div className="col-8">
+      <div className="col-md-8">
         <a href="/main">
           <img className="header-logo pointer" alt="header-logo" src={HeaderLogo}></img>
         </a>
       </div>
-      <div className="col-4 align-center justify-content-end">
+      <div className="col-md-4 align-center justify-content-end">
         <div className="row">
           <div className="col-3"></div>
-          <div className="col-3">
+          <div className="col-md-3">
             <a href="/forewords">
               <img className="header-icon icon-rotate" alt="header-icon1" src={HeaderIcon1}></img>
             </a>
           </div>
-          <div className="col-3">
+          <div className="col-md-3">
             <a href="/guestbook">
               <img className="header-icon icon-rotate" alt="header-icon2" src={HeaderIcon2}></img>
             </a>
           </div>
-          <div className="col-3">
+          <div className="col-md-3">
             <img
               className="header-icon modal-icon"
               alt="header-icon3"
