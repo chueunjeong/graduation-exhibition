@@ -4,6 +4,14 @@ import CommonFooter from "../components/CommonFooter";
 import CommonHeader from "../components/CommonHeader";
 
 import Ellipse from "../../assets/images/ellipse.png";
+import FlatWorks from "../../assets/images/flat-works.png";
+import ThreeDWorks from "../../assets/images/threed-works.png";
+import VideoWorks from "../../assets/images/video-works.png";
+import MultifacetedWorks from "../../assets/images/multifaceted-works.png";
+
+import AlttextWorks from "../../assets/images/alttext-works.png";
+import SoundsubWorks from "../../assets/images/soundsub-works.png";
+
 import AltTextIcon from "../../assets/images/alt-text-icon.png";
 
 import ScrollToTop from "../components/ScrollToTop";
@@ -14,7 +22,6 @@ const ArtistDetail = () => {
   const location = useLocation();
   const artistInfo = location.state.artistInfo;
   const [currentTab, setCurrentTab] = useState();
-  const [data, setData] = useState({});
   const tabRef = useRef([]);
 
   useEffect(() => {
@@ -51,20 +58,48 @@ const ArtistDetail = () => {
 
                   <div className="w-100 my-5"></div>
 
-                  {artistInfo.works.map((work, i) => (
-                    <div
-                      className="row my-2 artwork-titles"
-                      onClick={() => {
-                        tabRef.current[i].scrollIntoView({ behavior: "smooth" });
-                        setCurrentTab(tabRef.current[i]);
-                      }}
-                    >
-                      <div className="col-1 artistdetail-ellipse-img-wrap">
-                        <img className="artistdetail-ellipse-img" alt="artistdetail-ellipse-img" src={Ellipse}></img>
+                  {artistInfo.works &&
+                    artistInfo.works.map((work, i) => (
+                      <div
+                        className="row my-2 artwork-titles"
+                        onClick={() => {
+                          tabRef.current[i].scrollIntoView({ behavior: "smooth" });
+                          setCurrentTab(tabRef.current[i]);
+                        }}
+                      >
+                        <div className="col-1 artistdetail-ellipse-img-wrap">
+                          {work.type === "평면" && (
+                            <img
+                              className="artistdetail-ellipse-img"
+                              alt="artistdetail-ellipse-img"
+                              src={FlatWorks}
+                            ></img>
+                          )}
+                          {work.type === "입체" && (
+                            <img
+                              className="artistdetail-ellipse-img"
+                              alt="artistdetail-ellipse-img"
+                              src={ThreeDWorks}
+                            ></img>
+                          )}
+                          {work.type === "영상" && (
+                            <img
+                              className="artistdetail-ellipse-img"
+                              alt="artistdetail-ellipse-img"
+                              src={VideoWorks}
+                            ></img>
+                          )}
+                          {work.type === "다원" && (
+                            <img
+                              className="artistdetail-ellipse-img"
+                              alt="artistdetail-ellipse-img"
+                              src={MultifacetedWorks}
+                            ></img>
+                          )}
+                        </div>
+                        <div className="col-11 artwork-title-text">{work.title}</div>
                       </div>
-                      <div className="col-11 artwork-title-text">{work.title}</div>
-                    </div>
-                  ))}
+                    ))}
                 </div>
               </div>
             </div>

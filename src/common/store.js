@@ -1844,42 +1844,207 @@ export const data = [
     engName: "Jia Yoon",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A1/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A10.png",
+    titleText: "",
+    works: [
+      {
+        title: "<세이렌> 2021, 캔버스에 유화, 120*60cm ",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A1/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A11.jpg",
+          },
+        ],
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+
+      {
+        title:
+          "<이제 그녀의 이름을 부르는 사람은 없다. 사람들은 또 새로운 사람을 찾아낼 것이다.> 2021, 종이에 오일파스텔/26*19cm",
+        type: "매체",
+        alttext: false,
+        soundSubtitle: false,
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A1/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A12.jpg",
+          },
+        ],
+        youtube: [],
+      },
+
+      {
+        title:
+          "<이제 그녀의 이름을 부르는 사람은 없다. 사람들은 또 새로운 사람을 찾아낼 것이다.> 2021, 캔버스에 유채, 45.5*33.4",
+        type: "평면",
+        alttext: false,
+        soundSubtitle: false,
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A1/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A13.jpg",
+          },
+        ],
+        youtube: [],
+      },
+
+      {
+        title: "<모르스-레지스테르(Mors-Resistere) MIMI FALLEN ANGEL teaser video>, 2020, 싱글 채널 비디오 27초",
+        type: "다원",
+        alttext: false,
+        soundSubtitle: false,
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A1/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A14-1.png",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A1/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A14-2.jpg",
+          },
+        ],
+        youtube: ["https://youtu.be/E9dX8uuHdZs"],
+      },
+
+      {
+        title: "<모르스-레지스테르(Mors-Resistere)> 공식 홈페이지, 2021, 웹페이지",
+        type: "다원",
+        alttext: false,
+        soundSubtitle: false,
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A1/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A15-1.png",
+          },
+        ],
+        youtube: ["http://mors-r.com/"],
+      },
+      {
+        title: "<포옹의 거리> 2019, 석고 캐스팅, 가변크기",
+        type: "입체",
+        alttext: false,
+        soundSubtitle: false,
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A1/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A16.jpg",
+          },
+        ],
+        youtube: [],
+      },
+    ],
   },
+
   {
     name: "이도현",
     engName: "Dohyeon Lee",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB0.png",
+    titleText:
+      "오른손으로 주먹을 쥔 다음 검지손가락을 핀다. 다른 한 손은 사진을 쥔다.흐릿한 외곽선, 늘어진 불빛의 꼬리, 가장 하얀 이빨, 아주 검은 허공을 바라본다. 눈이 닿는 곳을 의식하며 사진 위에서 곧게 뻗은 손가락을 움직인다. 입자가 거친 곳은 더 가까이 손과 눈으로 온몸을 이용해서 다가간다. 그리고 멀어진다. 곧이어 사각형 프레임이 빛을 발산하면 Tab, Click, Zoom-in/out, Swipe up. 손가락이 닿자 지시하는 이미지가 시시각각 달라진다. 통상 1초에 24개의 멈춰진 사진이 눈앞을 스쳐 지나가고, 화면 속에서 사람들은 60초 안에 메시지를 전달한다.\n영상은 짧은 시간과 한정된 재화 안에서 불특정 다수에게 침투하기 위해 발전해왔다. 가령, 일종의 클리셰를 접목하는 방식으로. 우리가 입을 떼지 않아도 연달아 배 치된 장면(Shot)과 틀어진 화면의 각도, 카메라의 움직임이 말한다. 설명하지 않아도 응시는 흔적을 남긴다. 흔적을 되짚어 추적하는 일은 영상을 생산하는 방식 자 체에 관한 물음으로 이어졌다. 흔적은 의도를 가늠하게 하고, 의도는 영상에 개입하는 주체를 가리키기 때문이다. 극장의 스크린과 전광판, SNS와 퍼스널 디바이스로 옮겨가며 얼굴 없는 주체의 욕망이 소용돌이처럼 드러날 때, 물리적인 실체를 손에 쥐고 눈동자의 움직임을 따라가던 한 개인의 경험은 어떻게 변화하고 있는가.\n 때문에 나는 시대와 맥락에 따라 미디어를 관통하며 증폭되거나 유실되는 지점을 찾아 나선다. 이를 위해 우리 눈앞에 산재한 시각적 자극의 요소를 분류하고 가능 하게 하는 조건들을 파악한 뒤 변수를 도출한다. 이 몸짓은 궁극적으로 형식과 분야의 어법을 재조직하기 위해 나아간다. 동시에 수많은 영상의 생산에 선행된 이미 지를 읽어내고 경험하며 이를 이용하여 발화하는 방식을 주시하고자 한다. 앞으로 이어질 일련의 작품들은 개인(들)에게 개입하는 풍경의 속도를 지연시키고 환상을 재정립하려는 시도에 가깝다.",
+    works: [
+      {
+        title: "<확장된 표현형(The Exetended Phenotype)> 2020, 1'00\"",
+        type: "영상",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB1-1.jpg",
+          },
+        ],
+        text: "물방울이 위에서 아래로 떨어진다. 물에 파동이 일어난다. 그 순간 한 사람이 물속으로 들어간다. 물 밖의 흰 배경에서 다른 한 사람은 춤을 춘다. 물속의 사람도 똑같은 동작을 한다.",
+        alttext: true,
+        soundSubtitle: false,
+        youtube: ["https://youtu.be/vTFmI_zQ-Kw"],
+      },
+
+      {
+        title:
+          "<확장된 표현형(The Exetended Phenotype) ver.2.0> 2020,  3D SLA print, lacquer, EEG data, projection mapping, dimensions variable",
+        type: "다원",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB2-1.jpg",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB2-2.jpg",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB2-3.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+
+      {
+        title: "<repraesentatio(가제)> 2021, 16'00\"",
+        type: "영상",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB3-1.jpg",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB3-2.jpg",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB3-3.jpg",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB3-4.jpg",
+          },
+        ],
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
   },
   {
     name: "이슬이",
     engName: "Seuli I",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B5/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B50.png",
+    titleText: "",
   },
   {
     name: "이승연",
     engName: "Seungyoun Lee",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB0.png",
+    titleText: "",
   },
   {
     name: "이승하",
     engName: "Sngha Lee",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%92%E1%85%A1/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%92%E1%85%A10.png",
+    titleText: "",
   },
   {
     name: "진진(이예진)",
     engName: "zinzin ",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB(%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB)/%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB0.png",
+    titleText: "",
   },
   {
     name: "이초영",
     engName: "Choyoung Lee",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC0.png",
+    titleText: "",
   },
   {
     name: "이들(이화정)",
@@ -1892,95 +2057,670 @@ export const data = [
     engName: "Minyoung Lim",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%86%B7%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8B%E1%85%B5%E1%86%B7%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%BC0.png",
+    titleText: "",
   },
   {
     name: "정민지",
     engName: "Min-ji Jeong ",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B50.png",
+    titleText: "",
   },
   {
     name: "정소윤",
     engName: "Soyoon Jung ",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%89%E1%85%A9%E1%84%8B%E1%85%B2%E1%86%AB/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%89%E1%85%A9%E1%84%8B%E1%85%B2%E1%86%AB0.png",
+    titleText: "",
   },
   {
     name: "정태완",
     engName: "Taewan Jeong ",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%90%E1%85%A2%E1%84%8B%E1%85%AA%E1%86%AB/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%90%E1%85%A2%E1%84%8B%E1%85%AA%E1%86%AB0.png",
+    titleText: "",
   },
   {
     name: "조도현",
     engName: "Dohyun Cho ",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A9%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB/%E1%84%8C%E1%85%A9%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB0.png",
+    titleText:
+      "‘혼자서도 잘 살 수 있는 사람이 되는 것 에서 출발한 관심사 중 내 집 마련 이 키워드 였 다 작은 인간이 돋보이는 내 집 마련 ’ 시리즈는 내가 생각하는 내 집 마련 이라는 목표와 내 집 이 나에게 어떤 이미지 인지 시각적으로 표현한 작품들이다\n회화 작품은 작업으로부터 도망치기 바빴던 내게 도망치지 않고 완성해 본 기억을 선물 하기 위한 그림이다 미완으로 자주 끝났던 나의 그림을 마지막으로 완성해 항상 도망치지 만은 않았다는 의미로 대학생의 4년을 마무리 하는 작업이다 앞으로도 지금처럼 멈추지 말고 잘 버텨봅시다",
   },
   {
     name: "조윤아",
     engName: "Yoona Cho",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A9%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8B%E1%85%A1/%E1%84%8C%E1%85%A9%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8B%E1%85%A10.png",
+    titleText:
+      "Statement\n2017151035 조윤아\n우리는 거의 항상 자연과 함께 존재한다. 길을 지나다니다 보면 언제나 그 자리에 서있는 나무부터 언제 피었을 지 모르는 꽃, 그리고 발길 닿는 곳이면 있는 들풀을 볼 수 있다. 이러한 것들은 꽤나 ‘자연스럽다’. 나의 경우 자연스럽다고 인식하는 것을 넘어서 그것들은 원래 이렇게 생기고 이런 자리에 존재한다고 생각했기 때문에 이들이 자연스러운지, 자연스럽지 못한지 판단조차 하지 않고 주위에 늘 있는 것쯤으로 여겼을 정도였다. 그러니까 자연스러움이라는 일종의 가치판단이 필요 없을 정도로 나에게 그들의 생김새와 존재는 자연스러웠던 것이다. 그러다 어느 순간 이들의 모습이 괴이하게 다가왔다. 사람이 지나다니거나 보기에 크게 불편하지 않을 법한 적당한 크기에, 너무 인위적으로 보이지 않으려고 하는 듯 적당히 가지치기를 해서 이들의 형태가 지나치게 정형화되지 않도록, 자연’처럼’ 보이게 만드는 과정들은 자연스러움과는 거리가 있어 보였다. 사실 자연의 원래 모습은 카오스에 가까울 것이나 우리는 이러한 자연 본래의 모습을 정확히는 알 수 없는데, 이는 그 모습이 우리가 접근 불가능한 방식으로 존재하기 때문이다. 애초에 접근하기 힘들 뿐 아니라 내가 자연의 본 모습을 보기 위해 그곳으로 가면 거긴 이미 사람의 발길이 닿은, 본래의 자연이 아닌 곳이 된다.\n이러한 딜레마 속에서 사람들은 통제 가능한 범위 안에 자연을 가져다 놓고 그 범위를 벗어나지 않는 선에서 본래 자연의 모습을 모방하려 노력한다고 생각했다. 이러한 노력들은 직선적이거나 대칭적인 요소의 삭제와, 경계의 모호화(그러나 인간이 향유할 수는 있을 정도의) 등으로 나타난다. 그렇게 적당히 엉키고, 적당히 우거졌으며, 적당히 비대칭인, 정말 ‘자연처럼 보이는’ 자연을 조성하는 것이다. 나는 이렇게 조성된 자연의 형태에 대해, 다시 말해 이전까지 내가 자연스럽다고 인식해왔던 자연의 형태에 대해 의문을 가지고 이들의 형태를 회화라는 매체를 통해 탐구하기 시작했다. 너무 자연스러워 보여서 미처 인지하지 못하고 지나쳤던 여러 자연 요소들의 이미지를 수집하고 이들의 형태를 스케치한다. 스케치를 하며 어디서 어떤 모양으로 잎이 삐져나오고, 가지는 어느 정도 길이와 기울기로 뻗쳐 있는 지와 같이 내가 이들을 자연스럽다고 여기게 만들어주는 형태들에 대해 시각적으로 보다 직관적이게 접근한다. 동시에 색감은 전체적으로는 튀지 않는 적당한 채도를 사용하나 부분적으로 형광기가 가미된 색을 쓰며 주변의 자연물을 보며 느꼈던 묘한 이질감을 미약하게나마 드러내고자 하였다. 또 이들의 형태 뿐 아니라 존재하고 있는 위치 역시 이질감을 느끼게 만드는 요소 중 하나였기 때문에 이에 대한 것도 작업 중간 중간에 같이 표현하고자 하였는데, 화분에 담겨져 있는 식물 모종을 그린다거나 각기 다른 장소에서 촬영한 요소들을 한 화면에 합쳐서 마치 하나의 정원처럼 그려보기도 하였다.(<인공정원>)\n이러한 자연물 형태의 탐구 과정을 통해 이전에 거부감 없이 느꼈던 자연스러움이라는 개념과, 어쩌면 비-자연스럽다고 여겨질 수 있는 형태들의 관계를 고민한다.",
   },
   {
     name: "조은형",
     engName: "Eunhyung Cho",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A9%E1%84%8B%E1%85%B3%E1%86%AB%E1%84%92%E1%85%A7%E1%86%BC/%E1%84%8C%E1%85%A9%E1%84%8B%E1%85%B3%E1%86%AB%E1%84%92%E1%85%A7%E1%86%BC0.png",
+    titleText:
+      "미래의 허구와 과거의 허구 구분은 현재에서 정지한다. 허구를 빌려오며 무언가를 믿는다는 말에는 함정이 있다. 함정에 가까운 곳에 믿음이 있어, 그곳으로 향하는 이미지를 만들고 있다. 그림을 그리면서 형상을 발견해 나간다. 그리고 보는 시간 사이에서 만들어진 형상은 멈추고 살아난다. 그림 속 옷걸이, 블루베리, 책, 농구공 등의 일상의 사물들은 이미 일어나고 있거나 일어날 것에 대한 불안을 같이 한다. 순간을 만들면서 미루기도 하고 당기려 하는 것은 그리기를 통해 발생하는 즐거움이다. 도구를 줄이기 위해 손으로 시작하는 저부조의 형상을 만들고 그 위에 그림을 그리면서 조금 더 질감을 찾고 있다.",
   },
   {
     name: "혜영조(조혜영)",
     engName: "Hyeyeongjo",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A9%E1%84%92%E1%85%A8%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8C%E1%85%A9%E1%84%92%E1%85%A8%E1%84%8B%E1%85%A7%E1%86%BC0.png",
+    titleText:
+      "하위 문화나 그라피티 등에 관심을 가지고 있습니다 . 저는 주로 내적인 갈등을 주제로 하여 작업합니다 . 작업을 할 때에는 고민이나 생각을 구상하지 않고 즉흥적으로 표현해 냅니다 . 계획하지 않은 작업을 하는 것은 우연성을 포함하고 예측 불가능한 형태들을 작업 내에 끌고 들어옵니다.  우선 붓을 대기 전에 우선 캔버스를 다루기 쉬운 형태로 만듭니다 . 질감을 주고 형태가 다른 캔버스를 붙여서 캔버스를 가상의 공간이 아닌 조각적이고 물리적인 물체로 만들어 놓습니다",
+    works: [
+      {
+        title: "<충격적인 진실> 2021, Oil on Canvas, 145.5cm x 112.1cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A9%E1%84%92%E1%85%A8%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8C%E1%85%A9%E1%84%92%E1%85%A8%E1%84%8B%E1%85%A7%E1%86%BC1.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+
+      {
+        title: "<충격적인 진실> 2021, Oil on Canvas, 145.5cm x 112.1cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A9%E1%84%92%E1%85%A8%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8C%E1%85%A9%E1%84%92%E1%85%A8%E1%84%8B%E1%85%A7%E1%86%BC1.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+
+      {
+        title: "",
+        type: "",
+        images: [
+          {
+            type: "image",
+            url: "",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "",
+        type: "",
+        images: [
+          {
+            type: "image",
+            url: "",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "",
+        type: "",
+        images: [
+          {
+            type: "image",
+            url: "",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "",
+        type: "",
+        images: [
+          {
+            type: "image",
+            url: "",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "",
+        type: "",
+        images: [
+          {
+            type: "image",
+            url: "",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
   },
   {
     name: "주다은",
     engName: "Daeun Joo",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB0.png",
+    titleText:
+      "주다은은 이미 사라졌거나 아직 도래하지 않아 알 수 없는 것을 감각의 차원으로 불러오는데 집중한다. 주로 시간을 기반으로 하는 매체를 이용하며, 소리가 동반하는 시공간을 경험적 차원으로 확장한다. 이번 전시에서는 사라진 존재를 소리와 형(形)을 통해 불러들이며, 소리-형과 더불어 영상, 드로잉과 함께 표류하는 존재들의 곁으로 관객을 초대한다. 지나간 것과 다가오는 것이 순환하는 그곳에서 <Silent Oscillation>(2021)은 더 이상 지구에 존재하지 않는 식물이라는 사라진 존재를 소리와 형으로 소환한다. 사라진 존재는 자신의 남겨진 유전데이터로부터 파생된 사운드 알고리즘을 통해 소리로 환원된다. 이때, 소리는 생물학적 과정에 따라 유전정보를 읽고, 해체하고, 나아가 규정되지 않는 미래적 무엇으로 진행하는 시간을 담는다. 이러한 소리의 시간은 정형화되지 않는 형(形)과 만나 소환과 동시에 생성되는 미래적 상태를 순환한다. 한때는 존재했지만 이제는 존재하지 않고, 이제는 존재하지만 더 이상 지나간 무엇이 아닌 새로운 상태의 존재들(소리-형)은 좌표가 없다. <Silent Voyage>(2021)는 이러한 존재들의 마음으로 해질녘의 바다위에서 흘러가는 시간을 기록한 영상이다. 발붙일 땅 없는 존재들의 울림은 오고 가는 바다의 흐름들과 만나며, 표류하는 시간들로 전시공간을 잠시나마 가득 채운다. *드로잉 시리즈(Drawing Series #1~4)는 유전정보의 읽기에 대한 해석을 담은 작가노트를 동반하며, 드로잉, 작가노트, 소리는 오프라인 전시공간에서 소개합니다.",
+    works: [
+      {
+        title: "",
+        type: "다원",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB1-1.png",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB1-2.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: ["https://www.youtube.com/channel/UCqB-X6XsTI_l3Ud_DlgTniQ/featured"],
+      },
+      {
+        title: "<Silent Voyage> 2021, single-channel video, 44min 20sec (loop)",
+        type: "영상",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB2.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: ["https://www.youtube.com/channel/UCqB-X6XsTI_l3Ud_DlgTniQ/featured"],
+      },
+      {
+        title:
+          "<Silent Oscillation> 2021, sound sculpture (3D printing, mechanical device, genetic data-sound algorithm)",
+        type: "입체",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB3-1.png",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB3-2.png",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB3-3.png",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB3-4.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<Drawing Series #1> pencil on tracing paper, aluminum frame, 30x60cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB4.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
   },
   {
     name: "최상민",
     engName: "Sangmin Choe",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%89%E1%85%A1%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB/%E1%84%8E%E1%85%AC%E1%84%89%E1%85%A1%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB0.png",
+    titleText: "",
+    works: [
+      {
+        title: "<16 민들레> 2021, 단채널 비디오",
+        type: "영상",
+        images: [],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: ["https://www.youtube.com/channel/UCqB-X6XsTI_l3Ud_DlgTniQ/featured"],
+      },
+      {
+        title: "<16 민들레> 2021, 종이에 자국, 29.7 x 21 cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%89%E1%85%A1%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB/%E1%84%8E%E1%85%AC%E1%84%89%E1%85%A1%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB2.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
   },
   {
     name: "최서윤",
     engName: "Seoyun Choe ",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%89%E1%85%A5%E1%84%8B%E1%85%B2%E1%86%AB/%E1%84%8E%E1%85%AC%E1%84%89%E1%85%A5%E1%84%8B%E1%85%B2%E1%86%AB0.png",
+    titleText:
+      "<wobbles>, 2021, 단채널 비디오, (00:01:22)\n매력적인 이미지는 간혹 사진보다 동영상으로 촬영하는 게 좋다. 아이폰을 통해 습관처럼 촬영한 대부분의 동영상은 피사체를 향해 손을 고정하여 찍은 것이다. 촬영 중 응시하는 대상은 피사체가 아닌 아이폰 액정으로 옮겨간다. 겨우 몇 분 가량 액정 속에서 벌어지는 일은 이미지를 특정 시간에 유착시키는 것에 실패하는데, 미세하게 떨리는 손이 이미지를 부유하게 만들며 또 다른 시간성을 부여한다. 이렇게 탄생한 픽스 숏에는 어떤 멜랑콜리함이 느껴진다.\n 이 감각은 친구와의 일화를 상기시킨다. 어느 새벽의 전화 통화에서 ‘영원히 끝나지 않는 대화’에 대해 친구와 이야기한 적 있다. 공회전하는 대화를 동이 틀 때까지 지속했던 이유에서였는데 이 상상이 어느 종류의 우울감을 품은 것이었다는 걸 서로 알았을 거다. ‘픽스 숏’과 ‘영원한 대화’가 공유하는 멜랑콜리함은 허물어진 시간성 때문일 수도, 움직이지 못하는 응시 주체 때문일 수도 있다. 언어로 설명할수록 흩어지는 이 감정은 내가 이해한 무빙 이미지의 일부이다.\n  관광객을 프레임 바깥으로 밀어내며 해안으로 다가가자 수평선과 그리 멀지 않은 곳에서 파란 부표를 발견했다. 코로나 방역 안내방송을 배경으로 부표는 혼자 떠 있었고 그것을 오랜 시간 바라봤다. <wobbles>는 다양한 크기의 쇼트로 촬영한 푸티지들을 겹쳐 일정 순간에 온전한 상의 광안대교를 보여주는 비디오이다. 광안대교는 이리저리 출렁이다 여러 상이 일정 순간 겹쳐지며 잠시 고정되는 듯 보이는데, 이내 파란 부표를 담은 푸티지만 남기고 모두 사라진다.\n<211029>, 2021, 단채널 비디오, (00:04:58)\n스테이트먼트 없음.\n<오오오>, 2019, 단채널 비디오, (00:07:11)\n달리는 차에서 차창을 내다보면 달이 따라오는 것 같은 경험을 한다. 2019년, 비슷한 인상을 줬던 피사체에게 강하게 사로잡혔는데 그 피사체는 잠실의 롯데타워였다. 지내던 동네에서 잠실은 차로 삼사 십분을 가야 하는 먼 거리였지만 롯데타워는 우뚝 솟아올라 시야의 한 구석을 차지했다.\n팔로우 숏은 피사체의 움직임과 같은 속도와 방향으로 따라가면서 촬영하는 기법을 말한다. 정지한 피사체를 팔로우 숏으로 찍는다는 건 가능할까? 가능하다면 그 감각은 피사체가 나를 ‘팔로우’한다는 것일까? 롯데타워에 다가가고, 멀어지고 주위를 맴돌기도 하면서 그 피사체를 화면에 담았다.\n 화자는 멀리 보이는 롯데타워에서 시작해 서울의 이곳저곳을 떠돈다. 미세먼지를 걱정하는 오늘, 고층빌딩 공사현장, 퀴어 문화 축제, 서울역 애국집회, 재개발이 확정된 골목길.. “사람들이 높은 건물을 짓고자 하는 것은 거대한 도요새를 만들기 위해서”라는 시시한 농담 후 뒤따르는 푸티지는 재개발이 확정 된 지역의 모습이다. 원주민이 버리고 간 생활 쓰레기로 가득 찬 골목을 훑는 마지막 장면은 가까운 곳에서 긴 시간 목격했던 것으로 이 작업의 시작이 되었다. 어디에선 500미터가 넘는 건물을 짓고 어디에선 동 하나를 밀어버리는 모습이 내겐 미련해보였다. 그 저 우리가 행복하길 바란다.",
+    works: [
+      {
+        title: "<211029> 2021, 단채널 비디오, (00:04:58)",
+        type: "영상",
+        images: [
+          {
+            type: "video",
+            url: "https://youtu.be/8-bu8XiAJIw",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<wobbles> 2021, 단채널 비디오, (00:01:22)",
+        type: "영상",
+        images: [
+          {
+            type: "video",
+            url: "https://youtu.be/tYEyBDQZtME",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<오오오> 2019, 단채널 비디오, (00:07:11)",
+        type: "영상",
+        images: [
+          {
+            type: "video",
+            url: "https://youtu.be/PBWds9YSrB0",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
   },
   {
     name: "최유진",
     engName: "Yujin Choi ",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB0.png",
+    titleText: "",
+    works: [
+      {
+        title: "<Map of Toungue> 2020, 캔버스에 유화, 수채화, 32x41cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB1.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "설치 전경(Installation View)",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB2_full.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title:
+          "(왼)<Lucciola> 2021, 캔버스에 유화와 실리콘, 24.5x33.5cm (오)<찌르기(Thrust)> 2021, 캔버스에 실리콘, 가변설치",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB3.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<Lucciola> 2021, 캔버스에 유화, 실리콘, 24.5x33.5cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB4.png",
+          },
+        ],
+        text: "검은 물감으로 붓질이 드러나게 칠한 캔버스를 투명한 실리콘으로 덮어 두께가 생겼다. 캔버스의 정면이 아닌 테두리에 핑크색 형광 안료를 발라 벽에 걸었을 때 핑크색 빛이 그림을 둘러싸 벽에 스민다.",
+        alttext: true,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<무제 Untitled> 2021, 나무판넬에 투명레진, 납, 15x15cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB5.png",
+          },
+        ],
+        text: "형광 핑크색을 칠한 정사각형의 판넬에 투명한 물방울과 불투명한 은색 납 방울들이 떨어져 있다.",
+        alttext: true,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<피부> 2021, 캔버스에 안료, 겔미디엄, 아크릴/ 130x162cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB6-1.png",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB6-2_full.jpg",
+          },
+        ],
+        text: "사람만 한 키에 사람의 피부색을 띤 캔버스다. 작가의 피부색과 비슷한 누리끼리하고 약간 어두운 피부색의 배경 위에 동맥의 어두운 붉은색, 정맥의 푸른색을 닮은 거친 붓질이 있다. 각질이 살짝 인 듯 흰 끼가 도는 표면 곳곳에 붓의 털이 심겨있다.",
+        alttext: true,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<무제 Untitled> 2021, 캔버스에 유화, 실리콘, 38x45.5cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB7.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<Pimple> 2021, 캔버스에 아크릴, 실리콘, 철제 조각, 가변설치",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB8.png",
+          },
+        ],
+        text: "부드러운 형광 핑크색으로 칠해진 작은 캔버스가 방구석에 놓여있다. 캔버스 정중앙에 반구 형태의 볼록한 실리콘이 붙어있고, 그 위에 길고 날카로운 철제 조각이 놓여있다.",
+        alttext: true,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
   },
   {
     name: "최윤식",
     engName: "YounSik Choi",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%89%E1%85%B5%E1%86%A8/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%89%E1%85%B5%E1%86%A80.png",
+    titleText:
+      "<창백한 국가>는 사람의 흥얼거림과 속삭임으로 이루어진 하나의 곡이다. 네 겹의 목소리는 동시에 서로 다른 노래를 흥얼거린다. 선곡은 보아의 ‘아틀란티스 소녀’부터, 번안곡 ‘클레멘타인’, 영화 <비긴어게인> 삽입곡 ‘A Step You Can’t Take Back’까지 다양하다. 노래는 계속해서 바뀌고, 네 겹의 목소리는 서로  혼란스럽게 겹치거나 멀어진다. 듣는이는 그 나직한 혼란 속에서 익숙한 멜로디를 잡아내기도 한다. 하지만 이는 곧 다른 노래와 가사의 침범으로 인해 흐려지고 멀어진다.\n다채널 영상은 뮤직비디오와 리릭비디오(lyric video)로 이루어졌다. 뮤직비디오는 익숙하고 전형적인 서울 풍경 위에 유령처럼 덧씌워진 사람의 형상을 비춘다. 등장 인물은 서울의 다양한 장소에서 곡의 리듬에 맞추어 걷고, 발을 까딱거리고, 고개를 끄덕인다. 리릭비디오는 네 겹의 목소리가 부르는 노래 가사와 속삭임을 네 겹으로 엉킨 타이포 모션으로 제시한다. 이는 사운드 작업의 청각 장애 배리어프리를 시도하는 동시에, 혼란스러운 흥얼거림의 정체에 대한 단서를 제공한다.\n온라인 전시에서는 입체 사운드와 다채널 영상이 만들어내는 공간을 하나의 영상으로 압축해 제시한다. 오프라인 전시에서 각각 독립된 작품으로 제시되었던 요소들은 화면을 채운 하나의 영상 속에서 중첩하며 교차하고, 가까워지는 한편 멀어진다. 코로나가 우리를 온라인과 오프라인의 이중구조로 몰아낸 오늘, 납작한 발광체를 통해 경험하는 전시 환경을 탐색한다.\n<창백한 국가>의 모든 노래는 설문조사에 의거해 선정되고 구성되었다. 스스로를 ‘한국인’, ‘한국 사람’, 혹은 ‘한국 국적자’로 정의하는 다수의 사람들이 자신의 삶과 노래에 관한 질문에 답했다. ‘양육자와의 추억이 떠오르는 노래’, ‘주변 사람들이 모두 알 것 같은 노래’, ’삶이 가장 힘들었던 시절 들었던 노래’ 등의 질문은 곡의 마디 및 리듬 구성 기준이 되었다. 이는 각 질문과 관련된 속삭임의 내용을 통해 드러난다. ‘한국인’, ‘한국 사람’이 지칭하는 범위는 종종 끝간 데 없이 넓고, 때로는 아주 좁다. 가끔은 은연중에 아주 좁은 나잇대만을 상정하기도 한다. <창백한 국가>는 노래를 통해 그 다양한 삶의 모습을 불러낸다. 그리고 그 사이의 교집합을 통해 ‘한국인’, ‘한국 사람’이라는 흔하고 불투명한 개념을 정의하고자하는 불가능한 시도를 계속한다.",
+    works: [
+      {
+        title: "<창백한 국가> 2021, 단채널 영상",
+        type: "영상",
+        images: [
+          {
+            type: "video",
+            url: "https://youtu.be/c8BVlahiSYg",
+          },
+        ],
+        text: "서울을 떠도는 사람이 있다. 비춰지는 서울 풍경은 다양하다. 저 멀리 아파트가 보이는 주택가 골목길, 동네마다 하나씩 있는 대기업 화장품 가게, 지하철, 국립민속박물관 입구, 광화문대로. 모두 어두운 밤이거나 새벽이다. 그 사이를 떠도는 사람은 풍경에 꼭 들어맞지 못하고 어색한 모양새다. 발 모양이 바닥 면과 잘 맞지 않거나, 주변 물체보다 지나치게 크고 작을 때도 있다. 무엇보다, 이 어색한 사람은 온몸이 투명해서 인물 뒷면의 풍경이 모두 비쳐 보인다. 인물의 투명한 피부, 투명한 옷자락 뒤로 보이는 서울은 실제와 같은 모양이되 희거나 푸르다. 마치 창백한 유령 같다. 그는 노래의 박자에 맞추어 걷거나, 발을 까딱거리거나, 제자리에 서서 눈을 깜빡이고 건물 위에 걸터앉아 다리를 흔든다. 자동차가 돌아다니고 눈이 내리는 익숙한 서울 풍경 위를, 낯선 유령과 같은 형상이 끊임없이 움직이며 떠돈다.",
+        alttext: true,
+        soundSubtitle: true,
+        youtube: [],
+      },
+    ],
   },
   {
     name: "최희수",
     engName: "Heesu Choi",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%92%E1%85%B4%E1%84%89%E1%85%AE/%E1%84%8E%E1%85%AC%E1%84%92%E1%85%B4%E1%84%89%E1%85%AE0.png",
+    titleText:
+      "우리는 많은 것과 애착 관계를 형성한다. 사람과 사람 사이는 물론이고 바로 옆에 있는 동물에게도, 심지어는 감정을 교류할 수 없는 물건에도. 같이 생산되어, 같게 생긴 물건들이 누군가에게 소유되어 시간을 보내면 ‘그의 물건’으로 인지되듯이. <뫄뫄와 뭐뭐>에서는 그러한 손때 묻은 물건이 피사체가 된다. 똑같이 생겼지만, 완전히 똑같다고 볼 수 없는 이 물건들은 작가와 친밀한 레즈비언 연인들의 것이다. 그들이 만나기 전부 터 가지고 있었거나 만난 뒤에 가지게 된 사물 중 의도치 않게 짝을 이룬 것들을 모아보았다. 주인들이 관계를 맺으면 사물들 역시 관계 맺는다고 볼 수 있을까? 나란히 놓인 사물 중 관람자가 같은 것을 가지고 있다고 해서 두 사물이 가진 긴밀한 연결감을 획득할 수는 없으니, 사물들 사이에도 긴밀한 연결감이 있다고 볼 수 있겠다. 사물 간의 연결감은 물건 주인들의 관계, 즉 내밀함에서부터 형성된다. <뫄뫄와 뭐뭐>의 핵심 키워드는 바로 여기에 있다. ‘내밀함’이라는 단어로.\n작업의 제목 <뫄뫄와 뭐뭐>는 인터넷상에서 많이 사용되는, 익명의 누군가를 지칭하는 단어 ‘뫄뫄’와 불특정 사물들을 가리킬 때 사용하는 ‘뭐뭐’의 조합이다. 익명은 가리기 위함이지만, 그럼에도 전혀 숨겨지지 않는 관계성이 있음을 사물들의 초상을 통해 보여주고자 한다.",
+    works: [
+      {
+        title: "<뫄뫄와 뭐뭐> 2021, 사진, 피그먼트프린트, 500x700mm",
+        type: "다원",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%92%E1%85%B4%E1%84%89%E1%85%AE/%E1%84%8E%E1%85%AC%E1%84%92%E1%85%B4%E1%84%89%E1%85%AE1-1.jpg",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%92%E1%85%B4%E1%84%89%E1%85%AE/%E1%84%8E%E1%85%AC%E1%84%92%E1%85%B4%E1%84%89%E1%85%AE1-2.jpg",
+          },
+        ],
+        text: "최희수 작가의 작업 설치 전경 사진이다. 넓은 방 벽면에 설치된 얇은 선반에 종이가 느슨하게 걸쳐져 있다. 바닥에는 똑같지만, 완전히 똑같지는 않은 사진들이 액자에 넣어져 서로 기 대어 있거나, 바닥에 누워 있거나, 벽면에 기대어 있다.",
+        alttext: true,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<뫄뫄와 뭐뭐> 2021, 사진, 피그먼트프린트, 364x515mm",
+        type: "다원",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%92%E1%85%B4%E1%84%89%E1%85%AE/%E1%84%8E%E1%85%AC%E1%84%92%E1%85%B4%E1%84%89%E1%85%AE2-1.jpg",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%92%E1%85%B4%E1%84%89%E1%85%AE/%E1%84%8E%E1%85%AC%E1%84%92%E1%85%B4%E1%84%89%E1%85%AE2-2.jpg",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%92%E1%85%B4%E1%84%89%E1%85%AE/%E1%84%8E%E1%85%AC%E1%84%92%E1%85%B4%E1%84%89%E1%85%AE2-2.jpg",
+          },
+        ],
+        text: "최희수 작가의 작업 세부 사진이다. 각각의 사진 속에는 책, 지갑, 헬멧 등이 두 개씩 등장한다. 두 사물은 완전히 똑같기도 하고, 조금씩 다르기도 하다. 사진 속 사물들은 세워져 있기도 하고, 눕혀져 있기도 하고, 서로 얽혀있기도 하는 등 다양하게 배치되어 있다.",
+        alttext: true,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<뫄뫄와 뭐뭐> 2021, 사진 세부",
+        type: "다원",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%92%E1%85%B4%E1%84%89%E1%85%AE/%E1%84%8E%E1%85%AC%E1%84%92%E1%85%B4%E1%84%89%E1%85%AE3-1.png",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%92%E1%85%B4%E1%84%89%E1%85%AE/%E1%84%8E%E1%85%AC%E1%84%92%E1%85%B4%E1%84%89%E1%85%AE3-2.jpg",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%92%E1%85%B4%E1%84%89%E1%85%AE/%E1%84%8E%E1%85%AC%E1%84%92%E1%85%B4%E1%84%89%E1%85%AE3-3.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
   },
   {
     name: "하주연",
     engName: "JOOYEON HA",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%92%E1%85%A1%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%92%E1%85%A1%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AB0.png",
+    titleText:
+      "유영하는 자\n2016151039 조형예술과 하주연\n'현실과 가상현실을 오가며 활동한다'\n코로나 시대에 접어들기 전까지는 제가 인터넷에서 생활하고 또 오프라인에서 생활하는 태도를 이렇게 표현하곤 했던 것 같습니다. 하지만 이제는 가상현실과 현실을 나누는 것이 의미가 없을 정도로 가상현실 / 온라인의 자신과 현실의 자신을 동일시하는 사람들이 많아지고 있습니다. VR 기기들을 이용해 자신의 모션을 캡쳐하여 캐릭터를 자신으로 사용한다던가,커스터마이징이 가능한 게임에서 캐릭터를 자유롭게 만들어 자신과 동일시한다던가, 이미 만들어져 있는 미디어의 캐릭터를 자신으로 두어 그에 몰입하는 경우도 있습니다. 이 모든 일은 과거에는 서브컬쳐에서나 존재하는 일이었으나 이제는 메인 스트림으로 넘어와 자리하게 되었습니다. 가상현실과 현실의 경계가 없어지고 있는 지금은 몇 년 밖에 지나지 않았으나 과거와는 매우 다른 생각을 하게 만들었는데요, 몇년 전의 제 작업을 보아도 '가상현실 (2차원이라는 명칭을 사용했음) 과 현실 (3차원이라는 명칭을 사용했음) 의 차이와 결속' 에 대해 말하곤 했습니다. 그러나 지금은 그들의 차이에 대해 집중하기보다는 그들이 이미 융합되어버린 현재에서 가상현실과 현실의 공간을 어떻게 이용하고 있는지에 대해 집중하게 되었습니다. VRChat이라는 게임을 통해 예배를 드리는 교회를 찾게 되었고 가상의 공간에서 현실의 시간을 할애해 캐릭터를 통한 사람과 사람 사이의 만남과 대화를 하는 지점이 흥미로웠습니다. 예배에 참여하기 위해서는 자신의 캐릭터가 필요했는데, 여러가지 캐릭터를 고르다가 '나'를 만들어야겠다는 생각이 들어 곧바로 제작에 들어갔습니다. '나' 를 구체화하고 정체성을 찾아 가며 특징을 직접적으로 선택하는 과정에서 현대인들이 태어날 때 부터 정해진 것을 따르지 않고 자신만의 주체를 찾아 정확한 자신을 빌드업하는 과정과의 유사성을 느꼈습니다. 또한 평소에 게임을 즐기곤 했는데, 자신을 대표하는 캐릭터를 만들 때 사람들이 '나' 와 '게임 속 의 나' 를 동일시 여기곤 했어서 비슷한 경험을 나열하기도 하며 이야기를 산발적으로 표현해두었습니다.",
+    works: [
+      {
+        title: "<유영하는 자> 2021, 단채널 비디오",
+        type: "다원",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%92%E1%85%A1%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%92%E1%85%A1%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AB1-1.png",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%92%E1%85%A1%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%92%E1%85%A1%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AB1-2.png",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%92%E1%85%A1%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%92%E1%85%A1%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AB1-3.png",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%92%E1%85%A1%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%92%E1%85%A1%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AB1-4.png",
+          },
+          {
+            type: "video",
+            url: "https://youtu.be/H3EP334WmFk",
+          },
+        ],
+        text: "VRChat을 사용해 예배를 드리는 교회 대표자와의 인터뷰 영상과 블렌더를 이용해 3D 그래픽을 만들며 자신의 의견을 말하는 영상, 게임 화면 녹화와 더불어 진행된 친구와의 인터뷰가 섞인 것이 주가 되는 영상 작업이다. 세 가지 영상은 각각 전체 화면을 차지하며 화면 전환을 통해 섞여 있다. 첫 번째 인터뷰 영상에서는 데포르메가 된 검은색 후드를 뒤집어쓴 해골이 이야기하고, 그 뒤에는 온라인 예배당의 풍경이 펼쳐져 있다. 두 번째 영상에서는 프로그램을 켜 구 형태의 그래픽을 사람의 머리 형상으로 만드는 과정이 드러나 있다. 마지막 영상에서는 게임 캐릭터를 커스터마이징 하는 모습이 담겨 있다.",
+        alttext: true,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
   },
   {
     name: "허겸",
     engName: "Kyeom Hur",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%92%E1%85%A5%E1%84%80%E1%85%A7%E1%86%B7/%E1%84%92%E1%85%A5%E1%84%80%E1%85%A7%E1%86%B70.png",
+    titleText:
+      "내게 보이는 세계는 조금은 이상한 세계이다 길거리에서 느닷없이 막 춤을 추는 남자가 있고 건물 옥상에서 아래로 힘껏 침을 뱉는 여자가 있 고 사람과 개를 피하는 사람과 개가 있다  낯선 이들은 한 공간에 누구보다 가까이 있으면서도 그것을 이상하게 생각하지 않는다 사람들 속에서 갑자기 웃음을 터뜨린 사람은 다른 시선을 신경 쓰지 않 고 한바탕 웃어 젖힌다 그 세계가 실재하는 세계인지 단지 내 머릿속에만 존재하는 세상인지 알 수 없다 가끔은 내가 보고 느끼는 것을 다른 사람들도 보는 걸까 궁금해진다 내가 그들과 같은 곳에 있는지 알 수 없다 그러나 내가 때때로 낯섦을 느끼듯이 그들도 그렇지 않을까 짐작할 뿐이다 내가 그림을 그리는 이유를 생각해본다 그리고 싶은 것이 있는 걸 보면 분명 나는 보여주고 싶은 것이 있을 것이다 나의 세계가 특별하지 않다고 한다면 그걸로 안도할 것이고 낯설고 이상하다면 그 세계로 한 걸음 들어오게 한 것으로 만족할 것이다",
+    works: [
+      {
+        title: "<혼밥> 2019, 캔버스에 아크릴, 265X65.1cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%92%E1%85%A5%E1%84%80%E1%85%A7%E1%86%B7/%E1%84%92%E1%85%A5%E1%84%80%E1%85%A7%E1%86%B71-1.jpg",
+          },
+        ],
+        text: "5개의 캔버스에 각각 혼밥을 하는 인물들의 상반신이 그려져 있다. 노년의 남자는 생애 첫 혼밥의 어색함에 음식을 앞에 두고 망설이고 있고, ‘고독한 미식가’는 차려진 음식을 맛있게 먹고 있다. 먹방 유튜버는 정면의 카메라를 바라보며 음식을 입에 욱여넣고 있고, 시간에 쫓겨 간단하게 한 끼를 때우는 사람과 음식을 먹기 전에 SNS에 올릴 사진을 찍고 있는 사람이 보인다. 미색의 뒷배경과 갈색의 테이블은 동일하다.",
+        alttext: true,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<지하철> 2021, 캔버스에 아크릴, 273X53cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%92%E1%85%A5%E1%84%80%E1%85%A7%E1%86%B7/%E1%84%92%E1%85%A5%E1%84%80%E1%85%A7%E1%86%B72-1.jpg",
+          },
+        ],
+        text: "6개의 캔버스에 각각 6명의 인물이 있으며 지하철 의자에 앉아 있는 상반신이 보인다. 고개를 돌려 창밖을 보는 남자, 할아버지와 할머니는 정신없이 자는 남자를 사이에 두고 대화를 시도 중이다. 핸드폰을 보고 있다가 갑자기 웃음을 터뜨린 옆 남자를 곁눈으로 보는 여자도 있다. 배경은 모두 동일하며 터널을 지나는 지하철의 창밖으론 검은색의 어둠과 희뿌연 빛이 군데군데 보인다.",
+        alttext: true,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<춤추는 사람> 2021, 캔버스에 아크릴, 54X73cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%92%E1%85%A5%E1%84%80%E1%85%A7%E1%86%B7/%E1%84%92%E1%85%A5%E1%84%80%E1%85%A7%E1%86%B73-1.jpg",
+          },
+        ],
+        text: "얼룩이 묻은 빨간 티셔츠를 입은 남자는 갑자기 장바구니를 내려놓은 채 해맑은 표정으로 길에서 춤을 추고 있다. 남자의 뒤로는 푸른색과 회색 톤의 네모난 건물들이 늘어서 있고 비슷한 톤의 뿌연 하늘이 보인다.",
+        alttext: true,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<밤산책> 2020, 종이에 연필, 126.6X56cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%92%E1%85%A5%E1%84%80%E1%85%A7%E1%86%B7/%E1%84%92%E1%85%A5%E1%84%80%E1%85%A7%E1%86%B74-1.jpg",
+          },
+        ],
+        text: "넓고 네모난 운동장의 전경이 보인다. 운동장은 학교 건물과 나무들로 둘러싸여 있고 도로의 빛으로 만들어진 긴 나무 그림자들이 운동장 전체에 얽혀 있다. 운동장의 한쪽에는 사람 하나와 강아지 하나가 산책을 하고 있다. 하얀 종이에 검은색 연필로 그린 그림이다.",
+        alttext: true,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<무제> 2020, 종이에 연필, 78.6X54.5cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%92%E1%85%A5%E1%84%80%E1%85%A7%E1%86%B7/%E1%84%92%E1%85%A5%E1%84%80%E1%85%A7%E1%86%B75-1.jpg",
+          },
+        ],
+        text: "넓고 네모난 운동장의 전경이 보인다. 운동장은 학교 건물과 나무들로 둘러싸여 있고 도로의 빛으로 만들어진 긴 나무 그림자들이 운동장 전체에 얽혀 있다. 운동장의 한쪽에는 사람 하나와 강아지 하나가 산책을 하고 있다. 하얀 종이에 검은색 연필로 그린 그림이다.",
+        alttext: true,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
   },
 ];

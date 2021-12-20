@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import CommonFooter from "../components/CommonFooter";
 import CommonHeader from "../components/CommonHeader";
-import ArtistImg1 from "../../assets/images/artist-img1.png";
 import ArtistItems from "./ArtistItems";
 import "../../assets/sass/artistItems.scss";
 import { data } from "../../common/store";
