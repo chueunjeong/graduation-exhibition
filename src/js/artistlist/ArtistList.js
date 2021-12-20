@@ -11,18 +11,17 @@ const ArtistList = () => {
   // const cols = 3;
   // const rows = Math.ceil(artist_count / cols);
   // const remainder = artist_count % cols;
-  const [artistInfoList, setArtistInfoList] = useState([]);
+  const [artistInfoList, setArtistInfoList] = useState(data);
 
   useEffect(() => {
     init();
-    //console.log("확인!!!!" + artistInfoList);
   }, []);
 
   const init = () => {
-    const getData = data;
+    const getData = [...artistInfoList];
 
     for (let i = 0; i < getData.length; i++) {
-      for (let k = 0; k < getData[i].works.length; k++) {
+      for (let k = 0; k < getData[i]?.works?.length; k++) {
         if (getData[i].works[k].alttext) {
           getData[i].altTextCheck = true;
         }
