@@ -1127,4 +1127,232 @@ export const data = [
       },
     ],
   },
+  {
+    name: "목준수",
+    engName: "Junsu Mok",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8C%E1%85%AE%E1%86%AB%E1%84%89%E1%85%AE/%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8C%E1%85%AE%E1%86%AB%E1%84%89%E1%85%AE0.png",
+  },
+  {
+    name: "박민영",
+    engName: "Minyoung Park",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%87%E1%85%A1%E1%86%A8%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%87%E1%85%A1%E1%86%A8%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%BC0.png",
+  },
+  {
+    name: "박슬",
+    engName: "Seul Park",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%87%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%AF/%E1%84%87%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%AF0.png",
+  },
+  {
+    name: "박영민",
+    engName: "Youngmin Park ",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%87%E1%85%A1%E1%86%A8%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB/%E1%84%87%E1%85%A1%E1%86%A8%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB+0.png",
+  },
+  {
+    name: "박정민",
+    engName: "Jeongmin Park",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%87%E1%85%A1%E1%86%A8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB/%E1%84%87%E1%85%A1%E1%86%A8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB0.png",
+  },
+  {
+    name: "박하린",
+    engName: "HARIN",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%87%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%85%E1%85%B5%E1%86%AB/%E1%84%87%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%85%E1%85%B5%E1%86%AB0.png",
+  },
+  {
+    name: "배민진",
+    engName: "MIN JIN BAE",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%87%E1%85%A2%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB/%E1%84%87%E1%85%A2%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB0.png",
+  },
+  {
+    name: "손민지",
+    engName: "Minji Son",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%89%E1%85%A9%E1%86%AB%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5/%E1%84%89%E1%85%A9%E1%86%AB%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B50.png",
+  },
+  {
+    name: "신민경",
+    engName: "Minkyoung Shin ",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%89%E1%85%B5%E1%86%AB%E1%84%86%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC/%E1%84%89%E1%85%B5%E1%86%AB%E1%84%86%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC0.png",
+  },
+  {
+    name: "오승은",
+    engName: "oseungeun",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%A9%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8B%E1%85%A9%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AB0.png",
+  },
+  {
+    name: "오어진",
+    engName: "Eojin Oh",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%A9%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%B5%E1%86%AB/%E1%84%8B%E1%85%A9%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%B5%E1%86%AB+0.png",
+  },
+  {
+    name: "왕호연",
+    engName: "Hoyeon Wang",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB0.png",
+  },
+  {
+    name: "유지원",
+    engName: "YooJiwon",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AF%E1%86%AB/%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AF%E1%86%AB0.png",
+  },
+  {
+    name: "윤시오(윤민지)",
+    engName: "Seio Yoon",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%89%E1%85%B5%E1%84%8B%E1%85%A9(%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5)/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%89%E1%85%B5%E1%84%8B%E1%85%A90.png",
+  },
+  {
+    name: "윤지아",
+    engName: "Jia Yoon",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A1/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A10.png",
+  },
+  {
+    name: "이도현",
+    engName: "Dohyeon Lee",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB0.png",
+  },
+  {
+    name: "이슬이",
+    engName: "Seuli I",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B5/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B50.png",
+  },
+  {
+    name: "이승연",
+    engName: "Seungyoun Lee",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB0.png",
+  },
+  {
+    name: "이승하",
+    engName: "Sngha Lee",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%92%E1%85%A1/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%92%E1%85%A10.png",
+  },
+  {
+    name: "진진(이예진)",
+    engName: "zinzin ",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB(%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB)/%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB0.png",
+  },
+  {
+    name: "이초영",
+    engName: "Choyoung Lee",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC0.png",
+  },
+  {
+    name: "이들(이화정)",
+    engName: "Edle",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%B3%E1%86%AF(%E1%84%8B%E1%85%B5%E1%84%92%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%BC)/%E1%84%8B%E1%85%B5%E1%84%92%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%BC0.png",
+  },
+  {
+    name: "임민영",
+    engName: "Minyoung Lim",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%86%B7%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8B%E1%85%B5%E1%86%B7%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%BC0.png",
+  },
+  {
+    name: "정민지",
+    engName: "Min-ji Jeong ",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B50.png",
+  },
+  {
+    name: "정소윤",
+    engName: "Soyoon Jung ",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%89%E1%85%A9%E1%84%8B%E1%85%B2%E1%86%AB/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%89%E1%85%A9%E1%84%8B%E1%85%B2%E1%86%AB0.png",
+  },
+  {
+    name: "정태완",
+    engName: "Taewan Jeong ",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%90%E1%85%A2%E1%84%8B%E1%85%AA%E1%86%AB/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%90%E1%85%A2%E1%84%8B%E1%85%AA%E1%86%AB0.png",
+  },
+  {
+    name: "조도현",
+    engName: "Dohyun Cho ",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A9%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB/%E1%84%8C%E1%85%A9%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB0.png",
+  },
+  {
+    name: "조윤아",
+    engName: "Yoona Cho",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A9%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8B%E1%85%A1/%E1%84%8C%E1%85%A9%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8B%E1%85%A10.png",
+  },
+  {
+    name: "조은형",
+    engName: "Eunhyung Cho",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A9%E1%84%8B%E1%85%B3%E1%86%AB%E1%84%92%E1%85%A7%E1%86%BC/%E1%84%8C%E1%85%A9%E1%84%8B%E1%85%B3%E1%86%AB%E1%84%92%E1%85%A7%E1%86%BC0.png",
+  },
+  {
+    name: "혜영조(조혜영)",
+    engName: "Hyeyeongjo",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A9%E1%84%92%E1%85%A8%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8C%E1%85%A9%E1%84%92%E1%85%A8%E1%84%8B%E1%85%A7%E1%86%BC0.png",
+  },
+  {
+    name: "주다은",
+    engName: "Daeun Joo",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB0.png",
+  },
+  {
+    name: "최상민",
+    engName: "Sangmin Choe",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%89%E1%85%A1%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB/%E1%84%8E%E1%85%AC%E1%84%89%E1%85%A1%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB0.png",
+  },
+  {
+    name: "최서윤",
+    engName: "Seoyun Choe ",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%89%E1%85%A5%E1%84%8B%E1%85%B2%E1%86%AB/%E1%84%8E%E1%85%AC%E1%84%89%E1%85%A5%E1%84%8B%E1%85%B2%E1%86%AB0.png",
+  },
+  {
+    name: "최유진",
+    engName: "Yujin Choi ",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB0.png",
+  },
+  {
+    name: "최윤식",
+    engName: "YounSik Choi",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%89%E1%85%B5%E1%86%A8/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%89%E1%85%B5%E1%86%A80.png",
+  },
+  {
+    name: "최희수",
+    engName: "Heesu Choi",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%92%E1%85%B4%E1%84%89%E1%85%AE/%E1%84%8E%E1%85%AC%E1%84%92%E1%85%B4%E1%84%89%E1%85%AE0.png",
+  },
+  {
+    name: "하주연",
+    engName: "JOOYEON HA",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%92%E1%85%A1%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%92%E1%85%A1%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%AB0.png",
+  },
+  {
+    name: "허겸",
+    engName: "Kyeom Hur",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%92%E1%85%A5%E1%84%80%E1%85%A7%E1%86%B7/%E1%84%92%E1%85%A5%E1%84%80%E1%85%A7%E1%86%B70.png",
+  },
 ];

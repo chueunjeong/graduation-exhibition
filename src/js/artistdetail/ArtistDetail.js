@@ -90,18 +90,22 @@ const ArtistDetail = () => {
               ) : (
                 ""
               )}
+              {work.youtube.map((link, index) => (
+                <div className="col-10">{link}</div>
+              ))}
             </div>
           ))}
-
-          <div className="row">
-            <div className="w-100"></div>
-            <div className="col-3 special-character font1">St m</div>
-            <div className="col-3 special-character font1">, ※ ... ?</div>
-            <div className="w-100"></div>
-            <div className="col-11 artwork-contents">
-              <p>{artistInfo.titleText}</p>
+          {artistInfo.titleText !== "" && (
+            <div className="row">
+              <div className="w-100"></div>
+              <div className="col-3 special-character font1">St m</div>
+              <div className="col-3 special-character font1">, ※ ... ?</div>
+              <div className="w-100"></div>
+              <div className="col-11 artwork-contents">
+                <p>{artistInfo.titleText}</p>
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </div>
       <CommonFooter />
