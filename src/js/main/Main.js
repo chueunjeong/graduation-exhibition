@@ -19,10 +19,10 @@ const Main = () => {
       </div>
 
       <div className="image-belt">
-        <div style={{ marginTop: -150 }}>
+        <div style={{ marginTop: -150 }} className="belt-mobile-1">
           <ImageList />
         </div>
-        <div style={{ paddingTop: 300 }}>
+        <div style={{ paddingTop: 300 }} className="belt-mobile-2">
           <ImageList2 />
         </div>
       </div>

@@ -6,6 +6,7 @@
     -moz-box-sizing: border-box !important;
     box-sizing: border-box !important;
   }
+
   .header-logo {
     width: 100% !important;
     height: auto !important;
@@ -36,6 +37,19 @@
 
   .guestbook-subtitle-text {
     font-size: 18px !important;
+  }
+
+  .imglist-image {
+    width: 80px !important;
+  }
+  .image-belt {
+    height: 680px !important;
+  }
+  .belt-mobile-1 {
+    margin-top: -150px !important;
+  }
+  .belt-mobile-2 {
+    padding-top: 250px !important;
   }
 }
 
