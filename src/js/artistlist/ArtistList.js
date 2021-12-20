@@ -37,7 +37,7 @@ const ArtistList = () => {
           for (let k in artist[i]["works"]) {
             if (artist[i]["works"][k]["type"] === "평면") {
               temp.push(artist[i]);
-              break;
+              i++;
             }
           }
         }
@@ -46,7 +46,7 @@ const ArtistList = () => {
           for (let k in artist[i]["works"]) {
             if (artist[i]["works"][k]["type"] === "입체") {
               temp.push(artist[i]);
-              break;
+              i++;
             }
           }
         }
@@ -55,7 +55,7 @@ const ArtistList = () => {
           for (let k in artist[i]["works"]) {
             if (artist[i]["works"][k]["type"] === "영상") {
               temp.push(artist[i]);
-              break;
+              i++;
             }
           }
         }
@@ -64,7 +64,7 @@ const ArtistList = () => {
           for (let k in artist[i]["works"]) {
             if (artist[i]["works"][k]["type"] === "다원") {
               temp.push(artist[i]);
-              break;
+              i++;
             }
           }
         }
@@ -73,7 +73,7 @@ const ArtistList = () => {
           for (let k in artist[i]["works"]) {
             if (artist[i]["works"][k]["alttext"] === true) {
               temp.push(artist[i]);
-              break;
+              i++;
             }
           }
         }
@@ -82,7 +82,7 @@ const ArtistList = () => {
         //   for (let k in artist[i]["works"]) {
         //     if (!artist[i]["works"][k]["alttext"]) {
         //       exist++;
-        //       // break;
+        //       // i++
         //     }
         //   }
         //   if (exist === artist[i]["works"].length) {
@@ -95,7 +95,7 @@ const ArtistList = () => {
           for (let k in artist[i]["works"]) {
             if (artist[i]["works"][k]["soundSubtitle"]) {
               temp.push(artist[i]);
-              break;
+              i++;
             }
           }
         }

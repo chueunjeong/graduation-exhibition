@@ -1,0 +1,35 @@
+@media (max-width: 1263px) {
+  .header-logo {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .main-header {
+    background-color: rgba(255, 255, 255, 0) !important;
+  }
+
+  .hidden-m {
+    display: none !important;
+  }
+  .main-footer {
+    width: 100% !important;
+  }
+  .forewords-title-sub {
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding: 0;
+    top: 0;
+    position: initial !important;
+    margin-left: 0 !important;
+    z-index: 0 !important;
+  }
+
+  .artwork-contents {
+    word-break: break-all !important;
+  }
+}
+
+@media (min-width: 1264px) {
+  .hidden-pc {
+    display: none !important;
+  }
+}

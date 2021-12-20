@@ -18,7 +18,7 @@ const ArtistItems = (props) => {
   };
 
   return (
-    <div onClick={onChangePage} className="col-4 pointer" style={{ padding: "0 4rem 143px 4rem" }}>
+    <div onClick={onChangePage} className="col-lg-4 pointer" style={{ padding: "0 4rem 143px 4rem" }}>
       <div className="artist-img-item">
         <img className="artist-img" alt="artist-img" src={artistInfo.titleImage} />
       </div>

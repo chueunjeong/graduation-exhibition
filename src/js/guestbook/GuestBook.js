@@ -38,7 +38,7 @@ const GuestBook = () => {
     <div className="container">
       <CommonHeader />
       <div className="row guestbook-body">
-        <div className="col-6 title-container">
+        <div className="col-lg-6 title-container mb-5">
           <div className="row justify-content-center leave-name" onClick={onToggleLeft}>
             <div className="col-6">
               <div className="row">
@@ -55,7 +55,7 @@ const GuestBook = () => {
           {leftTitleItems.active && <VisitorsNameItems />}
         </div>
 
-        <div className="col-6 title-container">
+        <div className="col-lg-6 title-container  mb-5">
           <div className="row justify-content-center say-hello" onClick={onToggleRight}>
             <div className="col-6">
               <div className="row">

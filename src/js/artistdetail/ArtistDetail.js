@@ -40,9 +40,9 @@ const ArtistDetail = () => {
       <div className="row ">
         <div className="container">
           <div className="row justify-content-center artistdetail-title">
-            <div className="col-9">
+            <div className="col-lg-9 col-12">
               <div className="row artistdetail-title-container">
-                <div className="col-6 artistdetail-title-wrap artistdetail-title-item">
+                <div className="col-lg-6 artistdetail-title-wrap artistdetail-title-item">
                   <img
                     className="artistdetail-title-img"
                     alt="artistdetail-title-img"
@@ -50,7 +50,7 @@ const ArtistDetail = () => {
                   ></img>{" "}
                 </div>
 
-                <div className="col-6 artistdetail-title-item">
+                <div className="col-lg-6 artistdetail-title-item">
                   <div className="row">
                     <div className="col-12 artistdetail-korean-name text-left">{artistInfo.name}</div>
                     <div className="col-12 artistdetail-englist-name text-left">{artistInfo.engName}</div>

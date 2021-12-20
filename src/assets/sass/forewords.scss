@@ -51,6 +51,14 @@
   padding-right: 6rem;
 }
 
+.paper-top-m {
+  background-image: url(../images/forewords-paper1.jpg);
+  background-position: 50% 50% important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 10px;
+}
+
 .paper-bottom {
   background-image: url(../images/forewords-paper2.jpg);
   background-size: contain;
@@ -61,6 +69,14 @@
   // padding-left: 6rem;
   // padding-right: 6rem;
 }
+.paper-bottom-m {
+  background-image: url(../images/forewords-paper2.jpg);
+  background-position: 50% 50% important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 10px;
+}
+
 .paper-bottom-loc {
   top: -100px;
 }
