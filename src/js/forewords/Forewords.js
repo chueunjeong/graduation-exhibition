@@ -12,11 +12,12 @@ const Forewords = () => {
       <CommonHeader />
       <div className="container">
         <div className="row forewords-body mt-5 forewords-contents">
+          <div className="text-left mt-3 forewords-title-sub font1">Beta Forewords</div>
           <div className="col-2">
             <div className="row title-relative">
               <div className="col-12 text-left forewords-title">서문</div>
               <div className="col-12 text-left forewords-title-eng">Forwords</div>
-              <div className="col-12 text-left mt-3 forewords-title-sub font1">Beta Forewords</div>
+
               <div className="char-float char-b">B</div>
               <div className="char-float char-q">?</div>
               <div className="ellipse-float ef-top1"></div>

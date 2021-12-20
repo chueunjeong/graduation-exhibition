@@ -1,6 +1,7 @@
 .forewords-body {
   font-family: "Noto Sans KR", sans-serif;
   word-break: keep-all;
+  position: relative;
 }
 
 //title
@@ -25,6 +26,7 @@
   position: absolute;
   top: 60px;
   z-index: 1;
+  margin-left: 15px;
   //left: 100px;
 }
 

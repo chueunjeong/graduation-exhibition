@@ -5,3 +5,5 @@ export const dateType = (date) => {
   let today = year + "." + month + "." + day;
   return today;
 };
+
+export const search = (searchOption) => {};

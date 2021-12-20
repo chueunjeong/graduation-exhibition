@@ -19,6 +19,7 @@ const ArtistDetail = () => {
 
   useEffect(() => {
     init();
+    console.log(artistInfo);
   }, []);
 
   const init = () => {};
@@ -69,32 +70,35 @@ const ArtistDetail = () => {
             </div>
           </div>
 
-          {artistInfo.works.map((work, i) => (
-            <div className="row artwork" ref={(el) => (tabRef.current[i] = el)}>
-              {work.images.map((image, index) => (
-                <div className="col-12">
-                  <img className="artwork-img img-fluid" alt="artwork-img" src={image.url}></img>
-                </div>
-              ))}
+          {/* <p>{JSON.stringify(artistInfo.works)}</p> */}
 
-              <div className="col-12 artwork-detail-title-text text-center">{work.title}</div>
-              {work.text !== "" ? (
-                <div className="col-10">
-                  <img
-                    className="artwork-descripton-icon-img"
-                    alt="artwork-descripton-icon-img"
-                    src={AltTextIcon}
-                  ></img>
-                  <p className="artwork-description"> {work.text}</p>
-                </div>
-              ) : (
-                ""
-              )}
-              {work.youtube.map((link, index) => (
-                <div className="col-10">{link}</div>
-              ))}
-            </div>
-          ))}
+          {artistInfo.works &&
+            artistInfo.works.map((work, i) => (
+              <div className="row artwork" ref={(el) => (tabRef.current[i] = el)}>
+                {work.images.map((image, index) => (
+                  <div className="col-12">
+                    <img className="artwork-img img-fluid" alt="artwork-img" src={image.url}></img>
+                  </div>
+                ))}
+
+                <div className="col-12 artwork-detail-title-text text-center">{work.title}</div>
+                {work.text ? (
+                  <div className="col-10">
+                    <img
+                      className="artwork-descripton-icon-img"
+                      alt="artwork-descripton-icon-img"
+                      src={AltTextIcon}
+                    ></img>
+                    <p className="artwork-description"> {work.text}</p>
+                  </div>
+                ) : (
+                  ""
+                )}
+                {work.youtube.map((link, index) => (
+                  <div className="col-10">{link}</div>
+                ))}
+              </div>
+            ))}
           {artistInfo.titleText !== "" && (
             <div className="row">
               <div className="w-100"></div>

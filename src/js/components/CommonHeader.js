@@ -4,6 +4,7 @@ import HeaderIcon1 from "../../assets/images/header-icon1.png";
 import HeaderIcon2 from "../../assets/images/header-icon2.png";
 import HeaderIcon3 from "../../assets/images/header-icon3.png";
 import HeaderIcon3Close from "../../assets/images/header-icon3-close.png";
+import { useLocation } from "react-router-dom";
 
 import Modal from "../../js/components/Modal.js";
 
@@ -12,13 +13,9 @@ import "../../assets/sass/commonHeader.scss";
 const CommonHeader = () => {
   const [showModal, setShowModal] = useState(false);
 
-  const openModal = () => {
-    setShowModal(true);
-  };
-
-  const closeModal = () => {
-    setShowModal(false);
-  };
+  // const cl = () => {
+  //   setShowModal((prev) => !prev);
+  // }
 
   return (
     <div className="row main-header">
@@ -45,12 +42,17 @@ const CommonHeader = () => {
               className="header-icon modal-icon"
               alt="header-icon3"
               src={`${showModal ? HeaderIcon3Close : HeaderIcon3}`}
-              onClick={showModal ? closeModal : openModal}
+              onClick={() =>
+                setShowModal((prev) => {
+                  // console.log("닫힘 혹은 열림");
+                  return !prev;
+                })
+              }
             ></img>
           </div>
         </div>
       </div>
-      {showModal && <Modal showModal={showModal} closeModal={closeModal}></Modal>}
+      {showModal && <Modal showModal={showModal} closeModal={() => setShowModal(false)}></Modal>}
     </div>
   );
 };

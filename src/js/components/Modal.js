@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../../assets/sass/modal.scss";
 
+import { useLocation, useNavigate } from "react-router-dom";
 import ModalBtn from "../../assets/images/modal-btn.png";
 import ModalOption from "./ModalOption";
 
@@ -22,13 +23,18 @@ import ModalOption from "./ModalOption";
 // ]
 
 const Modal = ({ showModal, closeModal }) => {
+  const [count, setCount] = useState(0);
+  const [bodyShow, setBodyShow] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
+  // 모달 질문 항목
   const [searchOption, setSearchOption] = useState({
-    flatWorks: false,
-    threeDWorks: false,
-    videoWorks: false,
-    multifacetedWorks: false,
-    altText: false,
-    soundSubtitles: false,
+    flatWorks: false, //평면 작품
+    threeDWorks: false, //입체 작품
+    videoWorks: false, //영상 작품
+    multifacetedWorks: false, //다원 작품
+    altText: false, //대체 텍스트
+    soundSubtitles: false, //음성자막
   });
 
   const [searchOptionView, setSearchOptionView] = useState({
@@ -47,18 +53,38 @@ const Modal = ({ showModal, closeModal }) => {
   });
 
   useEffect(() => {
-    console.log("searchOption 값이 설정됨");
-    console.log(searchOption);
-    console.log(searchOptionView);
+    // console.log("searchOption 값이 설정됨");
+    // console.log(searchOption);
+    // console.log(searchOptionView);
     return () => {
-      console.log("searchOption 가 바뀌기 전..");
-      console.log(searchOption);
-      console.log(searchOptionView);
+      // console.log("searchOption 가 바뀌기 전..");
+      // console.log(searchOption);
+      // console.log(searchOptionView);
     };
   }, [searchOption, searchOptionView]);
 
+  useEffect(() => {
+    console.log("열림");
+    return () => {
+      console.log("닫힘");
+      setBodyShow(false);
+    };
+  }, [showModal]);
+
+  useEffect(() => {
+    if (count > 10) setBodyShow(true);
+
+    const countdown = setInterval(() => {
+      setCount(count + 1);
+    }, 100);
+    return () => clearInterval(countdown);
+  }, [count]);
+
   const handleSubmit = () => {
     // alert(JSON.stringify(searchOption))
+    // console.log(searchOption);
+    closeModal();
+    navigate("/artistlist", { state: { filter: searchOption } });
   };
 
   return (
@@ -67,7 +93,7 @@ const Modal = ({ showModal, closeModal }) => {
       <div className="modal-contents">
         <div className="paper-left"></div>
         <div className="paper-right"></div>
-        <div className="modal-body">
+        <div className="modal-body" style={{ display: bodyShow ? "block" : "none" }}>
           <div className="row body-title">
             <div className="col-8 text-left">질문</div>
             <div className="col-2 answer">네</div>
@@ -139,14 +165,14 @@ const Modal = ({ showModal, closeModal }) => {
           />
           <div className="row modal-btn-loc">
             <div className="modal-btn-wrap">
-              <a href="/artistlist">
-                <div onClick={handleSubmit} className="btn-text text-sz20">
-                  보러가기
-                </div>
-                <div className="btn-img">
-                  <img className="modal-btn-img" alt="modal-btn-img" src={ModalBtn}></img>
-                </div>
-              </a>
+              {/* <a href="/artistlist"> */}
+              <div onClick={handleSubmit} className="btn-text text-sz20">
+                보러가기
+              </div>
+              <div className="btn-img">
+                <img className="modal-btn-img" alt="modal-btn-img" src={ModalBtn}></img>
+              </div>
+              {/* </a> */}
             </div>
           </div>
         </div>

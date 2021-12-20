@@ -19,14 +19,14 @@ const ImageList = () => {
   };
   //본문
   return (
-    <div className="container imglist-container">
+    <div className="">
       <div className="row imglist-row">
         {artistInfo.map((artist, index) => (
           <div className="row text-center imglist-item2">
             <div className="col-12">
               <img className="imglist-image" src={artist.titleImage} key={index} alt={artist.name} />
             </div>
-            <div className="col-12">
+            <div className="col-12  w-100 text-center" style={{ paddingTop: 30 }}>
               <img className="imglist-ellipse" src={Ellipse} alt="ellipse" />
             </div>
           </div>

@@ -1,5 +1,5 @@
 div {
-  border: 1px solid green;
+  // border: 1px solid green;
 }
 
 body {
@@ -41,6 +41,12 @@ textarea:focus {
 
 .image-belt {
   padding: 0;
+  // height: 73vh;
+  height: 730px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .font1 {
