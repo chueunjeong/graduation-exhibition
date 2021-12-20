@@ -969,6 +969,162 @@ export const data = [
         soundSubtitle: false,
         youtube: [],
       },
+      {
+        title: "<항아리 여인> 2021, 종이에 에칭",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%85%E1%85%B2%E1%84%92%E1%85%AD%E1%84%8C%E1%85%A5%E1%86%BC/%E1%84%85%E1%85%B2%E1%84%92%E1%85%AD%E1%84%8C%E1%85%A5%E1%86%BC9.PNG",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<불사계약> 2021, 종이에 에칭",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%85%E1%85%B2%E1%84%92%E1%85%AD%E1%84%8C%E1%85%A5%E1%86%BC/%E1%84%85%E1%85%B2%E1%84%92%E1%85%AD%E1%84%8C%E1%85%A5%E1%86%BC10.PNG",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
+  },
+  {
+    name: "목준수",
+    engName: "Junsu Mok",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8C%E1%85%AE%E1%86%AB%E1%84%89%E1%85%AE/%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8C%E1%85%AE%E1%86%AB%E1%84%89%E1%85%AE0.png",
+    titleText: "",
+    works: [
+      {
+        title: "<Phase(a sculpture on the tree)> 2021, 15x27x8cm",
+        type: "입체",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8C%E1%85%AE%E1%86%AB%E1%84%89%E1%85%AE/%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8C%E1%85%AE%E1%86%AB%E1%84%89%E1%85%AE1.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<Shame> 2021, 143x35x35cm",
+        type: "입체",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8C%E1%85%AE%E1%86%AB%E1%84%89%E1%85%AE/%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8C%E1%85%AE%E1%86%AB%E1%84%89%E1%85%AE2_full.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
+  },
+
+  //   title text 아직 안넣음.
+  {
+    name: "박민영",
+    engName: "Minyoung Park",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%87%E1%85%A1%E1%86%A8%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%87%E1%85%A1%E1%86%A8%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%BC0.png",
+    titleText: "",
+    works: [
+      {
+        title: `<확대 - 핵 - 판타지아> 2021, 2채널비디오, 0'26'40"`,
+        type: "영상",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%87%E1%85%A1%E1%86%A8%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%87%E1%85%A1%E1%86%A8%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%BC1.png",
+          },
+        ],
+        text: "두 개의 영상이 소리를 주고받게 구성된 영상 작업이다. 스크린은 서로 6미터가량 떨어져 있으며, 두 스크린 모두 바닥으로부터 3ｍ 높이에 매달려 있고 관객을 향해 쏟아질 것처럼 45도 각도로 기울어져 있다. 관객이 바라보는 기준으로 좌측에는 앞으로 함께 생활을 꾸릴 것으로 기대하는 집단이 등장하고, 이 집단은 젊은 남성 6명으로 구성되어 있다. 우측에는 지금껏 함께 생활해온 집단이 등장하고, 이 집단은 50대의 남성 한 명, 여성 한 명, 좌측에서 등장한 30대 초반 남성 한 명으로 구성되어 있다. 두 영상은 서로 음악이나 대화를 주고받는다. 영상 화면은 손으로 얼굴 앞을 막은 것처럼 답답하고, 그 앞으로 선명하게 사람들이 등장했다 사라지기를 반복한다.",
+        alttext: true,
+        soundSubtitle: true,
+        youtube: ["https://youtu.be/DkiDc0tIhq0"],
+      },
+      {
+        title: "<만날 뻔해서 반갑습니다> 2021, 싱글채널비디오, 조각, 향료, 가변크기 ",
+        type: "다원",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%87%E1%85%A1%E1%86%A8%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%87%E1%85%A1%E1%86%A8%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%BC2.png",
+          },
+        ],
+        text: "네 개의 조각 표면에 하나의 영상이 나뉘어 영사된다. 전시 공간에는 향냄새가 가득 차 있다. 1. 조각: 물이 묻은 것처럼 반짝거리는 하얀색 조각이 네 개 있다. 네 개의 조각은 높이가 각각 120센티 160센티 180센티 230센티이다. 비교적 낮은 높이의 두 조각은 비정형적인 곡선의 모양이며, 관객이 있는 위치를 기준으로 앞쪽에 위치한다. 비교적 높은 높이의 두 조각은 모두 가로 폭이 80센티로 좁고 육면체의 각이 진 모양이며, 관객이 있는 위치 기준으로 뒤쪽에 위치한다. 그중 180센티 높이의 조각은 150센티 정도 높이 부분에 1ｍ의 긴 육면체가 피노키오 코처럼 붙어 있어서, 앞에 있던 낮은 두 조각보다 관객 방향으로 더 튀어나와 있다. 2. 영상: 빔프로젝터를 통해 하나의 영상이 네 개의 조각 표면에 영사된다. 영상은 조각을 스크린처럼 사용한다. 영상의 배경색은 36.5 도는 넘지만 뜨겁지는 않을 것만 같은 온기가 도는 빨간색이다. 빨간색 배경 위에 4인 가족이 차례대로 한 명씩 따로 등장하고 짧은 문장을 말하고 사라진다. 네 개의 조각에 인터뷰 대상이 나뉘어 영사된다. 230센티의 가장 높은 조각에는 자막만 영사되고, 나머지 세 조각에는 인터뷰 대상이 오른쪽 볼 밑, 턱 밑, 콧구멍 위로 나뉘어서 영사된다. 비교적 낮은 높이의 두 조각은 곡선 형태라서 인터뷰 대상의 모습을 둥글고 휘어지게 한다. 180센티 조각에 튀어나온 1ｍ의 긴 육면체 표면에는 인터뷰 대상의 눈이 영사된다. 가끔 눈 위에 ‘만날 뻔해서 반갑습니다’, ‘돌봄이 필요한 노인 of joy’, ‘감옥에서 지내는 친구 of joy’ 등 자막이 겹쳐 보인다. 반짝거리는 하얀색 조각 위에 빨간색의 영상이 영사되면 조각은 완전히 빨간색으로 보인다. 영상의 주제가 바뀔 때마다 영상은 온기가 느껴지는 빨간색에서 반짝거리는 하얀색으로 잠시 바뀌었다 돌아온다. 3. 향: 영상의 배경음 대신에 분위기를 만들어줄 향료가 전시 공간 전체에 뿌려져 있다. 솜사탕이 녹을 때처럼 축축한 달콤한 냄새가 나다가 곧 불꽃놀이를 하고 난 후처럼 약간의 화약 냄새가 살짝 섞여 난다.",
+        alttext: true,
+        soundSubtitle: true,
+        youtube: ["https://youtu.be/6xyB2j4MehE"],
+      },
+      {
+        title: "<해태로프 (haetae - rope)> 2020, 가변설치 ",
+        type: "입체",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%87%E1%85%A1%E1%86%A8%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%87%E1%85%A1%E1%86%A8%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%BC3.png",
+          },
+        ],
+        text: "해태의 머리와 밧줄이 결합한 형태이다. 해태는 시비선악을 판단하는 상상의 동물로 사자와 비슷하게 생겼지만, 귀가 잘 안 보이고 송곳니가 덧니처럼 크게 도드라져 보인다. 해태로프의 해태 얼굴은 유독 우스꽝스럽게 생겼다. 눈을 부릅뜨고 콧구멍이 크게 보이며 혀를 길게 내밀어서 아래턱을 전부 가린다. 아래턱 방향으로 밧줄이 붙어 있다. 밧줄은 머리 크기의 약 3배 정도의 길이이다. 밧줄은 튼튼해 보이지 않고 썩은 동아줄처럼 굵기도 모양도 일정하지 않다. 해태로프는 머리와 밧줄을 나누지 않고 전체가 얼룩덜룩한 회색이다. 쿰쿰한 냄새가 날 것 같은 색상이다. 크기는 매번 바뀌지만 30센티를 넘지 않는다.",
+        alttext: true,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
+  },
+  //   pdf 필요
+  {
+    name: "박슬",
+    engName: "Seul Park",
+    titleImage:
+      "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%87%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%AF/%E1%84%87%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%AF0.png",
+    titleText: "",
+    works: [
+      {
+        title: "<Phase(a sculpture on the tree)> 2021, 15x27x8cm",
+        type: "입체",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8C%E1%85%AE%E1%86%AB%E1%84%89%E1%85%AE/%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8C%E1%85%AE%E1%86%AB%E1%84%89%E1%85%AE1.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<Shame> 2021, 143x35x35cm",
+        type: "입체",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8C%E1%85%AE%E1%86%AB%E1%84%89%E1%85%AE/%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8C%E1%85%AE%E1%86%AB%E1%84%89%E1%85%AE2_full.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
     ],
   },
 ];
