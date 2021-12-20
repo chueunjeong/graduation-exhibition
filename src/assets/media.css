@@ -1,6 +1,6 @@
 @media (max-width: 1263px) {
   body {
-    overflow: hidden !important;
+    overflow-x: hidden !important;
     width: 100% !important;
     -webkit-box-sizing: border-box !important;
     -moz-box-sizing: border-box !important;
