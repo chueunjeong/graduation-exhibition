@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import CommonFooter from "../components/CommonFooter";
 import CommonHeader from "../components/CommonHeader";
-import ArtistImg1 from "../../assets/images/artist-img1.png";
 import ArtistItems from "./ArtistItems";
 import "../../assets/sass/artistItems.scss";
 import { data } from "../../common/store";
@@ -11,18 +10,17 @@ const ArtistList = () => {
   // const cols = 3;
   // const rows = Math.ceil(artist_count / cols);
   // const remainder = artist_count % cols;
-  const [artistInfoList, setArtistInfoList] = useState([]);
+  const [artistInfoList, setArtistInfoList] = useState(data);
 
   useEffect(() => {
     init();
-    //console.log("확인!!!!" + artistInfoList);
   }, []);
 
   const init = () => {
-    const getData = data;
+    const getData = [...artistInfoList];
 
     for (let i = 0; i < getData.length; i++) {
-      for (let k = 0; k < getData[i].works.length; k++) {
+      for (let k = 0; k < getData[i]?.works?.length; k++) {
         if (getData[i].works[k].alttext) {
           getData[i].altTextCheck = true;
         }

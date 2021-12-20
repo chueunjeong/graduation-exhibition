@@ -24,6 +24,7 @@ export const data = [
             url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%92%E1%85%A7%E1%86%AB/%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%92%E1%85%A7%E1%86%AB1-3.png",
           },
         ],
+        text: "",
         alttext: false,
         soundSubtitle: false,
         youtube: [
@@ -1232,30 +1233,35 @@ export const data = [
     engName: "Seuli I",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B5/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B50.png",
+    titleText: "",
   },
   {
     name: "이승연",
     engName: "Seungyoun Lee",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB0.png",
+    titleText: "",
   },
   {
     name: "이승하",
     engName: "Sngha Lee",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%92%E1%85%A1/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%92%E1%85%A10.png",
+    titleText: "",
   },
   {
     name: "진진(이예진)",
     engName: "zinzin ",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB(%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB)/%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB0.png",
+    titleText: "",
   },
   {
     name: "이초영",
     engName: "Choyoung Lee",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC0.png",
+    titleText: "",
   },
   {
     name: "이들(이화정)",
@@ -1268,60 +1274,277 @@ export const data = [
     engName: "Minyoung Lim",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%86%B7%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8B%E1%85%B5%E1%86%B7%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%BC0.png",
+    titleText: "",
   },
   {
     name: "정민지",
     engName: "Min-ji Jeong ",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B50.png",
+    titleText: "",
   },
   {
     name: "정소윤",
     engName: "Soyoon Jung ",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%89%E1%85%A9%E1%84%8B%E1%85%B2%E1%86%AB/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%89%E1%85%A9%E1%84%8B%E1%85%B2%E1%86%AB0.png",
+    titleText: "",
   },
   {
     name: "정태완",
     engName: "Taewan Jeong ",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%90%E1%85%A2%E1%84%8B%E1%85%AA%E1%86%AB/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%90%E1%85%A2%E1%84%8B%E1%85%AA%E1%86%AB0.png",
+    titleText: "",
   },
   {
     name: "조도현",
     engName: "Dohyun Cho ",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A9%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB/%E1%84%8C%E1%85%A9%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB0.png",
+    titleText:
+      "‘혼자서도 잘 살 수 있는 사람이 되는 것 에서 출발한 관심사 중 내 집 마련 이 키워드 였 다 작은 인간이 돋보이는 내 집 마련 ’ 시리즈는 내가 생각하는 내 집 마련 이라는 목표와 내 집 이 나에게 어떤 이미지 인지 시각적으로 표현한 작품들이다\n회화 작품은 작업으로부터 도망치기 바빴던 내게 도망치지 않고 완성해 본 기억을 선물 하기 위한 그림이다 미완으로 자주 끝났던 나의 그림을 마지막으로 완성해 항상 도망치지 만은 않았다는 의미로 대학생의 4년을 마무리 하는 작업이다 앞으로도 지금처럼 멈추지 말고 잘 버텨봅시다",
   },
   {
     name: "조윤아",
     engName: "Yoona Cho",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A9%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8B%E1%85%A1/%E1%84%8C%E1%85%A9%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%8B%E1%85%A10.png",
+    titleText:
+      "Statement\n2017151035 조윤아\n우리는 거의 항상 자연과 함께 존재한다. 길을 지나다니다 보면 언제나 그 자리에 서있는 나무부터 언제 피었을 지 모르는 꽃, 그리고 발길 닿는 곳이면 있는 들풀을 볼 수 있다. 이러한 것들은 꽤나 ‘자연스럽다’. 나의 경우 자연스럽다고 인식하는 것을 넘어서 그것들은 원래 이렇게 생기고 이런 자리에 존재한다고 생각했기 때문에 이들이 자연스러운지, 자연스럽지 못한지 판단조차 하지 않고 주위에 늘 있는 것쯤으로 여겼을 정도였다. 그러니까 자연스러움이라는 일종의 가치판단이 필요 없을 정도로 나에게 그들의 생김새와 존재는 자연스러웠던 것이다. 그러다 어느 순간 이들의 모습이 괴이하게 다가왔다. 사람이 지나다니거나 보기에 크게 불편하지 않을 법한 적당한 크기에, 너무 인위적으로 보이지 않으려고 하는 듯 적당히 가지치기를 해서 이들의 형태가 지나치게 정형화되지 않도록, 자연’처럼’ 보이게 만드는 과정들은 자연스러움과는 거리가 있어 보였다. 사실 자연의 원래 모습은 카오스에 가까울 것이나 우리는 이러한 자연 본래의 모습을 정확히는 알 수 없는데, 이는 그 모습이 우리가 접근 불가능한 방식으로 존재하기 때문이다. 애초에 접근하기 힘들 뿐 아니라 내가 자연의 본 모습을 보기 위해 그곳으로 가면 거긴 이미 사람의 발길이 닿은, 본래의 자연이 아닌 곳이 된다.\n이러한 딜레마 속에서 사람들은 통제 가능한 범위 안에 자연을 가져다 놓고 그 범위를 벗어나지 않는 선에서 본래 자연의 모습을 모방하려 노력한다고 생각했다. 이러한 노력들은 직선적이거나 대칭적인 요소의 삭제와, 경계의 모호화(그러나 인간이 향유할 수는 있을 정도의) 등으로 나타난다. 그렇게 적당히 엉키고, 적당히 우거졌으며, 적당히 비대칭인, 정말 ‘자연처럼 보이는’ 자연을 조성하는 것이다. 나는 이렇게 조성된 자연의 형태에 대해, 다시 말해 이전까지 내가 자연스럽다고 인식해왔던 자연의 형태에 대해 의문을 가지고 이들의 형태를 회화라는 매체를 통해 탐구하기 시작했다. 너무 자연스러워 보여서 미처 인지하지 못하고 지나쳤던 여러 자연 요소들의 이미지를 수집하고 이들의 형태를 스케치한다. 스케치를 하며 어디서 어떤 모양으로 잎이 삐져나오고, 가지는 어느 정도 길이와 기울기로 뻗쳐 있는 지와 같이 내가 이들을 자연스럽다고 여기게 만들어주는 형태들에 대해 시각적으로 보다 직관적이게 접근한다. 동시에 색감은 전체적으로는 튀지 않는 적당한 채도를 사용하나 부분적으로 형광기가 가미된 색을 쓰며 주변의 자연물을 보며 느꼈던 묘한 이질감을 미약하게나마 드러내고자 하였다. 또 이들의 형태 뿐 아니라 존재하고 있는 위치 역시 이질감을 느끼게 만드는 요소 중 하나였기 때문에 이에 대한 것도 작업 중간 중간에 같이 표현하고자 하였는데, 화분에 담겨져 있는 식물 모종을 그린다거나 각기 다른 장소에서 촬영한 요소들을 한 화면에 합쳐서 마치 하나의 정원처럼 그려보기도 하였다.(<인공정원>)\n이러한 자연물 형태의 탐구 과정을 통해 이전에 거부감 없이 느꼈던 자연스러움이라는 개념과, 어쩌면 비-자연스럽다고 여겨질 수 있는 형태들의 관계를 고민한다.",
   },
   {
     name: "조은형",
     engName: "Eunhyung Cho",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A9%E1%84%8B%E1%85%B3%E1%86%AB%E1%84%92%E1%85%A7%E1%86%BC/%E1%84%8C%E1%85%A9%E1%84%8B%E1%85%B3%E1%86%AB%E1%84%92%E1%85%A7%E1%86%BC0.png",
+    titleText:
+      "미래의 허구와 과거의 허구 구분은 현재에서 정지한다. 허구를 빌려오며 무언가를 믿는다는 말에는 함정이 있다. 함정에 가까운 곳에 믿음이 있어, 그곳으로 향하는 이미지를 만들고 있다. 그림을 그리면서 형상을 발견해 나간다. 그리고 보는 시간 사이에서 만들어진 형상은 멈추고 살아난다. 그림 속 옷걸이, 블루베리, 책, 농구공 등의 일상의 사물들은 이미 일어나고 있거나 일어날 것에 대한 불안을 같이 한다. 순간을 만들면서 미루기도 하고 당기려 하는 것은 그리기를 통해 발생하는 즐거움이다. 도구를 줄이기 위해 손으로 시작하는 저부조의 형상을 만들고 그 위에 그림을 그리면서 조금 더 질감을 찾고 있다.",
   },
   {
     name: "혜영조(조혜영)",
     engName: "Hyeyeongjo",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A9%E1%84%92%E1%85%A8%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8C%E1%85%A9%E1%84%92%E1%85%A8%E1%84%8B%E1%85%A7%E1%86%BC0.png",
+    titleText:
+      "하위 문화나 그라피티 등에 관심을 가지고 있습니다 . 저는 주로 내적인 갈등을 주제로 하여 작업합니다 . 작업을 할 때에는 고민이나 생각을 구상하지 않고 즉흥적으로 표현해 냅니다 . 계획하지 않은 작업을 하는 것은 우연성을 포함하고 예측 불가능한 형태들을 작업 내에 끌고 들어옵니다.  우선 붓을 대기 전에 우선 캔버스를 다루기 쉬운 형태로 만듭니다 . 질감을 주고 형태가 다른 캔버스를 붙여서 캔버스를 가상의 공간이 아닌 조각적이고 물리적인 물체로 만들어 놓습니다",
+    works: [
+      {
+        title: "<충격적인 진실> 2021, Oil on Canvas, 145.5cm x 112.1cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A9%E1%84%92%E1%85%A8%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8C%E1%85%A9%E1%84%92%E1%85%A8%E1%84%8B%E1%85%A7%E1%86%BC1.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+
+      {
+        title: "<충격적인 진실> 2021, Oil on Canvas, 145.5cm x 112.1cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A9%E1%84%92%E1%85%A8%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8C%E1%85%A9%E1%84%92%E1%85%A8%E1%84%8B%E1%85%A7%E1%86%BC1.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+
+      {
+        title: "",
+        type: "",
+        images: [
+          {
+            type: "image",
+            url: "",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "",
+        type: "",
+        images: [
+          {
+            type: "image",
+            url: "",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "",
+        type: "",
+        images: [
+          {
+            type: "image",
+            url: "",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "",
+        type: "",
+        images: [
+          {
+            type: "image",
+            url: "",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "",
+        type: "",
+        images: [
+          {
+            type: "image",
+            url: "",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
   },
   {
     name: "주다은",
     engName: "Daeun Joo",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB0.png",
+    titleText:
+      "주다은은 이미 사라졌거나 아직 도래하지 않아 알 수 없는 것을 감각의 차원으로 불러오는데 집중한다. 주로 시간을 기반으로 하는 매체를 이용하며, 소리가 동반하는 시공간을 경험적 차원으로 확장한다. 이번 전시에서는 사라진 존재를 소리와 형(形)을 통해 불러들이며, 소리-형과 더불어 영상, 드로잉과 함께 표류하는 존재들의 곁으로 관객을 초대한다. 지나간 것과 다가오는 것이 순환하는 그곳에서 <Silent Oscillation>(2021)은 더 이상 지구에 존재하지 않는 식물이라는 사라진 존재를 소리와 형으로 소환한다. 사라진 존재는 자신의 남겨진 유전데이터로부터 파생된 사운드 알고리즘을 통해 소리로 환원된다. 이때, 소리는 생물학적 과정에 따라 유전정보를 읽고, 해체하고, 나아가 규정되지 않는 미래적 무엇으로 진행하는 시간을 담는다. 이러한 소리의 시간은 정형화되지 않는 형(形)과 만나 소환과 동시에 생성되는 미래적 상태를 순환한다. 한때는 존재했지만 이제는 존재하지 않고, 이제는 존재하지만 더 이상 지나간 무엇이 아닌 새로운 상태의 존재들(소리-형)은 좌표가 없다. <Silent Voyage>(2021)는 이러한 존재들의 마음으로 해질녘의 바다위에서 흘러가는 시간을 기록한 영상이다. 발붙일 땅 없는 존재들의 울림은 오고 가는 바다의 흐름들과 만나며, 표류하는 시간들로 전시공간을 잠시나마 가득 채운다. *드로잉 시리즈(Drawing Series #1~4)는 유전정보의 읽기에 대한 해석을 담은 작가노트를 동반하며, 드로잉, 작가노트, 소리는 오프라인 전시공간에서 소개합니다.",
+    works: [
+      {
+        title: "",
+        type: "다원",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB1-1.png",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB1-2.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: ["https://www.youtube.com/channel/UCqB-X6XsTI_l3Ud_DlgTniQ/featured"],
+      },
+      {
+        title: "<Silent Voyage> 2021, single-channel video, 44min 20sec (loop)",
+        type: "영상",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB2.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: ["https://www.youtube.com/channel/UCqB-X6XsTI_l3Ud_DlgTniQ/featured"],
+      },
+      {
+        title:
+          "<Silent Oscillation> 2021, sound sculpture (3D printing, mechanical device, genetic data-sound algorithm)",
+        type: "입체",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB3-1.png",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB3-2.png",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB3-3.png",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB3-4.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<Drawing Series #1> pencil on tracing paper, aluminum frame, 30x60cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB4.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
   },
   {
     name: "최상민",
     engName: "Sangmin Choe",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%89%E1%85%A1%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB/%E1%84%8E%E1%85%AC%E1%84%89%E1%85%A1%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB0.png",
+    titleText: "",
+    works: [
+      {
+        title: "<16 민들레> 2021, 단채널 비디오",
+        type: "영상",
+        images: [],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: ["https://www.youtube.com/channel/UCqB-X6XsTI_l3Ud_DlgTniQ/featured"],
+      },
+      {
+        title: "<16 민들레> 2021, 종이에 자국, 29.7 x 21 cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%89%E1%85%A1%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB/%E1%84%8E%E1%85%AC%E1%84%89%E1%85%A1%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB2.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
   },
   {
     name: "최서윤",
