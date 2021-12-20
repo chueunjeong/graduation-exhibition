@@ -27,14 +27,17 @@ const ArtistList = () => {
     const artist = [...data];
 
     const filter = location.state.filter;
+    // console.log(location.state.filter);
     const temp = []; // 배열 중 중복 감지
     for (let i = 0; i < artist.length; ++i) {
       try {
+        // let exist = false;
+
         if (filter.flatWorks) {
           for (let k in artist[i]["works"]) {
             if (artist[i]["works"][k]["type"] === "평면") {
               temp.push(artist[i]);
-              i++;
+              break;
             }
           }
         }
@@ -43,7 +46,7 @@ const ArtistList = () => {
           for (let k in artist[i]["works"]) {
             if (artist[i]["works"][k]["type"] === "입체") {
               temp.push(artist[i]);
-              i++;
+              break;
             }
           }
         }
@@ -52,7 +55,7 @@ const ArtistList = () => {
           for (let k in artist[i]["works"]) {
             if (artist[i]["works"][k]["type"] === "영상") {
               temp.push(artist[i]);
-              i++;
+              break;
             }
           }
         }
@@ -61,25 +64,38 @@ const ArtistList = () => {
           for (let k in artist[i]["works"]) {
             if (artist[i]["works"][k]["type"] === "다원") {
               temp.push(artist[i]);
-              i++;
+              break;
             }
           }
         }
 
         if (filter.altText) {
           for (let k in artist[i]["works"]) {
-            if (artist[i]["works"][k]["alttext"]) {
+            if (artist[i]["works"][k]["alttext"] === true) {
               temp.push(artist[i]);
-              i++;
+              break;
             }
           }
         }
+        // if (!filter.altText) {
+        //   let exist = 0;
+        //   for (let k in artist[i]["works"]) {
+        //     if (!artist[i]["works"][k]["alttext"]) {
+        //       exist++;
+        //       // break;
+        //     }
+        //   }
+        //   if (exist === artist[i]["works"].length) {
+        //     temp.push(artist[i]);
+        //     i++;
+        //   }
+        // }
 
         if (filter.soundSubtitles) {
           for (let k in artist[i]["works"]) {
             if (artist[i]["works"][k]["soundSubtitle"]) {
               temp.push(artist[i]);
-              i++;
+              break;
             }
           }
         }

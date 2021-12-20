@@ -15,7 +15,7 @@ const ImageList = () => {
   const init = () => {
     const getData = data;
 
-    setArtistInfo(getData);
+    setArtistInfo(getData.reverse());
   };
 
   return (

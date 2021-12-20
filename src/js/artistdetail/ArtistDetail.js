@@ -111,8 +111,20 @@ const ArtistDetail = () => {
             artistInfo.works.map((work, i) => (
               <div className="row artwork" ref={(el) => (tabRef.current[i] = el)}>
                 {work.images.map((image, index) => (
-                  <div className="col-12">
-                    <img className="artwork-img img-fluid" alt="artwork-img" src={image.url}></img>
+                  <div className="col-12 text-center">
+                    {image.type === "video" ? (
+                      <iframe
+                        width="100%"
+                        height="550"
+                        src={`https://www.youtube.com/embed/${image.url.split("/")[image.url.split("/").length - 1]}`}
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        title="Embedded youtube"
+                      />
+                    ) : (
+                      <img className="artwork-img img-fluid" alt="artwork-img" src={image.url} />
+                    )}
                   </div>
                 ))}
 
@@ -124,7 +136,7 @@ const ArtistDetail = () => {
                       alt="artwork-descripton-icon-img"
                       src={AltTextIcon}
                     ></img>
-                    <p className="artwork-description"> {work.text}</p>
+                    <p className="artwork-description">{work.text}</p>
                   </div>
                 ) : (
                   ""
@@ -137,8 +149,8 @@ const ArtistDetail = () => {
           {artistInfo.titleText !== "" && (
             <div className="row">
               <div className="w-100"></div>
-              <div className="col-3 special-character font1">St m</div>
-              <div className="col-3 special-character font1">, ※ ... ?</div>
+              <div className="col-12 special-character font1 text-center">St m , ※ ... ?</div>
+              {/* <div className="col-3 special-character font1">, ※ ... ?</div> */}
               <div className="w-100"></div>
               <div className="col-11 artwork-contents">
                 <p>{artistInfo.titleText}</p>
