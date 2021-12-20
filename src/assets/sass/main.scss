@@ -5,6 +5,8 @@ div {
 body {
   margin: 0;
   background-color: #f2f2f2;
+  width: 100% !important;
+  overflow-x: hidden !important;
 }
 
 .flex-row {
