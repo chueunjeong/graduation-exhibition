@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Ellipse from "../../assets/images/ellipse.png";
 import AltTextIcon from "../../assets/images/alt-text-icon.png";
@@ -7,25 +7,11 @@ import "../../assets/sass/artistItems.scss";
 
 const ArtistItems = (props) => {
   const navigate = useNavigate();
+  const [data, setData] = useState({});
   const artistInfo = props.artistInfo;
 
   let altTextCheck = false;
   let soundSubtitleCheck = false;
-
-  useEffect(() => {
-    check();
-  }, []);
-
-  // console.log("확인하기!!!" + altTextCheck + "/" + soundSubtitleCheck);
-  const check = () => {
-    for (let i = 0; i < artistInfo.works.length; i++) {
-      if (artistInfo.works[i].alttext) {
-        altTextCheck = true;
-        console.log(artistInfo.works[i].title);
-      }
-      if (artistInfo.works[i].soundSubtitle) soundSubtitleCheck = true;
-    }
-  };
 
   const onChangePage = () => {
     navigate("/artistdetail", { state: { artistInfo: artistInfo } });
@@ -52,7 +38,7 @@ const ArtistItems = (props) => {
               <div className="ellipse-img-wrap">
                 <img className="ellipse-img" alt="ellipse-img" src={Ellipse}></img>
               </div>
-              {altTextCheck && (
+              {artistInfo.altTextCheck && (
                 <div className="ellipse-img-overlay">
                   <img className="alt-text-img" alt="대체 텍스트 가능" src={AltTextIcon}></img>
                 </div>
@@ -64,7 +50,7 @@ const ArtistItems = (props) => {
               <div className="ellipse-img-wrap">
                 <img className="ellipse-img" alt="ellipse-img" src={Ellipse}></img>
               </div>
-              {soundSubtitleCheck && (
+              {artistInfo.soundSubtitleCheck && (
                 <div className="ellipse-img-overlay">
                   <img className="sound-subtitle-img" alt="사운드 자막 가능" src={SoundSubtitle}></img>
                 </div>

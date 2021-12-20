@@ -200,6 +200,17 @@ const ArtistList = () => {
       },
     ];
 
+    for (let i = 0; i < getData.length; i++) {
+      for (let k = 0; k < getData[i].works.length; k++) {
+        if (getData[i].works[k].alttext) {
+          getData[i].altTextCheck = true;
+        }
+        if (getData[i].works[k].soundSubtitle) {
+          getData[i].soundSubtitleCheck = true;
+        }
+      }
+    }
+
     setArtistInfoList(getData);
   };
 
