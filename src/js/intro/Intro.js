@@ -19,15 +19,17 @@ const Intro = () => {
         </div>
       </div>
 
-      <div className="row align-items-center d-flex justify-content-center intro hidden-pc">
-        <div className="intro-ellipse" style={{ marginTop: 5 }}></div>
-        <div className="text-center intro-title-text hidden-hover" style={{ marginLeft: 20 }}>
-          안녕하세요?
+      <a href="/main">
+        <div className="row align-items-center d-flex justify-content-center intro hidden-pc">
+          <div className="intro-ellipse" style={{ marginTop: 5 }}></div>
+          <div className="text-center intro-title-text hidden-hover" style={{ marginLeft: 20 }}>
+            안녕하세요?
+          </div>
+          <div className="text-left intro-title-text show-hover" style={{ marginLeft: 20 }}>
+            An e ... g※
+          </div>
         </div>
-        <div className="text-left intro-title-text show-hover" style={{ marginLeft: 20 }}>
-          An e ... g※
-        </div>
-      </div>
+      </a>
     </div>
   );
 };
