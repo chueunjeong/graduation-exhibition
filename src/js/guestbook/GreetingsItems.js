@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 // import _ from "lodash";
 import "../../assets/sass/greetingsItems.scss";
 import GuestBookGreetingsBtn from "../../assets/images/guestbook-greetings-btn.png";
+import { getData, postNameBoard } from "../../common/actions";
 
 const GreetingsItems = () => {
   // const nextId = useRef(2);
@@ -11,15 +12,26 @@ const GreetingsItems = () => {
     sender: "",
   });
   const [greetings, setGreetings] = useState([
-    {
-      id: 1,
-      recipient: "최윤식",
-      maintext:
-        "이것은 더미 텍스트입니다. 관객이 방명록을 남길 수 있습니다. 위 입력창에 적어 보낸  메세지가 이렇게 표시됩니다. 최근 메세지일수록 위에 배치됩니다. 세 줄까지 생각중입니다. 세 줄을 꽉 채워도 공백 포함 130자 쯤 됩니다. ",
-      sender: "홍길동",
-    },
+    // {
+    //   id: 1,
+    //   recipient: "최윤식",
+    //   maintext:
+    //     "이것은 더미 텍스트입니다. 관객이 방명록을 남길 수 있습니다. 위 입력창에 적어 보낸  메세지가 이렇게 표시됩니다. 최근 메세지일수록 위에 배치됩니다. 세 줄까지 생각중입니다. 세 줄을 꽉 채워도 공백 포함 130자 쯤 됩니다. ",
+    //   sender: "홍길동",
+    // },
   ]);
   const { recipient, maintext, sender } = inputs;
+
+  const init = async () => {
+    const nameData = await getData("sayhelloboard");
+
+    setGreetings(nameData.reverse());
+  };
+
+  useEffect(() => {
+    init();
+    return () => {};
+  }, []);
 
   const onChange = (e) => {
     const { name, value } = e.target;
@@ -29,17 +41,20 @@ const GreetingsItems = () => {
     });
   };
 
-  const onCreate = () => {
+  const onCreate = async () => {
     if (inputs.recipient === "") return alert("받는 사람을 입력해주세요.");
     if (inputs.maintext === "") return alert("내용을 입력해주세요.");
     if (inputs.sender === "") return alert("보내는 사람을 입력해주세요.");
 
     const greeting = {
       id: Date.now(),
-      recipient,
-      maintext,
-      sender,
+      recipient: recipient,
+      maintext: maintext,
+      sender: sender,
+      collection: "sayhelloboard",
     };
+
+    const post = await postNameBoard(greeting);
 
     setGreetings((prev) => [...prev, greeting]);
 
@@ -51,7 +66,7 @@ const GreetingsItems = () => {
       maintext: "",
       sender: "",
     });
-    // nextId.current += 1;
+    init();
   };
 
   return (
@@ -106,10 +121,7 @@ const GreetingsItems = () => {
         {greetings.reverse().map((greeting) => (
           <div className="col-8 greeting-card">
             <div className="row">
-              <div className="col-6 text-left text-size20">
-                {greeting.id}
-                {greeting.recipient}에게
-              </div>
+              <div className="col-6 text-left text-size20">{greeting.recipient}에게</div>
             </div>
             <div className="row justify-content-center greeting-card-maintext">
               <div className="col-12 text-size16">{greeting.maintext}</div>

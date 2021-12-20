@@ -7,6 +7,7 @@ import VisitorsNameList from "./VisitorsNameList";
 import _ from "lodash";
 
 import "../../assets/sass/visitorsNameItems.scss";
+import { getData, postNameBoard } from "../../common/actions";
 
 const VisitorsNameItems = () => {
   const [nameInput, setNameInput] = useState("");
@@ -18,38 +19,23 @@ const VisitorsNameItems = () => {
 
   useEffect(() => {
     console.log("방문자리스트 값이 설정됨");
-    visitors.forEach((visitor) => {
-      console.log(visitor.visitorName + "/" + visitor.visitDate);
-    });
+    // visitors.forEach((visitor) => {
+    //   console.log(visitor.visitorName + "/" + visitor.visitDate);
+    // });
+
     return () => {
       console.log("방문자리스트 가 바뀌기 전..");
-      visitors.forEach((visitor) => {
-        console.log(visitor.visitorName);
-      });
+      // visitors.forEach((visitor) => {
+      //   console.log(visitor.visitorName);
+      // });
     };
   }, [visitors]);
 
-  const init = () => {
-    // get data from server
-    const getData = [
-      {
-        id: "123123",
-        visitorName: "최윤식",
-        visitDate: new Date(),
-      },
-      {
-        id: "12443123",
-        visitorName: "배민진",
-        visitDate: new Date(),
-      },
-      {
-        id: "12312223",
-        visitorName: "최희수",
-        visitDate: new Date(),
-      },
-    ];
+  const init = async () => {
+    const nameData = await getData("nameboard");
+    console.log("nameData===>", nameData);
 
-    setVisitors(getData);
+    setVisitors(nameData);
   };
 
   const onChange = (e) => {
@@ -58,23 +44,24 @@ const VisitorsNameItems = () => {
 
   // const nextId = useRef(4);
 
-  const onCreate = () => {
+  const onCreate = async () => {
     if (nameInput === "") return;
 
     const visitor = {
       id: Date.now(),
       visitorName: nameInput,
-      visitDate: new Date(),
+      visitDate: Date.now(),
+      collection: "nameboard",
     };
 
+    const post = await postNameBoard(visitor);
+    console.log("====>", post);
     setVisitors((prev) => [...prev, visitor]);
-
     // const addedVisitors = visitors.concat(visitor);
     // const reversedVisitors = _.orderBy(addedVisitors, "id", "desc");
     // nextId.current += 1;
-
     setNameInput("");
-    // init();
+    await init();
   };
 
   return (
