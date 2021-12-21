@@ -91,7 +91,7 @@ const Modal = ({ showModal, closeModal }) => {
     // <div className="container">
     <div className="modal-container">
       <div className="modal-contents">
-        <div className="paper-left"></div>
+        <div className={`paper-left ${bodyShow && "paper-left-after"}`}></div>
         <div className="paper-right"></div>
         <div className="modal-body" style={{ display: bodyShow ? "block" : "none" }}>
           <div className="row body-title">

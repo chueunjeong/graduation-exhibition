@@ -26,8 +26,6 @@ const ArtistList = () => {
   const init = () => {
     const artist = [...data];
 
-    // console.log(artist.length);
-
     const filter = location.state.filter;
     // console.log(location.state.filter);
     const temp = []; // 배열 중 중복 감지
@@ -35,50 +33,50 @@ const ArtistList = () => {
       try {
         // let exist = false;
 
-        // if (filter.flatWorks) {
-        //   for (let k in artist[i]["works"]) {
-        //     if (artist[i]["works"][k]["type"] === "평면") {
-        //       temp.push(artist[i]);
-        //       i++;
-        //     }
-        //   }
-        // }
+        if (filter.flatWorks) {
+          for (let k in artist[i]["works"]) {
+            if (artist[i]["works"][k]["type"] === "평면") {
+              temp.push(artist[i]);
+              // i++;
+            }
+          }
+        }
 
-        // if (filter.threeDWorks) {
-        //   for (let k in artist[i]["works"]) {
-        //     if (artist[i]["works"][k]["type"] === "입체") {
-        //       temp.push(artist[i]);
-        //       i++;
-        //     }
-        //   }
-        // }
+        if (filter.threeDWorks) {
+          for (let k in artist[i]["works"]) {
+            if (artist[i]["works"][k]["type"] === "입체") {
+              temp.push(artist[i]);
+              // i++;
+            }
+          }
+        }
 
-        // if (filter.videoWorks) {
-        //   for (let k in artist[i]["works"]) {
-        //     if (artist[i]["works"][k]["type"] === "영상") {
-        //       temp.push(artist[i]);
-        //       i++;
-        //     }
-        //   }
-        // }
+        if (filter.videoWorks) {
+          for (let k in artist[i]["works"]) {
+            if (artist[i]["works"][k]["type"] === "영상") {
+              temp.push(artist[i]);
+              // i++;
+            }
+          }
+        }
 
-        // if (filter.multifacetedWorks) {
-        //   for (let k in artist[i]["works"]) {
-        //     if (artist[i]["works"][k]["type"] === "다원") {
-        //       temp.push(artist[i]);
-        //       i++;
-        //     }
-        //   }
-        // }
+        if (filter.multifacetedWorks) {
+          for (let k in artist[i]["works"]) {
+            if (artist[i]["works"][k]["type"] === "다원") {
+              temp.push(artist[i]);
+              // i++;
+            }
+          }
+        }
 
-        // if (filter.altText) {
-        //   for (let k in artist[i]["works"]) {
-        //     if (artist[i]["works"][k]["alttext"] === true) {
-        //       temp.push(artist[i]);
-        //       i++;
-        //     }
-        //   }
-        // }
+        if (filter.altText) {
+          for (let k in artist[i]["works"]) {
+            if (artist[i]["works"][k]["alttext"] === true) {
+              temp.push(artist[i]);
+              // i++;
+            }
+          }
+        }
         // if (!filter.altText) {
         //   let exist = 0;
         //   for (let k in artist[i]["works"]) {
@@ -97,11 +95,22 @@ const ArtistList = () => {
           for (let k in artist[i]["works"]) {
             if (artist[i]["works"][k]["soundSubtitle"]) {
               temp.push(artist[i]);
-              i++;
+              // i++;
             }
           }
         }
       } catch (error) {}
+      // console.log(artist[i]);
+    }
+
+    const temp2 = [];
+    for (let i = 0; i < temp.length; i++) {
+      let exist = false;
+      for (let k = 0; k < temp2.length; k++) {
+        if (temp[i].name === temp2[k].name) exist = true;
+      }
+
+      if (!exist) temp2.push(temp[i]);
     }
 
     // flatWorks: false, //평면 작품
@@ -111,18 +120,18 @@ const ArtistList = () => {
     // altText: false, //대체 텍스트
     // soundSubtitles: false, //음성자막
 
-    for (let i = 0; i < artist.length; i++) {
-      for (let k = 0; k < artist[i]?.works?.length; k++) {
-        if (artist[i].works[k].alttext) {
-          artist[i].altTextCheck = true;
+    for (let i = 0; i < temp2.length; i++) {
+      for (let k = 0; k < temp2[i]?.works?.length; k++) {
+        if (temp2[i].works[k].alttext) {
+          temp2[i].altTextCheck = true;
         }
-        if (artist[i].works[k].soundSubtitle) {
-          artist[i].soundSubtitleCheck = true;
+        if (temp2[i].works[k].soundSubtitle) {
+          temp2[i].soundSubtitleCheck = true;
         }
       }
     }
 
-    setArtistInfoList(artist);
+    setArtistInfoList(temp2);
   };
 
   return (
@@ -132,7 +141,7 @@ const ArtistList = () => {
       <div className="container" style={{ padding: "100px 0 100px 0" }}>
         <div className="row">
           {artistInfoList.map((item, i) => (
-            <ArtistItems artistInfo={artistInfoList[i]} />
+            <ArtistItems key={i} artistInfo={artistInfoList[i]} />
           ))}
         </div>
       </div>
