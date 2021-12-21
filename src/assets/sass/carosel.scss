@@ -31,13 +31,13 @@
 
 @for $i from 1 through 48 {
   .imglist-item:nth-child(#{$i}) {
-    transform: translate(-50%, -50%) rotate(#{$i * 7.5 - 7.5}deg) translateY(-1500%) rotateX(90deg);
+    transform: translate(-100%, -100%) rotate(#{$i * 7.5 - 7.5}deg) translateY(-1500%) rotateX(90deg);
   }
 }
 
 @for $i from 1 through 48 {
   .imglist-item2:nth-child(#{$i}) {
-    transform: translate(-50%, -50%) rotate(#{$i * 7.5 - 7.5}deg) translateY(1500%) rotateX(90deg);
+    transform: translate(-100%, -100%) rotate(#{$i * 7.5 - 7.5}deg) translateY(1500%) rotateX(90deg);
   }
 }
 
