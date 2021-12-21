@@ -164,7 +164,9 @@ const ArtistDetail = () => {
               {/* <div className="col-3 special-character font1">, ※ ... ?</div> */}
               <div className="w-100"></div>
               <div className="artwork-contents">
-                <p tabindex="0">{artistInfo.titleText}</p>
+                {/* <p tabindex="0">{artistInfo.titleText}</p> */}
+                {/* <p>ㅇㅋㅇㅋ</p> */}
+                <div tabindex="0" dangerouslySetInnerHTML={{ __html: artistInfo.titleText }} />
               </div>
             </div>
           )}
