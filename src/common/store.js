@@ -13,7 +13,7 @@ export const data = [
         images: [
           {
             type: "image",
-            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%80%E1%85%AA%E1%86%A8%E1%84%92%E1%85%AD%E1%84%8C%E1%85%B5%E1%86%AB/%E1%84%80%E1%85%AA%E1%86%A8%E1%84%92%E1%85%AD%E1%84%8C%E1%85%B5%E1%86%AB1-1.JPG",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%92%E1%85%A7%E1%86%AB/%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%92%E1%85%A7%E1%86%AB1-1_full.JPG",
           },
 
           {
@@ -28,11 +28,7 @@ export const data = [
         text: "",
         alttext: false,
         soundSubtitle: false,
-        youtube: [
-          "https://youtu.be/r81BfNYGBu8",
-          "https://youtu.be/Mxnbr7zC5bs",
-          "https://hyojin0039.wixsite.com/my-site-1",
-        ],
+        youtube: ["https://youtu.be/r81BfNYGBu8", "https://youtu.be/hObdrr1U5Hk", "https://youtu.be/WiXXvNlGCbg"],
       },
       {
         title: "<네오-네오 퓨쳐리즘> 2021, 가변설치",
