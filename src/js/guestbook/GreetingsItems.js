@@ -75,13 +75,7 @@ const GreetingsItems = () => {
         <div className="col-8 writing-greeting text-size20">
           <div className="row">
             <div className="col-6">
-              <input
-                className="greeting-name-input"
-                name="recipient"
-                placeholder="받는이"
-                value={recipient}
-                onChange={onChange}
-              />
+              <input className="greeting-name-input" name="recipient" value={recipient} onChange={onChange} />
               에게
             </div>
             <div className="col-6 greeting-send-btn-wrap" onClick={onCreate}>
@@ -104,13 +98,7 @@ const GreetingsItems = () => {
 
           <div className="row justify-content-end">
             <div className="col-6 text-right">
-              <input
-                className="greeting-name-input"
-                name="sender"
-                value={sender}
-                onChange={onChange}
-                placeholder="쓰는이"
-              />
+              <input className="greeting-name-input" name="sender" value={sender} onChange={onChange} />
               드림
             </div>
           </div>

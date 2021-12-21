@@ -9,7 +9,7 @@ const CommonFooter = () => {
     <div className="row main-footer">
       <div className="col-3 footer-text1">
         <div className="text-left">
-          betannyeong.com
+          kartsfinearts2021.com
           <br />
           betannyeong.online@gmail.com
         </div>
