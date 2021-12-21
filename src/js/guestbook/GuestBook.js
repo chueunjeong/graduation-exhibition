@@ -41,7 +41,7 @@ const GuestBook = () => {
         <div className="col-lg-6 title-container mb-5">
           <div className="row justify-content-center leave-name" onClick={onToggleLeft}>
             <div className="col-6">
-              <div className="row">
+              <div className="row" tabindex="0">
                 <div className="col-1 ellipse">
                   <img className="ellipse-img" alt="ellipse-img" src={leftTitleItems.ellipseImg}></img>
                 </div>
@@ -58,7 +58,7 @@ const GuestBook = () => {
         <div className="col-lg-6 title-container  mb-5">
           <div className="row justify-content-center say-hello" onClick={onToggleRight}>
             <div className="col-6">
-              <div className="row">
+              <div className="row" tabindex="0">
                 <div className="col-1 ellipse">
                   <img className="ellipse-img" alt="ellipse-img" src={rightTitleItems.ellipseImg}></img>
                 </div>
