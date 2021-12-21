@@ -18,3 +18,9 @@ body {
   font-style: normal;
   src: url(../src/fonts/NanumMyeongjo.ttf) format("truetype");
 }
+
+@font-face {
+  font-family: koreanNMJB;
+  font-style: normal;
+  src: url(../src/fonts/KoreanNMJB.otf) format("opentype");
+}
