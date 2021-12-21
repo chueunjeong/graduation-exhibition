@@ -49,6 +49,12 @@ const CommonHeader = () => {
                   return !prev;
                 })
               }
+              onKeyPress={() =>
+                setShowModal((prev) => {
+                  // console.log("닫힘 혹은 열림");
+                  return !prev;
+                })
+              }
             ></img>
           </div>
         </div>

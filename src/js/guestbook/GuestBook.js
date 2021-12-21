@@ -39,7 +39,13 @@ const GuestBook = () => {
       <CommonHeader />
       <div className="row guestbook-body">
         <div className="col-lg-6 title-container mb-5">
-          <div className="row justify-content-center leave-name" onClick={onToggleLeft}>
+          <div
+            className="row justify-content-center leave-name"
+            onClick={onToggleLeft}
+            onKeyPress={onToggleLeft}
+            alt="이름만 남기기 버튼"
+            tabIndex="0"
+          >
             <div className="col-6">
               <div className="row" tabindex="0">
                 <div className="col-1 ellipse">
@@ -56,7 +62,13 @@ const GuestBook = () => {
         </div>
 
         <div className="col-lg-6 title-container  mb-5">
-          <div className="row justify-content-center say-hello" onClick={onToggleRight}>
+          <div
+            className="row justify-content-center say-hello"
+            onClick={onToggleRight}
+            onKeyPress={onToggleRight}
+            alt="인사말 남기기 버튼"
+            tabIndex="0"
+          >
             <div className="col-6">
               <div className="row" tabindex="0">
                 <div className="col-1 ellipse">

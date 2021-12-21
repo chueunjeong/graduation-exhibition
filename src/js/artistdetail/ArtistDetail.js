@@ -71,29 +71,28 @@ const ArtistDetail = () => {
                           tabRef.current[i].scrollIntoView({ behavior: "smooth" });
                           setCurrentTab(tabRef.current[i]);
                         }}
+                        onKeyPress={() => {
+                          tabRef.current[i].scrollIntoView({ behavior: "smooth" });
+                          setCurrentTab(tabRef.current[i]);
+                        }}
+                        tabindex="0"
+                        alt={work.type + "작품" + work.title + "보러가기"}
                       >
                         <div className="col-1 artistdetail-ellipse-img-wrap">
                           {work.type === "평면" && (
-                            <img className="artistdetail-ellipse-img" alt="평면" src={FlatWorks} tabindex="0"></img>
+                            <img className="artistdetail-ellipse-img" alt="평면" src={FlatWorks}></img>
                           )}
                           {work.type === "입체" && (
-                            <img className="artistdetail-ellipse-img" alt="입체" src={ThreeDWorks} tabindex="0"></img>
+                            <img className="artistdetail-ellipse-img" alt="입체" src={ThreeDWorks}></img>
                           )}
                           {work.type === "영상" && (
-                            <img className="artistdetail-ellipse-img" alt="영상" src={VideoWorks} tabindex="0"></img>
+                            <img className="artistdetail-ellipse-img" alt="영상" src={VideoWorks}></img>
                           )}
                           {work.type === "다원" && (
-                            <img
-                              className="artistdetail-ellipse-img"
-                              alt="다원"
-                              src={MultifacetedWorks}
-                              tabindex="0"
-                            ></img>
+                            <img className="artistdetail-ellipse-img" alt="다원" src={MultifacetedWorks}></img>
                           )}
                         </div>
-                        <div className="col-11 artwork-title-text" tabindex="0">
-                          {work.title}
-                        </div>
+                        <div className="col-11 artwork-title-text">{work.title}</div>
                       </div>
                     ))}
                 </div>
@@ -107,7 +106,7 @@ const ArtistDetail = () => {
             artistInfo.works.map((work, i) => (
               <div className="row artwork" ref={(el) => (tabRef.current[i] = el)}>
                 {work.images.map((image, index) => (
-                  <div className="col-12 text-center">
+                  <div className="col-12 text-center" alt={image.type + "작품"} tabIndex="0">
                     {image.type === "video" ? (
                       <iframe
                         width="100%"

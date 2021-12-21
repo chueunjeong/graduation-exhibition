@@ -79,7 +79,13 @@ const VisitorsNameItems = () => {
           &#41;
         </div>
         <div className="w-100"></div>
-        <div className="col-3 guestbook-name-btn-wrap pointer" onClick={onCreate} tabindex="0">
+        <div
+          className="col-3 guestbook-name-btn-wrap pointer"
+          onClick={onCreate}
+          onKeyPress={onCreate}
+          tabindex="0"
+          alt="이름 적기 버튼"
+        >
           <div className="guestbook-name-btn-text">
             <strong>적기</strong>
           </div>

@@ -84,7 +84,13 @@ const GreetingsItems = () => {
               />
               에게
             </div>
-            <div className="col-6 greeting-send-btn-wrap" onClick={onCreate} tabindex="0">
+            <div
+              className="col-6 greeting-send-btn-wrap"
+              onClick={onCreate}
+              onKeyPress={onCreate}
+              tabindex="0"
+              alt="보내기"
+            >
               <img className="greeting-send-btn-img" alt="보내기 버튼" src={GuestBookGreetingsBtn}></img>
             </div>
           </div>

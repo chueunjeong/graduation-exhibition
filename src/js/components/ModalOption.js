@@ -160,6 +160,7 @@ const ModalOption = ({
             alt="예"
             src={Ellipse}
             onClick={() => ontoggle(option, true)}
+            onKeyPress={() => ontoggle(option, true)}
             tabindex="0"
           ></img>
         </div>
@@ -176,6 +177,7 @@ const ModalOption = ({
             alt="아니요"
             src={Ellipse}
             onClick={() => ontoggle(option, false)}
+            onKeyPress={() => ontoggle(option, false)}
             tabindex="0"
           ></img>
         </div>

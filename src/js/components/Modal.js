@@ -164,7 +164,7 @@ const Modal = ({ showModal, closeModal }) => {
             option="soundSubtitles"
           />
           <div className="row modal-btn-loc">
-            <div onClick={handleSubmit} className="modal-btn-wrap" tabindex="0">
+            <div onClick={handleSubmit} onKeyPress={handleSubmit} className="modal-btn-wrap" tabindex="0">
               {/* <a href="/artistlist"> */}
               <div className="btn-text text-sz20">보러가기</div>
               <div className="btn-img">
