@@ -2130,18 +2130,313 @@ export const data = [
     engName: "Hoyeon Wang",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB0.png",
+    titleText: "",
+    works: [
+      {
+        title: "<드러난 얼굴들> 2021, 백자토, 가변 설치 ",
+        type: "입체",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB1.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<무제> 2021, 한지에 수제잉크, 43x53*3",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB2.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<Epiphany>, 2021, 광목천, 127x63",
+        type: "입체",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB3.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<무제> 2021, 철, 조경 잉여물, 가변설치",
+        type: "입체",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB4.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<앉을 자리>, 2021, 캔버스에 아크릴, 파스텔, 45.5x53",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB5.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<기투>, 2021, 판화지에 한지, 에칭, 28x39",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB6.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<릴리라는 이름의 태풍>, 2021, 판화지에 한지, 에칭, 38x28",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB7.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<무제> 2020-1?, 켄버스에 유화, 먹, 18x26",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB8.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<Dune>, 2020, 종이에 아크릴, 29.5x43",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB9.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<무제> 2020, 종이에 아크릴, 오일파스텔, 42x30",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB10.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<무제> 2021, 흙, 유약, 가변설치",
+        type: "입체",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB11.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<은빛 할머니>, 2021, 철, 인조머리카락, 가변크기",
+        type: "입체",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB12.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<무제> 2021, 흙, 먹, 나뭇가지, 가변설치 ",
+        type: "입체",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB13.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<eyes> 2020, 종이에 연필, 30x43",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB14.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<향나무 열매> 2021, 카디페이퍼에 먹, 접시물감 ",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB15.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "x(설치전경)",
+        type: "입체",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%AA%E1%86%BC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB16.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
   },
+
+  // pdf 따로 첨부해야 함
   {
     name: "유지원",
     engName: "YooJiwon",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AF%E1%86%AB/%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AF%E1%86%AB0.png",
+    titleText: "",
+    works: [
+      {
+        title: "<White Painting_Self-portrait> 2017, 캔버스에 유화, 65.1 x 45.5cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AF%E1%86%AB/%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AF%E1%86%AB1.jpg",
+          },
+        ],
+        text: "A2 크기의 캔버스가 세로로 세워져 있다. 중앙에서 대략 한 뼘 정도의 영역에 흰색 유화 물감이 무작위로 두껍게 쌓여있다. 흰색 물감은 시간이 흘러 누런 미색, 거의 오줌 색에 가까운 색으로 변색하였고, 마찬가지로 찝찝한 느낌을 준다. 또한 다른 그림을 그리다가 튄 듯한 여러 색의 물감 자국들이 조금 퍼져있으며, 먼지와 머리카락, 죽 은 벌레의 사체가 화면 위에 남아있다.",
+        alttext: true,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<병풍_White Paintings> 2021, 8폭 병풍 200x460cm",
+        type: "입체",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AF%E1%86%AB/%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AF%E1%86%AB2-1.png",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AF%E1%86%AB/%E1%84%8B%E1%85%B2%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AF%E1%86%AB2-2.png",
+          },
+        ],
+        text: "2미터 높이의 병풍이 8폭 있다. 병풍은 공업용 알루미늄 틀 사이에 클리어 파일과 같은 질감의 비닐이 끼워져 있는 형태로 만들어졌다. 비닐로 된 화면 위의 양옆과 위쪽에는 세 손가락 너비, 아래쪽에는 정강이 정도까지 너비의 여백이 있어 투명하게 뒤가 비친다. 이 여백을 제외하곤, 붓으로 엉성하게 흰색 물감을 발라 마치 종이인 것처럼 보이는 면이 만들어져 있다. 가장 왼쪽의 폭에는 북한산이라는 제목이 아주 작게 쓰여 있으며, 이외의 7폭의 병풍에는 북한산이 두꺼운 흰색 아크릴 물감으로 그려져 있다. 앞에서 빛을 비추고 뒤에 서서 보면 물감의 두께에 따라 명확한 명암이 생긴다.",
+        alttext: true,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<소장품 리스트> 2018, 모노사운드, 7분 31초",
+        type: "영상",
+        images: [
+          {
+            type: "video",
+            url: "https://youtu.be/DIsyx6XTo5Q",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
   },
   {
     name: "윤시오(윤민지)",
     engName: "Seio Yoon",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%89%E1%85%B5%E1%84%8B%E1%85%A9(%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5)/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%89%E1%85%B5%E1%84%8B%E1%85%A90.png",
+    titleText: "",
+    works: [
+      {
+        title: "",
+        type: "다원",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%89%E1%85%B5%E1%84%8B%E1%85%A9(%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5)/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%89%E1%85%B5%E1%84%8B%E1%85%A91.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
   },
   {
     name: "윤지아",
@@ -2163,7 +2458,6 @@ export const data = [
         soundSubtitle: false,
         youtube: [],
       },
-
       {
         title:
           "<이제 그녀의 이름을 부르는 사람은 없다. 사람들은 또 새로운 사람을 찾아낼 것이다.> 2021, 종이에 오일파스텔/26*19cm",
@@ -2322,6 +2616,73 @@ export const data = [
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B5/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B50.png",
     titleText:
       "작품링크 : https://seulii.github.io/What-was-Misuk-doing/ <br/>작가 노트<br/>지난 3월 닌텐도 스위치 게임 ‘모여봐요 동물의 숲’이 출시되었다. 이하 ‘모동숲’은 가상 주민들과 전원생활 을 즐기는 자유도가 높은 게임으로 매니아 층을 비롯한 폭넓은 사용자들의 니즈를 만족시킨 메이저 게임으로 자리 잡았다. 홍콩 독립운동가 조슈아 웡은 4월 12일 유튜브 라이브 스트리밍을 통해 모동숲 방송을 진행한 적 이 있는데, 자신의 가상의 섬에 홍콩독립 구호를 커스터마이징 기능을 이용하여 메시지를 새겨 넣었다. 이 후 조슈아 웡을 시작으로 홍콩 독립을 지지하는 중국인들이 모동숲을 이용한 사이버시위에 동참하게 되었으며 sns를 통해 수많은 모동숲 플레이어들이 자신들만의 사이버 공간을 시위현장으로 만들어 캡쳐하고 공유했다. 이와 연결된 사례로 ‘GTA5온라인:HEIST’가 업데이트가 되면서 시위대들은 게임 속 자신의 캐릭터를 커스터 마이징 기능을 이용하여 홍콩 시위대 복장을 구현하고, 경찰차에 화염병을 던지는 퍼포먼스를 보여주기도 했다. 그들은 자신들의 안식처를 지키고 메시지를 알리기 위해 온라인 게임 속에서 연대 할 수밖에 없었고, 그렇게 현실과 게임 세계 사이의 미묘한 공간을 만들어 냈다. 조슈아 웡을 비롯한 독립구호를 외치는 자들은 인터넷 문 화와 게임문화에 익숙한 세대들이었다. 그래서 그들은 어떤 방식으로든, 그 문화 속에서 느꼈던 새로운 감각에 익숙해졌을 것이다. 아마도 그 감각은 이전에는 느끼지 못했던 신체와 가상공간을 동기화하려는 과정 속에서 얻은 것일 테다. 그들이 느낀 게임 속 현존감은 ‘플레이’를 더욱 풍성하고 유의미하게 만들었다. 내가 원하는 작업의 방향성은 이처럼 가상공간에 개인의 삶을 담은 컨텐츠를 만드는 것이다.. 밖을 나가 수 영을 하기 보다는 모니터 앞에 앉아 수영하는 모션을 컨트롤 하는 것이 더 자연스러워진 세대로서, 두 공간을 균형 있게 살기 위해서는 이러한 목표는 필연적일 수밖에 없지 않을까. 그래서 자라온 환경에 의해 자연스레 게임, 인터넷 등의 컴퓨터매체를 선택한 계기로 이어지게 되기도 했다. 특히 매체들을 사용하면서 컴퓨터 사용 환경이 포괄적인 멀티테스킹을 경험하도록 하고, 방대한 정보들이 굉 장히 파편적으로 흩어진 구조를 공통적으로 띄고 있다는 점이었다. 이러한 구조는 사용자들이 직접 정보들을 취합하여 각자의 결론을 내는 열린 형식으로 발전될 수 있는 가능성이 있다고 믿는다. 나는 아직까지도 해결되지 못한 엄마와의 트라우마를 가지고 있지만 기억속에서 트라우마의 경험들이 분산 되고 갈라지고 삭제된 상태다. 이러한 깨진 정보들이 재가공 되지 않고 있는 그대로 있을 수 있는 공간을 만들 수 있다면, 그게 지금의 컴퓨터 환경, 바탕화면의 인터페이스가 도와줄 수 있지 않을까? 무작위로 계속 쌓여가 는 바탕화면을 꽉 채운 파일과 폴더를 열면서 내 용량을 잡아먹었던 정크데이터를 끄집어 정리하는 것 마냥 말 이다. 그리고 개인적 이야기에서 벗어나, 더 많고 다양한 모녀관계에 대한 이야기를 할 수 있는 첫 시도가 되었 으면 좋겠다.<br/><What Was Misuk Doing?>,2020, 웹 게임<br/>엄마가 가출했었다. 나와 엄마는 지금은 결국 함께 하고 있지만 가출한 동안 어떻게 살았던걸까? 돈 한푼 없이 집을 나와 부산에서 인천으로 갔다. 어떻게 돈을 벌었을까? 집은 제대로 있었을까? 가출 후 2년 뒤 다시 나를 데리러 왔을 때, 엄마는 어떤 기분 이었을까?<br/>도저히 가려진 채로 둘 수가 없다. 하지만 엄마는 언제나 “나중에 크면” 얘기해준다고..<br/>엄마가 가출했던 일은 내 속에 내재화되어 있는 기억으로 여전히 존재한다. 엄마는 숨기는 일이 많았고 나는 무엇이든 드러냈다. 나는 가출한 날의 기억을 게임으로 드러내 거기에 가상의 엄마 캐릭터를 만들 것이다. 그리고 엄마가 그 날 무슨 감정을 느꼈는지, 가출 이후 어떤 삶을 살았을지 추측하고 상상하며 기억과 혼재된 가상 스토리를 구상한다. 플레이어들은 가상 인터페이스로 구성된 디지털 아카이빙 된 정보(그것은 진짜일수도 가짜일수도 있다.)를 무작위의 순서로 읽게 되며 퍼즐을 맞추듯이 파편화된 정보들을 스스로 짜 맞추어 나간다. 플레이가 끝난 시점엔 플레이어들에게 리뷰를 요구한다. 그것은 게임의 몰입감을 통해 엄마를 경험했던 순간에 느꼈던 감정에 대한 글을 질문하는 페이지다. 나는 모아진 리뷰를 들고 엄마 앞에서 직접 읽어 줄 것이다. 그러면 나는 엄마를 더 잘 이해할 수 있게 되지 않을까?<br/>이 일련의 과정이 외재화된 딸의 기억과 내재화되어있는 엄마의 기억이 충돌하는 계기이자 동시에 개인적 경험을 벗어나서, 복잡한 모녀관계를 드러낼 수 있는 실험이자 시도가 되었으면 좋겠다.<br/><We need sleep>, 2021, 웹 게임<br/>이 게임은 가정폭력이 일어나고 있는 집 내부에서 플레이어는 본인을 포함한 자신의 자식들과 남자친구(가해자)의 스트레스를 관리해야한다. 목표는 아침이 되기 전 까지 모두 잠에 들 수 있도록 행동을 지시하고 수행함으로써 스트레스 수치를 전략적으로 낮추는 것이다. 플레이어는 엄마로써의 책임과 스스로의 욕망사이에서 갈등하는 이야기를 경험한다.<br/>게임 안에선 모든 종류의 폭력이 남자친구 캐릭터의 ‘소리 지르는 것‘ 하나로 표현된다. 좁은 한국식 아파트에서 가족들은 티비가 켜지는 소리나 커피포트를 끓이는 소리를 마음대로 차단 할 수 없다. 각자의 방은 행동을 숨길 순 있지만 소음으로 부턴 무기력 해진다.<br/>아침이 되기 전 플레이어는 두 가지의 결말을 결정할 수 있다. 하나는 모두가 잠에 드는 진 엔딩, 그리고 남자친구를 내쫓을 수 있는 서브 엔딩이다. 잠을 잔다는 것은 내일 일이 어찌되었든 이 상황을 해결하자는 의지가 담긴 수면이다. 보통 게임에선 공격을 통하여 플레이어를 위협하는 몬스터를 없앨 수 있지만 이 집 안에서는 그런 문법을 선택할 수 없다. 플레이어(엄마)에겐 아들과 딸을 지킬 의지도 있지만 자신의 행복을 위한 존재(남자친구)를 버릴 수 없는 의지도 있기 때문이다. 그렇기에 잠을 잔다는 것은 가장 현실적인 선택이 된다. ‘내일이면 괜찮아지겠지. 원래는 이런 사람이 아니니까. 늦게 자고 일어나서 사과 해줄 거야. 애들한테도 사과하겠지‘.<br/>두 번째 엔딩은 모든 가족이 소리를 지르는 남자친구를 보며 한번 쯤 생각한 가상의 결말이다. 그저 이 공간에 더 이상 있지 못하도록 말이다. 이 엔딩은 딸과 아들이 가장 바라는 현실의 결말이기도 하다.",
+    works: [
+      {
+        title: "<What Was Misuk Doing?> 2020, 웹 게임",
+        type: "다원",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B5/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B51_full.png",
+          },
+        ],
+        alttext: false,
+        soundSubtitle: false,
+        youtube: ["https://seulii.github.io/What-was-Misuk-doing/"],
+      },
+      {
+        title: "<We need sleep>, 2021, 웹 게임",
+        type: "다원",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B5/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B52.png",
+          },
+        ],
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<Knife>, 2020, 웹 게임",
+        type: "다원",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B5/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B53.png",
+          },
+        ],
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<MOOD>, 2020, 웹 게임",
+        type: "다원",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B5/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B54.png",
+          },
+        ],
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<home>, 2020, 웹 게임",
+        type: "다원",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B5/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B55.png",
+          },
+        ],
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
   },
   {
     name: "이승연",
