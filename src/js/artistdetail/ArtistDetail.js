@@ -149,8 +149,8 @@ const ArtistDetail = () => {
                   ""
                 )}
                 {work.youtube.map((link, index) => (
-                  <div className="col-10 text-center mt-3" tabindex="0">
-                    <a href={link} target="_blank">
+                  <div className="col-10 text-center mt-3">
+                    <a tabIndex="0" href={link} target="_blank">
                       {link}
                     </a>
                   </div>

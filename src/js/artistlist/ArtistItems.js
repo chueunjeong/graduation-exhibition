@@ -20,7 +20,15 @@ const ArtistItems = (props) => {
   };
 
   return (
-    <div key={props.key} onClick={onChangePage} className="col-lg-4 pointer" style={{ padding: "0 4rem 143px 4rem" }}>
+    <div
+      key={props.key}
+      onClick={onChangePage}
+      onKeyPress={onChangePage}
+      tabIndex="0"
+      alt={artistInfo.name + "작품 들어가기"}
+      className="col-lg-4 pointer"
+      style={{ padding: "0 4rem 143px 4rem" }}
+    >
       <div className="artist-img-item">
         <img className="artist-img" alt={artistInfo.name + "작품 이미지"} src={artistInfo.titleImage} />
       </div>
