@@ -50,6 +50,12 @@
   animation: bookOpen 1.2s ease-in-out;
 }
 
+.paper-left-after {
+  left: 0 !important;
+  transform: initial !important;
+  animation: initial !important;
+}
+
 .paper-right {
   position: absolute;
   top: 0;
