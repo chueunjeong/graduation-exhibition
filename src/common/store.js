@@ -2690,6 +2690,110 @@ export const data = [
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB0.png",
     titleText: "",
+    works: [
+      {
+        title: "<무제> 2021, 백조형토 850도, 15.7 x 14.4 x 9.4 cm",
+        type: "입체",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB1.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<3 1/2> 2021, 철, 스폰지, 합판, 도자, 가변설치",
+        type: "입체",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB2-1.png",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB2-2.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<무제> 2021, 흑토 850도, 17.2 x 12.5 x 4.5 cm",
+        type: "입체",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB3.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<home sweet home> 2021, 종이에 파스넷, 캔버스에 아크릴과 모델링 페이스트, 9 x 13.7cm, 24.2 x 33.4cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB4.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<무제> 2021, 캔버스에 유채, 53 x 45.5cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB5.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<무제> 2021, 캔버스에 유채, 53 x 45.5cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB6.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<무제(연작)> 2021, 캔버스에 유채, 24.2 x 33.4cm, 27.3 x 34.8cm, 40.9 x 27.3cm, 33.4 x 24.2cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB7.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
   },
   {
     name: "이승하",
@@ -2697,6 +2801,62 @@ export const data = [
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%92%E1%85%A1/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%92%E1%85%A10.png",
     titleText: "",
+    works: [
+      {
+        title: "",
+        type: "입체",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%92%E1%85%A1/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%92%E1%85%A11-1.jpg",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%92%E1%85%A1/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%92%E1%85%A11-2.jpg",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%92%E1%85%A1/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%92%E1%85%A11-3.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "",
+        type: "입체",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%92%E1%85%A1/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%92%E1%85%A12-1.jpg",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%92%E1%85%A1/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%BC%E1%84%92%E1%85%A12-2.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<찌포리사우르스> 2021",
+        type: "영상",
+        images: [
+          {
+            type: "video",
+            url: "https://youtu.be/s7RJzglqHJA",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
   },
   {
     name: "진진(이예진)",
@@ -2705,6 +2865,138 @@ export const data = [
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB(%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB)/%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB0.png",
     titleText:
       "2018151027 진 진 이예진 _ 스 테 이 트 먼 트<br/>제가 마지막으로 전하고 싶은 말이 있다면 Do not forget, 잊지 말라는 말입니다 우리는 평소에 잘 잊고 살죠 . 너무 바쁘기도 하니까 . 우주를 외계를 또 미래의 도약을 우린 정말 거대한 우주의 작은 존재로 외계는 항상 우리 곁에 살아 숨 쉽니다 언제나 올 수 있고 이미 왔을 수도 있죠 내가 어떻게 하면 한 번 더 라도 잊지 않을 수 있을까요 그래서 시작하게 되었습니다<br/>허상일 수도 그저 소설일 수도 있겠죠 저는 복잡한 이야기보다는 허상을 좋아합니다 상상을 좋아해요 잘 생 각 해 봐요 우리의 삶은 과연 ‘진짜진짜’ 인지 우린 항상 어떤 허상을 쫓지 않 는지 허상을 꿈꾼다는 것은 당연한 일 일 지<br/> 바깥세계를 자세하게 상상해본 적이 있나요 꽤나 잔혹할 수도 아름다울 수도 있습니다 제 그림을 보고 당신의 우주를 한 번이라도 상상했다면 저는 생각보다 큰일을 한 것일 수 있습니다",
+    works: [
+      {
+        title: "<Do Not Forget!> 2021, watercolor and mixture on paper, each 297*420, +LED lights",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB(%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB)/%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB1-1.png",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB(%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB)/%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB1-2.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<Tactic, Tactics> 2021, monotype, 380*515",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB(%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB)/%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB2-1.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<Say Hi To NEW GENERATION> 2021, monotype, 370*520",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB(%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB)/%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB3-1.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<gunning #1, gunning #2, gunning #3> 2021, etching, 260*190",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB(%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB)/%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB4-1.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<lft - off !> 2019, lithography, 300*285",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB(%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB)/%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB5-1.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<polt> 2021, silk screen, 280*200",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB(%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB)/%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB6-1.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<Peaceful Peace #5> 2021, monoprint, 560*375",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB(%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB)/%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB7-1.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<Thorizon> 2021, relief printing, 200*280",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB(%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB)/%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB8-1.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<WANTED !> 2021, relief printing, 230*300",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB(%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB)/%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB9-1.png",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
   },
   {
     name: "이초영",
@@ -2713,6 +3005,86 @@ export const data = [
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC0.png",
     titleText:
       "산책코스<br/>이초영<br/>일 년 넘게 대부분 집에서 시간을 보내지만 거의 매일 빠지지 않고 산책을 한다. 산책은 바깥풍경이 얼마나 어떻게 변해 가는지를 볼 수 있고, 무거워진 머리가 맑아지면서 균형 잡히는 느낌이 든다. 집에서 출발해서 송리단길을 지나 석촌호수 동호에서 서호를 한 바퀴 돌아 다시 집으로 돌아오는데, 대략 3.5km로 한 시간 정도 걸린다. 석촌호수는 인공호수로 도심 속 오아이스 같은 곳이다. 이곳을 걷다 보면 고층빌딩과 아파트 단지들로 둘러싸인 도시적인 풍경이 암묵적으로 한 방향으로 걷고 있는 사람들과 함께 《모모》에서 나오는 회색빛 사람을 연상시킨다.<br/> 산책하면서 다가오는 사소한 순간들과 감각적인 인상들을 작년부터 틈틈이 드로잉으로 기록해 왔다. 드로잉은 눈에 들어온 순간을 포착한 것으로, 드러내고 싶은 부분만 강조해서 그렸다. 드로잉을 회화로 옮기면서부터는 드 로잉에도 밀도감이 생기고, 화면을 더 채우게 되었다. 드로잉이 갖고 있는 느낌이나 감각적인 인상들이 회화에서도 어떻게 보일 수 있을지를 생각했고, 붓터치와 질감 표현같은 회화만이 할 수 있는 표현방식에 대해 고민하고 있다.<br/>석촌호수 산책길은 푹신한 탄성매트가 깔려 있고, 나는 그 바닥면 위로 빛 그림자가 흩날리는 순간을 좋아한다.나뭇가지들 사이로 새어나온 빛이 방울모양으로 흐트러지면서 포근하게 감싸주는 듯하다. 그 순간 나는 푹신한 바닥면 위에 트레이싱지를 접어서 살짝 올려놓는 상상을 한다. 이전에 둥근 종이스티커를 반쯤 접은 다음에 뒷면에 붙여서 빛 그림자를 표현했던 작업을 섞어 본 것이다. 두텁게 올린 짧은 붓 터치들 위로 반투명하게 얇은 면을 겹쳐 보면서, 미묘한 톤 변화들이 섬세한 표정을 이끌어 낼 수 있지 않을까 싶었다. 짧은 붓터치가 반복되면서 리듬감 있는 패턴을 만들어 내지만, 행위의 반복이 있을 뿐 일정한 규칙을 정한 것은 아니었다.",
+    works: [
+      {
+        title: "<빛-방울> 2021, oil on canvas, 60.6 x 45.5cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC1.jpg",
+          },
+        ],
+        text: "전체적으로 회색톤이다. 작은 붓질들이 가로, 세로방향으로 촘촘하게 짜여 있다. 그 위에는 반투명한 동그라미들이 겹쳐져 있다. 동그라미는 흰색이다. 동그라미의 크기도 다양하다. 동그라미는 둥근 원 모양도 있고, 살짝 귀퉁이가 접혀 있기도 하고, 반쯤 접혀 있는 것도 있다.",
+        alttext: true,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<빛-방울> 2021, oil on canvas, 60.6 x 45.5cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC2.jpg",
+          },
+        ],
+        text: "전체적으로 회색톤이다. 작은 붓질들이 사선 방향으로 촘촘하게 짜여 있다. 왼쪽 아래에서 오른쪽 위로 모이는 모습이다. 그 위에는 반투명한 동그라미들이 겹쳐져 있다. 동그라미는 흰색이다. 동그라미는 크기도 다양하다. 동그라미는 둥근 원 모양도 있고, 살짝 귀퉁이가 접혀 있기도 하고, 반쯤 접혀 있는 것도 있다.",
+        alttext: true,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<그림자극> 2021, oil on canvas, 116.8 x 80.3cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC3-1.jpg",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC3-2.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<빛-방울> 2021, oil on canvas, 116.8 x 80.3cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC4-1.jpg",
+          },
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC4-2.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+      {
+        title: "<그림자극> 2021, oil on canvas, 90.9 x 65.1cm",
+        type: "평면",
+        images: [
+          {
+            type: "image",
+            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC5.jpg",
+          },
+        ],
+        text: "",
+        alttext: false,
+        soundSubtitle: false,
+        youtube: [],
+      },
+    ],
   },
   {
     name: "이들(이화정)",
