@@ -103,7 +103,7 @@ const ArtistList = () => {
       // console.log(artist[i]);
     }
 
-    const temp2 = [];
+    let temp2 = [];
     for (let i = 0; i < temp.length; i++) {
       let exist = false;
       for (let k = 0; k < temp2.length; k++) {
@@ -131,6 +131,13 @@ const ArtistList = () => {
       }
     }
 
+    temp2.sort((a, b) => {
+      if (a.name > b.name) {
+        return 1;
+      } else {
+        return -1;
+      }
+    });
     setArtistInfoList(temp2);
   };
 
