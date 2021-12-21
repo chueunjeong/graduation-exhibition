@@ -143,9 +143,13 @@ const ModalOption = ({
     <div className="row my-3">
       <div className="col-8">
         <div className="row">
-          <div className="col-12 text-left text-sz18">{questionText}</div>
+          <div className="col-12 text-left text-sz18" tabindex="0">
+            {questionText}
+          </div>
           {(option === "altText" || option === "soundSubtitles") && (
-            <div className="col-12 text-left text-sz14 addtext">{addText}</div>
+            <div className="col-12 text-left text-sz14 addtext" tabindex="0">
+              {addText}
+            </div>
           )}
         </div>
       </div>
@@ -153,14 +157,15 @@ const ModalOption = ({
         <div className="">
           <img
             className="question-ellipse-img"
-            alt="ellipse"
+            alt="예"
             src={Ellipse}
             onClick={() => ontoggle(option, true)}
+            tabindex="0"
           ></img>
         </div>
         {viewY && (
           <div className="question-ellipse-img-overlay">
-            <img className={className} alt={korean + " 선택함"} src={searchOptionImg}></img>
+            <img className={className} alt={korean + " 선택함"} src={searchOptionImg} tabindex="0"></img>
           </div>
         )}
       </div>
@@ -168,14 +173,15 @@ const ModalOption = ({
         <div className="">
           <img
             className="question-ellipse-img"
-            alt="ellipse"
+            alt="아니요"
             src={Ellipse}
             onClick={() => ontoggle(option, false)}
+            tabindex="0"
           ></img>
         </div>
         {viewN && (
           <div className="question-ellipse-img-overlay">
-            <img className={className} alt={korean + " 선택하지 않음"} src={searchOptionImg}></img>
+            <img className={className} alt={korean + " 선택하지 않음"} src={searchOptionImg} tabindex="0"></img>
           </div>
         )}
       </div>

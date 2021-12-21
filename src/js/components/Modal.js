@@ -90,16 +90,16 @@ const Modal = ({ showModal, closeModal }) => {
   return (
     // <div className="container">
     <div className="modal-container">
-      <div className="modal-contents">
+      <div className="modal-contents" tabindex="0">
         <div className="paper-left"></div>
         <div className="paper-right"></div>
         <div className="modal-body" style={{ display: bodyShow ? "block" : "none" }}>
-          <div className="row body-title">
+          <div className="row body-title" tabindex="0">
             <div className="col-8 text-left">질문</div>
             <div className="col-2 answer">네</div>
             <div className="col-2 answer">아니요</div>
           </div>
-          <div className="row body-title-sub mb-5">
+          <div className="row body-title-sub mb-5" tabindex="0">
             <div className="col-8 text-left">Questions</div>
             <div className="col-2 text-sz16">yes</div>
             <div className="col-2 text-sz16">no</div>
@@ -164,7 +164,7 @@ const Modal = ({ showModal, closeModal }) => {
             option="soundSubtitles"
           />
           <div className="row modal-btn-loc">
-            <div onClick={handleSubmit} className="modal-btn-wrap">
+            <div onClick={handleSubmit} className="modal-btn-wrap" tabindex="0">
               {/* <a href="/artistlist"> */}
               <div className="btn-text text-sz20">보러가기</div>
               <div className="btn-img">

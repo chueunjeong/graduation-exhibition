@@ -115,13 +115,19 @@ const GreetingsItems = () => {
         {greetings.reverse().map((greeting) => (
           <div className="col-8 greeting-card">
             <div className="row">
-              <div className="col-6 text-left text-size20">{greeting.recipient}에게</div>
+              <div className="col-6 text-left text-size20" tabindex="0">
+                {greeting.recipient}에게
+              </div>
             </div>
             <div className="row justify-content-center greeting-card-maintext">
-              <div className="col-12 text-size16">{greeting.maintext}</div>
+              <div className="col-12 text-size16" tabindex="0">
+                {greeting.maintext}
+              </div>
             </div>
             <div className="row justify-content-end greeting-card-bottom">
-              <div className="col-6 text-right text-size20">{greeting.sender} 드림</div>
+              <div className="col-6 text-right text-size20" tabindex="0">
+                {greeting.sender} 드림
+              </div>
             </div>
           </div>
         ))}
