@@ -21,7 +21,7 @@ const CommonHeader = () => {
     <div className="row main-header">
       <div className="col-md-8 ">
         <a href="/main">
-          <img className="header-logo pointer" alt="header-logo" src={HeaderLogo}></img>
+          <img className="header-logo pointer" alt="메인 화면으로 가기" src={HeaderLogo}></img>
         </a>
       </div>
       <div className="col-md-4 align-center justify-content-end">
@@ -29,18 +29,19 @@ const CommonHeader = () => {
           <div className="col-3"></div>
           <div className="col-3">
             <a href="/forewords">
-              <img className="header-icon icon-rotate" alt="header-icon1" src={HeaderIcon1}></img>
+              <img className="header-icon icon-rotate" alt="서문" src={HeaderIcon1}></img>
             </a>
           </div>
           <div className="col-3">
             <a href="/guestbook">
-              <img className="header-icon icon-rotate" alt="header-icon2" src={HeaderIcon2}></img>
+              <img className="header-icon icon-rotate" alt="방명록" src={HeaderIcon2}></img>
             </a>
           </div>
           <div className="col-3">
             <img
               className="header-icon modal-icon"
-              alt="header-icon3"
+              tabindex="0"
+              alt="작품 보러가기"
               src={`${showModal ? HeaderIcon3Close : HeaderIcon3}`}
               onClick={() =>
                 setShowModal((prev) => {

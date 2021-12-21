@@ -75,11 +75,17 @@ const GreetingsItems = () => {
         <div className="col-8 writing-greeting text-size20">
           <div className="row">
             <div className="col-6">
-              <input className="greeting-name-input" name="recipient" value={recipient} onChange={onChange} />
+              <input
+                className="greeting-name-input"
+                name="recipient"
+                value={recipient}
+                onChange={onChange}
+                alt="받는 사람"
+              />
               에게
             </div>
-            <div className="col-6 greeting-send-btn-wrap" onClick={onCreate}>
-              <img className="greeting-send-btn-img" alt="greeting-send-btn" src={GuestBookGreetingsBtn}></img>
+            <div className="col-6 greeting-send-btn-wrap" onClick={onCreate} tabindex="0">
+              <img className="greeting-send-btn-img" alt="보내기 버튼" src={GuestBookGreetingsBtn}></img>
             </div>
           </div>
 
@@ -98,7 +104,7 @@ const GreetingsItems = () => {
 
           <div className="row justify-content-end">
             <div className="col-6 text-right">
-              <input className="greeting-name-input" name="sender" value={sender} onChange={onChange} />
+              <input className="greeting-name-input" name="sender" value={sender} onChange={onChange} alt="보낸 사람" />
               드림
             </div>
           </div>

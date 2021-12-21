@@ -15,8 +15,12 @@ const Forewords = () => {
           <div className="text-left mt-3 forewords-title-sub font1">Beta Forewords</div>
           <div className="col-md-2 col-sm-12 col-xs-12">
             <div className="row title-relative">
-              <div className="col-12 text-left forewords-title">서문</div>
-              <div className="col-12 text-left forewords-title-eng">Forwords</div>
+              <div className="col-12 text-left forewords-title" tabindex="0">
+                서문
+              </div>
+              <div className="col-12 text-left forewords-title-eng" tabindex="0">
+                Forwords
+              </div>
 
               <div className="char-float char-b">B</div>
               <div className="char-float char-q">?</div>
@@ -28,8 +32,8 @@ const Forewords = () => {
           </div>
           <div className="col-md-10 col-sm-12 col-xs-12 paper-top paper-wrap">
             <div className="paper-text">
-              <p>베타테스트를 위한 안녕</p>
-              <p>
+              <p tabindex="0">베타테스트를 위한 안녕</p>
+              <p tabindex="0">
                 한국예술종합학교 미술원 조형예술과의 제22회 졸업전시 &lt;안녕을 위한 베타 테스트&gt;는 총 49명의 예비
                 작가들이 선보이는 회화, 설치, 영상, 퍼포먼스 등 다양한 매체의 작업으로 펼쳐집니다. 여느 때와 마찬가지로
                 졸업 예정자는 이 전시와 함께 지난 4년간 자신의 예술사 학위 과정을 모두 마무리하게 됩니다. 그런 의미에서
@@ -39,7 +43,7 @@ const Forewords = () => {
                 우리의 불안정한 삶 속에서 언제나 서로의 안위를 물으며 우리를 ‘환대의 세계’로 초대하고 이를 실천한 그 첫
                 번째 졸업전이기 때문입니다.
               </p>
-              <p>
+              <p tabindex="0">
                 이번 전시는 ‘코로나19’가 우리의 삶과 일상에 불안과 혼란을 야기하며 모두가 힘겨워했던 시기에 준비되
                 었습니다. 하지만 우리는 이같은 팬데믹 상황을 단지 삶과 일상의 위협만이 아닌 사회에 내재한 다양한 갈등과
                 모순이 특정한 계기를 통해 가시화한 세계로 바라봅니다. 그래서 &lt;안녕을 위한 베타 테스트&gt;는 하나의
@@ -49,7 +53,7 @@ const Forewords = () => {
                 불안을 경험하는 위기의 일상에서 ‘안녕’이 갖는 진정한 의미는 언제나 세상의 시작과 끝의 모습으로, 타인과의
                 갈등이자 이해의 관계로, 삶의 모순이자 동시에 양립 가능한 세계를 마주 하게 됩니다.
               </p>
-              <p>
+              <p tabindex="0">
                 지금 우리가 경험하는 불안과 위기의 상황을 견뎌내며 ‘안녕의 감각’과 ‘이타적 사유’를 통해 환대의 시공간을
                 펼쳐낸 예술가로서의 첫 출발을 진심으로 응원합니다. 미술원 조형예술과의 예술교육이 하나의 이상적인 미술을
                 향해 있는 것이 아니라, 복수의 이질적인 미술을 발현시키는 것에 있다면, 지금 여러분들 이 보여주는 미증유의
@@ -59,13 +63,13 @@ const Forewords = () => {
                 오늘 이 자리를 빌어 여러분들에게 진심어린 작별의 인사를 건네고자 합니다. 그것이 예술대학에서의 진정한
                 졸업을 의미한다면, 더할 나위 없이 좋은 당신을 위한 ‘안녕’이 될 것 입니다.
               </p>
-              <p>김연용 | 미술원 조형예술과 교수</p>
+              <p tabindex="0">김연용 | 미술원 조형예술과 교수</p>
             </div>
           </div>
           <div className="col-10 paper-bottom paper-bottom-loc paper-wrap">
             <div className="paper-text">
-              <p>모든 것이 변하겠지만, 애써 준비하고, 우리는 그것을 즐길 것이다.</p>
-              <p>
+              <p tabindex="0">모든 것이 변하겠지만, 애써 준비하고, 우리는 그것을 즐길 것이다.</p>
+              <p tabindex="0">
                 사람들은 실패에 대해 말할 때 종종 초연해지는데, 나는 그 특유의 쿨함을 좋아한다. 약간의 시니컬한 어조
                 뒤에 따라오는 대범함과 여유는 희극과 비극의 경계를 오가다 결국 희극의 어느 지점에 나를 떨궈 놓는다. 그
                 쿨함의 근원을 나름 추측해 보자면, 체념 후 비로소 얻게 되는 자신감, 혹은 스스로 불완전한 존재임을
@@ -76,7 +80,7 @@ const Forewords = () => {
                 여유와 내가 애정하는 특유의 쿨함을 가지고 졸업을 한다.
               </p>
 
-              <p>
+              <p tabindex="0">
                 올해 졸업생 일동은 이타적 베타테스트로서 졸업 전시를 기획했다. 얼핏 생각하면 이타적 베타테스트는 졸업
                 전시와 이질적으로 느껴진다. 대부분 졸업 전시는 테스트가 아닌 완결에 의미를 둔다. 따라서 다른 것보다 나의
                 작업을 가장 잘 드러낼 수 있는 방법을 최우선으로 고민하고, 변수를 줄이기 위해 기존의 안정된 형식을 취하는
@@ -87,7 +91,7 @@ const Forewords = () => {
                 고무 된다. 앞으로 2021년 졸업 전시가 선례가 되어 조형예술과 전시의 뉴노멀이 될 수 있기를 기대한다.
               </p>
 
-              <p className="italic-text pr-3">
+              <p className="italic-text pr-3" tabindex="0">
                 ...하지만 지상의 만물은 모두 불완전하다. 지금, 더 이상 아름다울 수 없을 정도로 아름다운 저 석양은 아직
                 단 한 번도 없었다. 우리를 지금보다 더 부드러운 잠에 빠지게 만드는 산들바람은 아직 한 번도 불어오지
                 않았다. 그리하여 우리는, 변함없는 시선으로 산과 석상을 응시 하며 하루하루를 , 책과 함께 즐길 것이다.
@@ -96,9 +100,15 @@ const Forewords = () => {
                 묘사와 분석을 애써 준비할 것이다. 우리는 그것을 즐길 것이다.
               </p>
 
-              <p className="text-right pr-3">-페르난두 페소아, ‘불안의 서’ 中</p>
-              <p className="text-right">2021.11.</p>
-              <p className="text-right">구지윤</p>
+              <p className="text-right pr-3" tabindex="0">
+                -페르난두 페소아, ‘불안의 서’ 中
+              </p>
+              <p className="text-right" tabindex="0">
+                2021.11.
+              </p>
+              <p className="text-right" tabindex="0">
+                구지윤
+              </p>
             </div>
           </div>
           <div className="col-2 paper-bottom-loc">
@@ -115,20 +125,28 @@ const Forewords = () => {
             <div className="col-6 thanksto-text-loc">
               <div className="row">
                 <div className="col-12 my-5 font1 credits">Credits and thanks to</div>
-                <div className="col-3 ">참여 학생</div>
-                <div className="col-9 ">
+                <div className="col-3 " tabindex="0">
+                  참여 학생
+                </div>
+                <div className="col-9 " tabindex="0">
                   강정현,곽효진,김민지,김선,김소현,김수민,김채린,김환희,노예주,류효정,목준수,박민영,박슬,박영민,박정민,박하린,배민진,손민지,신민경,오승은,오어진,왕호연,유지원,윤시오(윤민지),윤지아,이도현,이슬이,이승연,이승하,진진(이예진),이초영,이들(이화정),임민영,정민지,정소윤,정태완,조도현,조윤아,조은형,혜영조(조혜영),주다은,최상민,최서윤,최유진,최윤식,최희수,하주연,허겸
                 </div>
               </div>
 
               <div className="row mt-4">
-                <div className="col-3 ">지도 교수</div>
-                <div className="col-9 ">김연용</div>
+                <div className="col-3 " tabindex="0">
+                  지도 교수
+                </div>
+                <div className="col-9 " tabindex="0">
+                  김연용
+                </div>
               </div>
 
               <div className="row mt-4">
-                <div className="col-3 ">웹 디자인</div>
-                <div className="col-9 ">
+                <div className="col-3 " tabindex="0">
+                  웹 디자인
+                </div>
+                <div className="col-9 " tabindex="0">
                   배민진, 최윤식, 최희수
                   <br />
                   바우어버드
@@ -136,8 +154,12 @@ const Forewords = () => {
               </div>
 
               <div className="row mt-4">
-                <div className="col-3 ">웹 개발</div>
-                <div className="col-9 ">바우어버드</div>
+                <div className="col-3 " tabindex="0">
+                  웹 개발
+                </div>
+                <div className="col-9 " tabindex="0">
+                  바우어버드
+                </div>
               </div>
             </div>
           </div>
@@ -147,15 +169,21 @@ const Forewords = () => {
       <div className="container hidden-pc">
         <div className="row forewords-body mt-5 ">
           <div className="row title-relative">
-            <div className="col-12 text-left forewords-title">서문</div>
-            <div className="col-12 text-left forewords-title-eng">Forwords</div>
+            <div className="col-12 text-left forewords-title" tabindex="0">
+              서문
+            </div>
+            <div className="col-12 text-left forewords-title-eng" tabindex="0">
+              Forwords
+            </div>
           </div>
-          <div className="text-left mt-3 forewords-title-sub font1">Beta Forewords</div>
+          <div className="text-left mt-3 forewords-title-sub font1" tabindex="0">
+            Beta Forewords
+          </div>
 
           <div className="">
             <div className="paper-top-m">
-              <p>베타테스트를 위한 안녕</p>
-              <p>
+              <p tabindex="0">베타테스트를 위한 안녕</p>
+              <p tabindex="0">
                 한국예술종합학교 미술원 조형예술과의 제22회 졸업전시 &lt;안녕을 위한 베타 테스트&gt;는 총 49명의 예비
                 작가들이 선보이는 회화, 설치, 영상, 퍼포먼스 등 다양한 매체의 작업으로 펼쳐집니다. 여느 때와 마찬가지로
                 졸업 예정자는 이 전시와 함께 지난 4년간 자신의 예술사 학위 과정을 모두 마무리하게 됩니다. 그런 의미에서
@@ -165,7 +193,7 @@ const Forewords = () => {
                 우리의 불안정한 삶 속에서 언제나 서로의 안위를 물으며 우리를 ‘환대의 세계’로 초대하고 이를 실천한 그 첫
                 번째 졸업전이기 때문입니다.
               </p>
-              <p>
+              <p tabindex="0">
                 이번 전시는 ‘코로나19’가 우리의 삶과 일상에 불안과 혼란을 야기하며 모두가 힘겨워했던 시기에 준비되
                 었습니다. 하지만 우리는 이같은 팬데믹 상황을 단지 삶과 일상의 위협만이 아닌 사회에 내재한 다양한 갈등과
                 모순이 특정한 계기를 통해 가시화한 세계로 바라봅니다. 그래서 &lt;안녕을 위한 베타 테스트&gt;는 하나의
@@ -175,7 +203,7 @@ const Forewords = () => {
                 불안을 경험하는 위기의 일상에서 ‘안녕’이 갖는 진정한 의미는 언제나 세상의 시작과 끝의 모습으로, 타인과의
                 갈등이자 이해의 관계로, 삶의 모순이자 동시에 양립 가능한 세계를 마주 하게 됩니다.
               </p>
-              <p>
+              <p tabindex="0">
                 지금 우리가 경험하는 불안과 위기의 상황을 견뎌내며 ‘안녕의 감각’과 ‘이타적 사유’를 통해 환대의 시공간을
                 펼쳐낸 예술가로서의 첫 출발을 진심으로 응원합니다. 미술원 조형예술과의 예술교육이 하나의 이상적인 미술을
                 향해 있는 것이 아니라, 복수의 이질적인 미술을 발현시키는 것에 있다면, 지금 여러분들 이 보여주는 미증유의
@@ -185,13 +213,13 @@ const Forewords = () => {
                 오늘 이 자리를 빌어 여러분들에게 진심어린 작별의 인사를 건네고자 합니다. 그것이 예술대학에서의 진정한
                 졸업을 의미한다면, 더할 나위 없이 좋은 당신을 위한 ‘안녕’이 될 것 입니다.
               </p>
-              <p>김연용 | 미술원 조형예술과 교수</p>
+              <p tabindex="0">김연용 | 미술원 조형예술과 교수</p>
             </div>
           </div>
           <div className="">
             <div className="paper-text mt-5 paper-bottom-m">
-              <p>모든 것이 변하겠지만, 애써 준비하고, 우리는 그것을 즐길 것이다.</p>
-              <p>
+              <p tabindex="0">모든 것이 변하겠지만, 애써 준비하고, 우리는 그것을 즐길 것이다.</p>
+              <p tabindex="0">
                 사람들은 실패에 대해 말할 때 종종 초연해지는데, 나는 그 특유의 쿨함을 좋아한다. 약간의 시니컬한 어조
                 뒤에 따라오는 대범함과 여유는 희극과 비극의 경계를 오가다 결국 희극의 어느 지점에 나를 떨궈 놓는다. 그
                 쿨함의 근원을 나름 추측해 보자면, 체념 후 비로소 얻게 되는 자신감, 혹은 스스로 불완전한 존재임을
@@ -202,7 +230,7 @@ const Forewords = () => {
                 여유와 내가 애정하는 특유의 쿨함을 가지고 졸업을 한다.
               </p>
 
-              <p>
+              <p tabindex="0">
                 올해 졸업생 일동은 이타적 베타테스트로서 졸업 전시를 기획했다. 얼핏 생각하면 이타적 베타테스트는 졸업
                 전시와 이질적으로 느껴진다. 대부분 졸업 전시는 테스트가 아닌 완결에 의미를 둔다. 따라서 다른 것보다 나의
                 작업을 가장 잘 드러낼 수 있는 방법을 최우선으로 고민하고, 변수를 줄이기 위해 기존의 안정된 형식을 취하는
@@ -213,7 +241,7 @@ const Forewords = () => {
                 고무 된다. 앞으로 2021년 졸업 전시가 선례가 되어 조형예술과 전시의 뉴노멀이 될 수 있기를 기대한다.
               </p>
 
-              <p className="italic-text pr-3">
+              <p className="italic-text pr-3" tabindex="0">
                 ...하지만 지상의 만물은 모두 불완전하다. 지금, 더 이상 아름다울 수 없을 정도로 아름다운 저 석양은 아직
                 단 한 번도 없었다. 우리를 지금보다 더 부드러운 잠에 빠지게 만드는 산들바람은 아직 한 번도 불어오지
                 않았다. 그리하여 우리는, 변함없는 시선으로 산과 석상을 응시 하며 하루하루를 , 책과 함께 즐길 것이다.
@@ -222,16 +250,26 @@ const Forewords = () => {
                 묘사와 분석을 애써 준비할 것이다. 우리는 그것을 즐길 것이다.
               </p>
 
-              <p className="text-right pr-3">-페르난두 페소아, ‘불안의 서’ 中</p>
-              <p className="text-right">2021.11.</p>
-              <p className="text-right">구지윤</p>
+              <p className="text-right pr-3" tabindex="0">
+                -페르난두 페소아, ‘불안의 서’ 中
+              </p>
+              <p className="text-right" tabindex="0">
+                2021.11.
+              </p>
+              <p className="text-right" tabindex="0">
+                구지윤
+              </p>
             </div>
           </div>
 
           <div className="">
-            <div className="col-12 my-5 font1 credits">Credits and thanks to</div>
-            <div className="col-3 ">참여 학생</div>
-            <div className="col-9 ">
+            <div className="col-12 my-5 font1 credits" tabindex="0">
+              Credits and thanks to
+            </div>
+            <div className="col-3 " tabindex="0">
+              참여 학생
+            </div>
+            <div className="col-9 " tabindex="0">
               강정현, 곽효진, 김민지, 김선, 김소현, 김수민, 김채린, 김환희, 노예주, 류효정, 목준수, 박민영, 박슬,
               박영민, 박정민, 박하린, 배민진, 손민지, 신민경, 오승은, 오어진, 왕호연, 유지원, 윤민지, 윤지아, 이도현,
               이슬이, 이승연, 이승하, 이예진, 이초영, 이화정, 임민영, 정민지, 정소윤, 정태완, 조도현, 조윤아, 조은형,
@@ -239,13 +277,19 @@ const Forewords = () => {
             </div>
 
             <div className="row mt-4">
-              <div className="col-3 ">지도 교수</div>
-              <div className="col-9 ">김연용</div>
+              <div className="col-3 " tabindex="0">
+                지도 교수
+              </div>
+              <div className="col-9 " tabindex="0">
+                김연용
+              </div>
             </div>
 
             <div className="row mt-4">
-              <div className="col-3 ">웹 디자인</div>
-              <div className="col-9 ">
+              <div className="col-3 " tabindex="0">
+                웹 디자인
+              </div>
+              <div className="col-9 " tabindex="0">
                 배민진, 최윤식, 최희수
                 <br />
                 바우어버드
@@ -253,8 +297,12 @@ const Forewords = () => {
             </div>
 
             <div className="row mt-4 mb-5">
-              <div className="col-3 ">웹 개발</div>
-              <div className="col-9 ">바우어버드</div>
+              <div className="col-3 " tabindex="0">
+                웹 개발
+              </div>
+              <div className="col-9 " tabindex="0">
+                바우어버드
+              </div>
             </div>
           </div>
         </div>

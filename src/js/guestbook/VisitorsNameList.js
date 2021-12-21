@@ -26,12 +26,12 @@ const VisitorsNameList = (props) => {
     <>
       <div className="row justify-content-center">
         <div className="col-8 p-4 guestbook-name-list ">
-          <div className="row text-center px-1">
+          <div className="row text-center px-1" tabindex="0">
             <div className="col-6 border-r border-b p-2">이름</div>
             <div className="col-6 border-b p-2">방문 일자</div>
           </div>
           {nameListOnPage.reverse().map((visitor) => (
-            <div className="row text-center px-1" key={visitor.id}>
+            <div className="row text-center px-1" key={visitor.id} tabindex="0">
               <div className="col-6 border-r p-2">{visitor.visitorName}</div>
               <div className="col-6 p-2">{dateType(visitor.visitDate)}</div>
             </div>

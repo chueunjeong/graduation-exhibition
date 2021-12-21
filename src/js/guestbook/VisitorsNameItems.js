@@ -67,7 +67,7 @@ const VisitorsNameItems = () => {
   return (
     <div>
       <div className="row justify-content-center visitor-name-insert">
-        <div className="col-8 text-center visitor-name-input-text">
+        <div className="col-8 text-center visitor-name-input-text" tabindex="0">
           방문객 이름 : &#40;
           <input
             className="visitor-name-input text-center"
@@ -79,7 +79,7 @@ const VisitorsNameItems = () => {
           &#41;
         </div>
         <div className="w-100"></div>
-        <div className="col-3 guestbook-name-btn-wrap pointer" onClick={onCreate}>
+        <div className="col-3 guestbook-name-btn-wrap pointer" onClick={onCreate} tabindex="0">
           <div className="guestbook-name-btn-text">
             <strong>적기</strong>
           </div>

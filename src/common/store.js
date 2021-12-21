@@ -4,8 +4,8 @@ export const data = [
     engName: "Jeonghyun Kang",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%92%E1%85%A7%E1%86%AB/%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%92%E1%85%A7%E1%86%AB0.png",
-    titleText:
-      "온라인 전시에 공개된 작업 외에 다른 작업을 오프라인 전시에서 보실 수 있습니다(12/27~12/30).영상 작업은 여기로 ☞ https://www.youtube.com/channel/UCrUjtbVtEExld2Pn46BSDRA",
+    titleText: `온라인 전시에 공개된 작업 외에 다른 작업을 오프라인 전시에서 보실 수 있습니다(12/27~12/30).<br>
+      영상 작업은 여기로 ☞ https://www.youtube.com/channel/UCrUjtbVtEExld2Pn46BSDRA`,
     works: [
       {
         title: "<노루궁뎅이버섯> 2021, 혼합 매체",

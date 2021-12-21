@@ -18,7 +18,7 @@ const Pagination = (props) => {
           <ul className="pagination justify-content-center pagination-sm">
             {pages.map((page) => (
               <li key={page} className={page === currentPage ? "page-item active" : "page-item"}>
-                <a className="page-link" href="#!" onClick={() => onPageChange(page)}>
+                <a className="page-link" href="#!" onClick={() => onPageChange(page)} tabindex="0" alt={page}>
                   {page}
                 </a>
               </li>
