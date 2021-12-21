@@ -78,7 +78,8 @@
 .artwork-description {
   display: inline;
   font-size: 16px * 0.75;
-  opacity: 35% !important;
+  // opacity: 35% !important;
+  color: rgba(33, 37, 41, 0.35) !important;
 }
 
 .special-character {
