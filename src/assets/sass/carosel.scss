@@ -53,6 +53,8 @@
 .imglist-image {
   width: 150px;
   height: auto;
+  filter: drop-shadow(3px 5px 3px rgba(0, 0, 0, 0.3));
+  // box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.1);
   // margin-bottom: 100px !important;
 }
 

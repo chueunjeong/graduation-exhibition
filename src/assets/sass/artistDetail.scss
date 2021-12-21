@@ -86,8 +86,10 @@
 }
 
 .artwork-contents {
+  padding: 0 50px;
   word-break: keep-all;
-  //line-height: 1.5rem;
+
+  line-height: 2rem;
   font-size: 20px * 0.75;
 }
 

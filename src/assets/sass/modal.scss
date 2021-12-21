@@ -24,6 +24,7 @@
   position: relative;
   top: 0px;
   padding: 0 auto;
+  box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.15);
   // box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   text-align: center;
 
@@ -42,7 +43,6 @@
   top: 0;
   left: calc(602px * 0.75 / 2);
   transform-origin: left center;
-
   background-image: url("../images/modal-paper-left-img.jpg");
   width: calc(602px * 0.75 / 2);
   height: 764px * 0.75;
@@ -55,14 +55,13 @@
   top: 0;
   left: calc(602px * 0.75 / 2);
   transform-origin: left center;
-
   background-image: url("../images/modal-paper-right-img.jpg");
   width: calc(602px * 0.75 / 2);
   height: 764px * 0.75;
 }
 
 .modal-contents {
-  background-image: url("../images/modal-paper-merge.jpg");
+  // background-image: url("../images/modal-paper-merge.jpg");
 }
 
 .modal-close {
