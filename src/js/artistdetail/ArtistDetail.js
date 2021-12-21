@@ -20,7 +20,7 @@ import "../../assets/sass/artistDetail.scss";
 
 const ArtistDetail = () => {
   const location = useLocation();
-  const artistInfo = location.state.artistInfo;
+  const [artistInfo, setArtistInfo] = useState(location.state.artistInfo);
   const [currentTab, setCurrentTab] = useState();
   const tabRef = useRef([]);
 
@@ -29,7 +29,9 @@ const ArtistDetail = () => {
     console.log(artistInfo);
   }, []);
 
-  const init = () => {};
+  const init = () => {
+    console.log(artistInfo);
+  };
 
   //작품들
 
@@ -140,15 +142,17 @@ const ArtistDetail = () => {
                       src={AltTextIcon}
                     ></img>
                     <p className="artwork-description" tabindex="0">
-                      {work.text}
+                      &nbsp; &nbsp; &nbsp;{work.text}
                     </p>
                   </div>
                 ) : (
                   ""
                 )}
                 {work.youtube.map((link, index) => (
-                  <div className="col-10" tabindex="0">
-                    {link}
+                  <div className="col-10 text-center mt-3" tabindex="0">
+                    <a href={link} target="_blank">
+                      {link}
+                    </a>
                   </div>
                 ))}
               </div>
