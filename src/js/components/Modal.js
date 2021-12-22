@@ -29,27 +29,27 @@ const Modal = ({ showModal, closeModal }) => {
   const navigate = useNavigate();
   // 모달 질문 항목
   const [searchOption, setSearchOption] = useState({
-    flatWorks: false, //평면 작품
-    threeDWorks: false, //입체 작품
-    videoWorks: false, //영상 작품
-    multifacetedWorks: false, //다원 작품
+    flatWorks: true, //평면 작품
+    threeDWorks: true, //입체 작품
+    videoWorks: true, //영상 작품
+    multifacetedWorks: true, //다원 작품
     altText: false, //대체 텍스트
     soundSubtitles: false, //음성자막
   });
 
   const [searchOptionView, setSearchOptionView] = useState({
-    flatWorksViewY: false,
+    flatWorksViewY: true,
     flatWorksViewN: false,
-    threeDWorksViewY: false,
+    threeDWorksViewY: true,
     threeDWorksViewN: false,
-    videoWorksViewY: false,
+    videoWorksViewY: true,
     videoWorksViewN: false,
-    multifacetedWorksViewY: false,
+    multifacetedWorksViewY: true,
     multifacetedWorksViewN: false,
     altTextViewY: false,
-    altTextViewN: false,
+    altTextViewN: true,
     soundSubtitlesViewY: false,
-    soundSubtitlesViewN: false,
+    soundSubtitlesViewN: true,
   });
 
   useEffect(() => {
