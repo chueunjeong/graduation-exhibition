@@ -74,7 +74,7 @@ const GreetingsItems = () => {
       <div className="row justify-content-center">
         <div className="col-8 writing-greeting text-size20">
           <div className="row">
-            <div className="col-6">
+            <div className="col-6 koreannmjb-font">
               <input
                 className="greeting-name-input"
                 name="recipient"
@@ -109,7 +109,7 @@ const GreetingsItems = () => {
           </div>
 
           <div className="row justify-content-end">
-            <div className="col-6 text-right">
+            <div className="col-6 text-right koreannmjb-font">
               <input className="greeting-name-input" name="sender" value={sender} onChange={onChange} alt="보낸 사람" />
               드림
             </div>
@@ -121,7 +121,7 @@ const GreetingsItems = () => {
         {greetings.reverse().map((greeting) => (
           <div className="col-8 greeting-card">
             <div className="row">
-              <div className="col-6 text-left text-size20" tabindex="0">
+              <div className="col-6 text-left text-size20 koreannmjb-font" tabindex="0">
                 {greeting.recipient}에게
               </div>
             </div>
@@ -131,7 +131,7 @@ const GreetingsItems = () => {
               </div>
             </div>
             <div className="row justify-content-end greeting-card-bottom">
-              <div className="col-6 text-right text-size20" tabindex="0">
+              <div className="col-6 text-right text-size20 koreannmjb-font" tabindex="0">
                 {greeting.sender} 드림
               </div>
             </div>

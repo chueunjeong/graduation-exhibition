@@ -65,3 +65,14 @@
 .greeting-card-maintext {
   margin: 3rem 0;
 }
+
+.greeting-card-bottom {
+  position: absolute;
+  //left: 0;
+  bottom: 1rem;
+  width: 100%;
+}
+
+.koreannmjb-font {
+  font-family: koreanNMJB;
+}
