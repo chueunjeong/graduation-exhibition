@@ -3620,7 +3620,7 @@ export const data = [
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B50.png",
     titleText: `Who framed Antoinette?<br/>
       누가 앙투아네트를 모함했나?<br/><br/>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;정민지<br/><br/>
+      정민지<br/><br/>
       but what is true in it, so it seemed to me, is that any woman born with a great gift in the
       sixteenth century would certainly have gone crazed, shot herself, or ended her days in some
       lonely cottage outside the village, half witch, half wizard, feared and mocked at. For it needs
@@ -4539,7 +4539,7 @@ export const data = [
     engName: "Seoyun Choe ",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8E%E1%85%AC%E1%84%89%E1%85%A5%E1%84%8B%E1%85%B2%E1%86%AB/%E1%84%8E%E1%85%AC%E1%84%89%E1%85%A5%E1%84%8B%E1%85%B2%E1%86%AB0.png",
-    titleText: `<wobbles>, 2021, 단채널 비디오, (00:01:22)<br/><br/>
+    titleText: `&lt;wobbles&gt;, 2021, 단채널 비디오, (00:01:22)<br/><br/>
       &nbsp;&nbsp;&nbsp;&nbsp;매력적인 이미지는 간혹 사진보다 동영상으로 촬영하는 게 좋다. 아이폰을 통해 습관처럼 촬영한 대부분의 동영상
       은 피사체를 향해 손을 고정하여 찍은 것이다. 촬영 중 응시하는 대상은 피사체가 아닌 아이폰 액정으로 옮겨간다.
       겨우 몇 분 가량 액정 속에서 벌어지는 일은 이미지를 특정 시간에 유착시키는 것에 실패하는데, 미세하게 떨리는
