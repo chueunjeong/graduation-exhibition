@@ -25,7 +25,7 @@
   }
   &:hover .hidden-hover {
     display: none;
-    font-family: koreanNMJB;
+    font-family: koreanNMJB, koreaNMJ-B;
   }
 }
 
@@ -40,7 +40,7 @@
 .intro-title-text {
   font-size: 64px * 0.75;
   // font-family: "Noto Sans KR", sans-serif;
-  font-family: koreanNMJB;
+  font-family: koreanNMJB, koreaNMJ-B;
 }
 
 .show-hover {
