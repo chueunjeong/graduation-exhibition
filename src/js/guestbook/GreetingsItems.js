@@ -116,7 +116,7 @@ const GreetingsItems = () => {
           </div>
         </div>
       </div>
-
+      {/* 카드반복시작 */}
       <div className="row justify-content-center greeting-list">
         {greetings.reverse().map((greeting) => (
           <div className="col-8 greeting-card">
