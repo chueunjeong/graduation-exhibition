@@ -7,10 +7,6 @@ import "../../assets/sass/artistItems.scss";
 import { data } from "../../common/store";
 
 const ArtistList = () => {
-  // const artist_count = 48;
-  // const cols = 3;
-  // const rows = Math.ceil(artist_count / cols);
-  // const remainder = artist_count % cols;
   const [artistInfoList, setArtistInfoList] = useState([]);
   const location = useLocation();
 
@@ -29,116 +25,154 @@ const ArtistList = () => {
     const filter = location.state.filter;
     // console.log(location.state.filter);
     const temp = []; // 배열 중 중복 감지
+
+    for (let i = 0; i < artist.length; i++) {
+      for (let k = 0; k < artist[i]?.works?.length; k++) {
+        if (artist[i].works[k].alttext) {
+          artist[i].altTextCheck = true;
+        }
+        if (artist[i].works[k].soundSubtitle) {
+          artist[i].soundSubtitleCheck = true;
+        }
+        if (artist[i].works[k].type === "평면") {
+          artist[i].flatworksCheck = true;
+        }
+        if (artist[i].works[k].type === "입체") {
+          artist[i].threedworksCheck = true;
+        }
+        if (artist[i].works[k].type === "영상") {
+          artist[i].videoworksCheck = true;
+        }
+        if (artist[i].works[k].type === "다원") {
+          artist[i].multifactedworksCheck = true;
+        }
+      }
+    }
+
+    //작가별로 돌기
     for (let i = 0; i < artist.length; ++i) {
-      try {
-        // let exist = false;
-
-        if (filter.flatWorks) {
-          for (let k in artist[i]["works"]) {
-            if (artist[i]["works"][k]["type"] === "평면") {
+      //평면 작품 조건이 들어오면
+      if (filter.flatWorks) {
+        //각 작가의 작품에 평면이 있는지 확인
+        if (artist[i].flatworksCheck) {
+          if (!filter.altText && !filter.soundSubtitles) {
+            temp.push(artist[i]);
+            console.log("평면 작가이름" + artist[i].name);
+            continue;
+          } else if (filter.altText && filter.soundSubtitles) {
+            if (artist[i].altTextCheck && artist[i].soundSubtitleCheck) {
               temp.push(artist[i]);
-              // i++;
+              console.log("평면 대체자막 작가이름" + artist[i].name);
+              continue;
+            }
+          } else {
+            if (filter.altText && artist[i].altTextCheck) {
+              temp.push(artist[i]);
+              console.log("평면 대체 작가이름" + artist[i].name);
+              continue;
+            }
+            if (filter.soundSubtitles && artist[i].soundSubtitleCheck) {
+              temp.push(artist[i]);
+              console.log("평면 자막 작가이름" + artist[i].name);
+              continue;
             }
           }
-        }
-
-        if (filter.threeDWorks) {
-          for (let k in artist[i]["works"]) {
-            if (artist[i]["works"][k]["type"] === "입체") {
-              temp.push(artist[i]);
-              // i++;
-            }
-          }
-        }
-
-        if (filter.videoWorks) {
-          for (let k in artist[i]["works"]) {
-            if (artist[i]["works"][k]["type"] === "영상") {
-              temp.push(artist[i]);
-              // i++;
-            }
-          }
-        }
-
-        if (filter.multifacetedWorks) {
-          for (let k in artist[i]["works"]) {
-            if (artist[i]["works"][k]["type"] === "다원") {
-              temp.push(artist[i]);
-              // i++;
-            }
-          }
-        }
-
-        if (filter.altText) {
-          for (let k in artist[i]["works"]) {
-            if (artist[i]["works"][k]["alttext"] === true) {
-              temp.push(artist[i]);
-              // i++;
-            }
-          }
-        }
-        // if (!filter.altText) {
-        //   let exist = 0;
-        //   for (let k in artist[i]["works"]) {
-        //     if (!artist[i]["works"][k]["alttext"]) {
-        //       exist++;
-        //       // i++
-        //     }
-        //   }
-        //   if (exist === artist[i]["works"].length) {
-        //     temp.push(artist[i]);
-        //     i++;
-        //   }
-        // }
-
-        if (filter.soundSubtitles) {
-          for (let k in artist[i]["works"]) {
-            if (artist[i]["works"][k]["soundSubtitle"]) {
-              temp.push(artist[i]);
-              // i++;
-            }
-          }
-        }
-      } catch (error) {}
-      // console.log(artist[i]);
-    }
-
-    let temp2 = [];
-    for (let i = 0; i < temp.length; i++) {
-      let exist = false;
-      for (let k = 0; k < temp2.length; k++) {
-        if (temp[i].name === temp2[k].name) exist = true;
-      }
-
-      if (!exist) temp2.push(temp[i]);
-    }
-
-    // flatWorks: false, //평면 작품
-    // threeDWorks: false, //입체 작품
-    // videoWorks: false, //영상 작품
-    // multifacetedWorks: false, //다원 작품
-    // altText: false, //대체 텍스트
-    // soundSubtitles: false, //음성자막
-
-    for (let i = 0; i < temp2.length; i++) {
-      for (let k = 0; k < temp2[i]?.works?.length; k++) {
-        if (temp2[i].works[k].alttext) {
-          temp2[i].altTextCheck = true;
-        }
-        if (temp2[i].works[k].soundSubtitle) {
-          temp2[i].soundSubtitleCheck = true;
         }
       }
+      //입체 작품 조건이 들어오면
+      if (filter.threeDWorks) {
+        //각 작가의 작품에 입체가 있는지 확인
+        if (artist[i].threedworksCheck) {
+          if (!filter.altText && !filter.soundSubtitles) {
+            temp.push(artist[i]);
+            console.log("입체 작가이름" + artist[i].name);
+            continue;
+          } else if (filter.altText && filter.soundSubtitles) {
+            if (artist[i].altTextCheck && artist[i].soundSubtitleCheck) {
+              temp.push(artist[i]);
+              console.log("입체 대체자막 작가이름" + artist[i].name);
+              continue;
+            }
+          } else {
+            if (filter.altText && artist[i].altTextCheck) {
+              temp.push(artist[i]);
+              console.log("입체 대체작가이름" + artist[i].name);
+              continue;
+            }
+            if (filter.soundSubtitles && artist[i].soundSubtitleCheck) {
+              temp.push(artist[i]);
+              console.log("입체 자막작가이름" + artist[i].name);
+              continue;
+            }
+          }
+        }
+      }
+      //영상 작품 조건이 들어오면
+      if (filter.videoWorks) {
+        //각 작가의 작품에 영상이 있는지 확인
+        if (artist[i].videoworksCheck) {
+          if (!filter.altText && !filter.soundSubtitles) {
+            temp.push(artist[i]);
+            console.log("영상 작가이름" + artist[i].name);
+            continue;
+          } else if (filter.altText && filter.soundSubtitles) {
+            if (artist[i].altTextCheck && artist[i].soundSubtitleCheck) {
+              temp.push(artist[i]);
+              console.log("영상 대체자막 작가이름" + artist[i].name);
+              continue;
+            }
+          } else {
+            if (filter.altText && artist[i].altTextCheck) {
+              temp.push(artist[i]);
+              console.log("영상 대체작가이름" + artist[i].name);
+              continue;
+            }
+            if (filter.soundSubtitles && artist[i].soundSubtitleCheck) {
+              temp.push(artist[i]);
+              console.log("영상 자막작가이름" + artist[i].name);
+              continue;
+            }
+          }
+        }
+      }
+      //다원 작품 조건이 들어오면
+      if (filter.multifacetedWorks) {
+        //각 작가의 작품에 다원이 있는지 확인
+        if (artist[i].multifactedworksCheck) {
+          if (!filter.altText && !filter.soundSubtitles) {
+            temp.push(artist[i]);
+            console.log("다원 작가이름" + artist[i].name);
+            continue;
+          } else if (filter.altText && filter.soundSubtitles) {
+            if (artist[i].altTextCheck && artist[i].soundSubtitleCheck) {
+              temp.push(artist[i]);
+              console.log("다원 대체자막 작가이름" + artist[i].name);
+              continue;
+            }
+          } else {
+            if (filter.altText && artist[i].altTextCheck) {
+              temp.push(artist[i]);
+              console.log("다원 대체작가이름" + artist[i].name);
+              continue;
+            }
+            if (filter.soundSubtitles && artist[i].soundSubtitleCheck) {
+              temp.push(artist[i]);
+              console.log("다원 자막작가이름" + artist[i].name);
+              continue;
+            }
+          }
+        }
+      }
     }
 
-    temp2.sort((a, b) => {
+    temp.sort((a, b) => {
       if (a.name > b.name) {
         return 1;
       } else {
         return -1;
       }
     });
-    setArtistInfoList(temp2);
+    setArtistInfoList(temp);
   };
 
   return (
