@@ -49,7 +49,7 @@ const GuestBook = () => {
             <div className="col-6">
               <div className="row" tabindex="0">
                 <div className="col-2 ellipse1">
-                  <img className="ellipse-img" src={leftTitleItems.ellipseImg}></img>
+                  <img className="guestbook-ellipse-img" src={leftTitleItems.ellipseImg} alt=""></img>
                 </div>
 
                 <div className="col-10 text1 guestbook-subtitle-text">이름만 남기기</div>
@@ -73,7 +73,7 @@ const GuestBook = () => {
             <div className="col-6">
               <div className="row" tabindex="0">
                 <div className="col-2 ellipse1">
-                  <img className="ellipse-img" src={rightTitleItems.ellipseImg}></img>
+                  <img className="guestbook-ellipse-img" src={rightTitleItems.ellipseImg} alt=""></img>
                 </div>
                 <div className="col-10 text1 guestbook-subtitle-text">인사말 남기기</div>
                 <div className="col-2 ellipse"></div>
