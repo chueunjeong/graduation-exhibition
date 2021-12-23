@@ -20,6 +20,7 @@
   }
   .main-footer {
     width: 100% !important;
+    font-size: 5px !important;
   }
   .forewords-title-sub {
     font-size: 20px;
@@ -40,7 +41,7 @@
   }
 
   .imglist-image {
-    width: 80px !important;
+    width: 150px !important;
   }
   .image-belt {
     height: 100%;

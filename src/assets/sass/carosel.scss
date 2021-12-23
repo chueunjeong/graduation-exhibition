@@ -13,31 +13,35 @@
   animation: three-dimensions-circle 50s linear infinite;
   width: 100%;
   padding: 0;
+  // overflow: hidden;
 }
 
 .imglist-item,
 .imglist-item2 {
-  width: 200px * 0.75;
-  height: 200px * 0.75;
+  width: 200px;
+  height: 200px;
   //border: 1px solid hotpink;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  //top: 50%;
+  //left: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   backface-visibility: hidden;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 @for $i from 1 through 48 {
   .imglist-item:nth-child(#{$i}) {
-    transform: translate(-100%, -100%) rotate(#{$i * 7.5 - 7.5}deg) translateY(-1500%) rotateX(90deg);
+    transform: translate(-50%, -50%) rotate(#{$i * 7.5 - 7.5}deg) translateY(-1000%) rotateX(90deg);
   }
 }
 
 @for $i from 1 through 48 {
   .imglist-item2:nth-child(#{$i}) {
-    transform: translate(-100%, -100%) rotate(#{$i * 7.5 - 7.5}deg) translateY(1500%) rotateX(90deg);
+    transform: translate(-50%, -50%) rotate(#{$i * 7.5 - 7.5}deg) translateY(1000%) rotateX(90deg);
   }
 }
 
@@ -58,12 +62,18 @@
   // margin-bottom: 100px !important;
 }
 
+.belt-ellipse-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .imglist-ellipse {
-  width: 25px;
-  height: 25px;
+  width: 25px * 0.75;
+  height: 25px * 0.75;
   // margin: 0.5rem;
 
-  margin-left: 87.56px;
+  //margin-left: 87.56px;
   // margin-bottom: -200px;
   // margin: 0 auto;
 }
