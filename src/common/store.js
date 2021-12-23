@@ -2597,7 +2597,7 @@ export const data = [
     ],
   },
   {
-    name: "윤시오(윤민지)",
+    name: "윤시오",
     engName: "Seio Yoon",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%89%E1%85%B5%E1%84%8B%E1%85%A9(%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5)/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%89%E1%85%B5%E1%84%8B%E1%85%A90.png",
@@ -3119,7 +3119,7 @@ export const data = [
     ],
   },
   {
-    name: "진진(이예진)",
+    name: "진진",
     engName: "zinzin ",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB(%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB)/%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%B5%E1%86%AB0.png",
@@ -3372,7 +3372,7 @@ export const data = [
     ],
   },
   {
-    name: "이들(이화정)",
+    name: "이들",
     engName: "Edle",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%B3%E1%86%AF(%E1%84%8B%E1%85%B5%E1%84%92%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%BC)/%E1%84%8B%E1%85%B5%E1%84%92%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%BC0.png",
@@ -4318,7 +4318,7 @@ export const data = [
     ],
   },
   {
-    name: "혜영조(조혜영)",
+    name: "혜영조",
     engName: "Hyeyeongjo",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A9%E1%84%92%E1%85%A8%E1%84%8B%E1%85%A7%E1%86%BC/%E1%84%8C%E1%85%A9%E1%84%92%E1%85%A8%E1%84%8B%E1%85%A7%E1%86%BC0.png",

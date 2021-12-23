@@ -90,7 +90,7 @@ const Modal = ({ showModal, closeModal }) => {
   return (
     // <div className="container">
     <div className="modal-container">
-      <div className="modal-contents" tabIndex="0">
+      <div className="modal-contents">
         <div className={`paper-left ${bodyShow && "paper-left-after"}`}></div>
         <div className="paper-right"></div>
         <div className="modal-body" style={{ display: bodyShow ? "block" : "none" }}>
@@ -168,7 +168,7 @@ const Modal = ({ showModal, closeModal }) => {
               {/* <a href="/artistlist"> */}
               <div className="btn-text text-sz20">보러가기</div>
               <div className="btn-img">
-                <img className="modal-btn-img" alt="modal-btn-img" src={ModalBtn}></img>
+                <img className="modal-btn-img" alt="" src={ModalBtn}></img>
               </div>
               {/* </a> */}
             </div>

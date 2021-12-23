@@ -70,6 +70,8 @@ const VisitorsNameItems = () => {
         <div className="col-8 text-center visitor-name-input-text" tabindex="0">
           방문객 이름 : &#40;
           <input
+            aria-label={"방문자 이름 입력하기"}
+            aria-required="true"
             className="visitor-name-input text-center"
             name="visitors-name"
             placeholder=""
@@ -90,7 +92,7 @@ const VisitorsNameItems = () => {
             <strong>적기</strong>
           </div>
           <div className="guestbook-name-btn-img-wrap">
-            <img className="guestbook-name-btn-img" alt="guestbook-name-btn-img" src={GuestBookNameBtn}></img>
+            <img className="guestbook-name-btn-img" alt="" src={GuestBookNameBtn}></img>
           </div>
         </div>
       </div>

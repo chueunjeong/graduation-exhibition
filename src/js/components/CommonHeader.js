@@ -41,7 +41,7 @@ const CommonHeader = () => {
             <img
               className="header-icon modal-icon"
               tabindex="0"
-              alt="작품 보러가기"
+              alt="작품 선택하기"
               src={`${showModal ? HeaderIcon3Close : HeaderIcon3}`}
               onClick={() =>
                 setShowModal((prev) => {

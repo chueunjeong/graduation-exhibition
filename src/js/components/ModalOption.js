@@ -143,7 +143,7 @@ const ModalOption = ({
     <div className="row my-3">
       <div className="col-8">
         <div className="row">
-          <div className="col-12 text-left text-sz18" tabindex="0">
+          <div role="region" className="col-12 text-left text-sz18" tabindex="0">
             {questionText}
           </div>
           {(option === "altText" || option === "soundSubtitles") && (

@@ -76,13 +76,15 @@ const GreetingsItems = () => {
           <div className="row">
             <div className="col-6 koreannmjb-font">
               <input
+                aria-label={"받는사람 이름 입력하기"}
+                aria-required="true"
                 className="greeting-name-input"
                 name="recipient"
                 value={recipient}
                 onChange={onChange}
-                alt="받는 사람"
+                // alt="받는 사람"
               />
-              에게
+              <span>에게</span>
             </div>
             <div
               className="col-6 greeting-send-btn-wrap"
@@ -97,20 +99,28 @@ const GreetingsItems = () => {
 
           <div className="row justify-content-center writing-greeting-textbox">
             <textarea
+              aria-label={"메세지 입력하기"}
+              aria-required="true"
               className="greeting-send-text"
               name="maintext"
               value={maintext}
               onChange={onChange}
               rows="3"
               cols="40"
-            >
-              작가에게 인사말을 적어주세요.
-            </textarea>
+            />
           </div>
 
           <div className="row justify-content-end">
             <div className="col-6 text-right koreannmjb-font">
-              <input className="greeting-name-input" name="sender" value={sender} onChange={onChange} alt="보낸 사람" />
+              <input
+                aria-label={"보내는 사람 이름 입력하기"}
+                aria-required="true"
+                className="greeting-name-input"
+                name="sender"
+                value={sender}
+                onChange={onChange}
+                alt="보낸 사람"
+              />
               드림
             </div>
           </div>

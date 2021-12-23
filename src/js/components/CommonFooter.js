@@ -8,14 +8,14 @@ const CommonFooter = () => {
   return (
     <div className="row main-footer">
       <div className="col-3 footer-text1">
-        <div className="text-left">
+        <div className="text-left" tabIndex="0">
           kartsfinearts2021.com
           <br />
           betannyeong.online@gmail.com
         </div>
       </div>
       <div className="col-6 text-center footer-text2">
-        <div>
+        <div tabIndex="0">
           한국예술종합학교 조형예술과 22회 졸업전시 &lt;안녕을 위한 베타 테스트&gt;
           <br />© 2021 Korea National University of Arts, Fine Arts Dept. Students All Rights Reserved
         </div>
