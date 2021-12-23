@@ -269,15 +269,15 @@ const Forewords = () => {
             <div className="col-12 my-5 font1 credits" tabindex="0">
               Credits and thanks to
             </div>
-            <div className="col-3 " tabindex="0">
+            <div className="col-12 " tabindex="0" style={{ fontWeight: "bold", marginBottom: 5 }}>
               참여 학생
             </div>
-            <div className="col-9 " tabindex="0">
+            <div className="col-12 " tabindex="0" style={{ wordBreak: "break-all" }}>
               강정현,곽효진,김민지,김선,김소현,김수민,김채린,김환희,노예주,류효정,목준수,박민영,박슬,박영민,박정민,박하린,배민진,손민지,신민경,오승은,오어진,왕호연,유지원,윤시오,윤지아,이도현,이슬이,이승연,이승하,진진,이초영,이들,임민영,정민지,정소윤,정태완,조도현,조윤아,조은형,혜영조,주다은,최상민,최서윤,최유진,최윤식,최희수,하주연,허겸
             </div>
 
-            <div className="row mt-4">
-              <div className="col-3 " tabindex="0">
+            <div className=" mt-4">
+              <div className="col-12 " tabindex="0" style={{ fontWeight: "bold", marginBottom: 5 }}>
                 지도 교수
               </div>
               <div className="col-9 " tabindex="0">
@@ -285,22 +285,22 @@ const Forewords = () => {
               </div>
             </div>
 
-            <div className="row mt-4">
-              <div className="col-3 " tabindex="0">
+            <div className="mt-4">
+              <div className="col-12 " tabindex="0" style={{ fontWeight: "bold", marginBottom: 5 }}>
                 웹 디자인
               </div>
-              <div className="col-9 " tabindex="0">
+              <div className="col-12 " tabindex="0">
                 배민진, 최윤식, 최희수
                 <br />
                 바우어버드
               </div>
             </div>
 
-            <div className="row mt-4 mb-5">
-              <div className="col-3 " tabindex="0">
+            <div className="mt-4 mb-5">
+              <div className="col-12 " tabindex="0" style={{ fontWeight: "bold", marginBottom: 5 }}>
                 웹 개발
               </div>
-              <div className="col-9 " tabindex="0">
+              <div className="col-12" tabindex="0">
                 바우어버드
               </div>
             </div>

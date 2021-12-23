@@ -33,7 +33,12 @@
   }
 
   .artwork-contents {
+    padding: 0 10px !important;
     word-break: break-all !important;
+  }
+
+  .credits {
+    width: 100%;
   }
 
   .guestbook-subtitle-text {
