@@ -125,10 +125,10 @@ const Forewords = () => {
             <div className="col-6 thanksto-text-loc">
               <div className="row">
                 <div className="col-12 my-5 font1 credits">Credits and thanks to</div>
-                <div className="col-3 " tabindex="0">
+                <div className="col-3" tabindex="0">
                   참여 학생
                 </div>
-                <div className="col-9 " tabindex="0">
+                <div className="col-9" tabindex="0">
                   강정현, 곽효진, 김민지, 김선, 김소현, 김수민, 김채린, 김환희, 노예주, 류효정, 목준수, 박민영, 박슬,
                   박영민, 박정민, 박하린, 배민진, 손민지, 신민경, 오승은, 오어진, 왕호연, 유지원, 윤시오, 윤지아,
                   이도현, 이슬이, 이승연, 이승하, 진진, 이초영, 이들, 임민영, 정민지, 정소윤, 정태완, 조도현, 조윤아,
