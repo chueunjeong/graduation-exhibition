@@ -71,6 +71,25 @@
   .intro-title-text {
     font-size: 28px !important;
   }
+  .modal-container {
+    width: 100% !important;
+  }
+
+  .modal-contents {
+    position: relative;
+  }
+  .paper-left {
+    width: 50% !important;
+    position: absolute;
+    left: 50% !important;
+    /* left: 0 !important; */
+  }
+
+  .paper-right {
+    width: 50% !important;
+    position: absolute;
+    left: 50% !important;
+  }
 }
 
 @media (min-width: 1264px) {
