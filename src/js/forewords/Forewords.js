@@ -230,7 +230,9 @@ const Forewords = () => {
           </div>
           <div className="">
             <div className="paper-text mt-5 paper-bottom-m">
-              <p tabindex="0">베타테스트를 위한 안녕</p>
+              <p style={{ marginTop: 40 }} tabindex="0">
+                베타테스트를 위한 안녕
+              </p>
               <p tabindex="0">
                 한국예술종합학교 미술원 조형예술과의 제22회 졸업전시 &lt;안녕을 위한 베타 테스트&gt;는 총 49명의 예비
                 작가들이 선보이는 회화, 설치, 영상, 퍼포먼스 등 다양한 매체의 작업으로 펼쳐집니다. 여느 때와 마찬가지로
