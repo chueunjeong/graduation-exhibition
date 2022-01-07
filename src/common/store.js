@@ -2008,7 +2008,7 @@ export const data = [
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%A9%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8B%E1%85%A9%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AB0.png",
     works: [
       {
-        title: "<쇼잉 Showing> 2021, 2채널 비디오 설치, 20' 50",
+        title: `<쇼잉 Showing> 2021, 2채널 비디오 설치, 20' 50"`,
         type: "영상",
         images: [
           {
@@ -2030,7 +2030,7 @@ export const data = [
         youtube: [],
       },
       {
-        title: "<매물 Listing> 2020, 퍼포먼스 기록 영상, 10' 15",
+        title: `<매물 Listing> 2020, 퍼포먼스 기록 영상, 10' 15"`,
         type: "다원",
         images: [
           {
@@ -2052,7 +2052,7 @@ export const data = [
         youtube: [],
       },
       {
-        title: "<편도 위 평지 Flat on One Way>, 2021, 원채널 비디오, 16' 40",
+        title: `<편도 위 평지 Flat on One Way>, 2021, 원채널 비디오, 16' 40"`,
         type: "영상",
         images: [
           {

@@ -107,27 +107,30 @@ const ArtistDetail = () => {
           {artistInfo.works &&
             artistInfo.works.map((work, i) => (
               <div className="row artwork" ref={(el) => (tabRef.current[i] = el)}>
+                {artistInfo.name === "최상민" && <div style={{ width: "100%", height: 480 }}></div>}
                 {work.images.map((image, index) => (
                   <div className="col-12 text-center" alt={image.type + "작품"} tabIndex="0">
-                    {image.type === "video" ? (
-                      <iframe
-                        width="100%"
-                        height="550"
-                        src={`https://www.youtube.com/embed/${image.url.split("/")[image.url.split("/").length - 1]}`}
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                        title="Embedded youtube"
-                        tabindex="0"
-                      />
-                    ) : (
-                      <img
-                        className="artwork-img img-fluid"
-                        alt={artistInfo.name + "작가 이미지"}
-                        src={image.url}
-                        tabindex="0"
-                      />
-                    )}
+                    <>
+                      {image.type === "video" ? (
+                        <iframe
+                          width="100%"
+                          height="550"
+                          src={`https://www.youtube.com/embed/${image.url.split("/")[image.url.split("/").length - 1]}`}
+                          frameBorder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                          title="Embedded youtube"
+                          tabindex="0"
+                        />
+                      ) : (
+                        <img
+                          className="artwork-img img-fluid"
+                          alt={artistInfo.name + "작가 이미지"}
+                          src={image.url}
+                          tabindex="0"
+                        />
+                      )}
+                    </>
                   </div>
                 ))}
 
