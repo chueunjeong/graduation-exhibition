@@ -2823,8 +2823,8 @@ export const data = [
     engName: "Seuli I",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B5/%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B50.png",
-    titleText: `작품링크 : https://seulii.github.io/What-was-Misuk-doing/ <br/><br/>
-      작가 노트<br/>
+    titleText: `
+      <strong>작가 노트</strong><br/>
       &nbsp;&nbsp;&nbsp;&nbsp;지난 3월 닌텐도 스위치 게임 ‘모여봐요 동물의 숲’이 출시되었다. 이하 ‘모동숲’은 가상 주민들과 전원생활 을 즐기는 자유도
       가 높은 게임으로 매니아 층을 비롯한 폭넓은 사용자들의 니즈를 만족시킨 메이저 게임으로 자리 잡았다. 홍콩 독립운동가 조
       슈아 웡은 4월 12일 유튜브 라이브 스트리밍을 통해 모동숲 방송을 진행한 적 이 있는데, 자신의 가상의 섬에 홍콩독립 구호
@@ -2847,7 +2847,7 @@ export const data = [
       탕화면의 인터페이스가 도와줄 수 있지 않을까? 무작위로 계속 쌓여가 는 바탕화면을 꽉 채운 파일과 폴더를 열면서 내 용량
       을 잡아먹었던 정크데이터를 끄집어 정리하는 것 마냥 말 이다. 그리고 개인적 이야기에서 벗어나, 더 많고 다양한 모녀관계에
       대한 이야기를 할 수 있는 첫 시도가 되었 으면 좋겠다.<br/><br/>
-      &lt;What Was Misuk Doing?&gt;,2020, 웹 게임<br/>
+      <strong>&lt;What Was Misuk Doing?&gt;, 2020, 웹 게임</strong><br/>
       &nbsp;&nbsp;&nbsp;&nbsp;엄마가 가출했었다. 나와 엄마는 지금은 결국 함께 하고 있지만 가출한 동안 어떻게 살았던걸까? 돈 한푼 없이 집을 나와 부
       산에서 인천으로 갔다. 어떻게 돈을 벌었을까? 집은 제대로 있었을까? 가출 후 2년 뒤 다시 나를 데리러 왔을 때, 엄마는 어떤
       기분 이었을까?<br/>
@@ -2861,7 +2861,7 @@ export const data = [
       읽어 줄 것이다. 그러면 나는 엄마를 더 잘 이해할 수 있게 되지 않을까?<br/>
       이 일련의 과정이 외재화된 딸의 기억과 내재화되어있는 엄마의 기억이 충돌하는 계기이자 동시에 개인적 경험을 벗어나서,
       복잡한 모녀관계를 드러낼 수 있는 실험이자 시도가 되었으면 좋겠다.<br/><br/>
-      &lt;We need sleep&gt;, 2021, 웹 게임<br/>
+      <strong>&lt;We need sleep&gt;, 2021, 웹 게임</strong><br/>
       &nbsp;&nbsp;&nbsp;&nbsp;이 게임은 가정폭력이 일어나고 있는 집 내부에서 플레이어는 본인을 포함한 자신의 자식들과 남자친구(가해자)의 스트레스
       를 관리해야한다. 목표는 아침이 되기 전 까지 모두 잠에 들 수 있도록 행동을 지시하고 수행함으로써 스트레스 수치를 전략
       적으로 낮추는 것이다. 플레이어는 엄마로써의 책임과 스스로의 욕망사이에서 갈등하는 이야기를 경험한다.<br/><br/>
@@ -3894,12 +3894,12 @@ export const data = [
     engName: "Dohyun Cho ",
     titleImage:
       "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%A9%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB/%E1%84%8C%E1%85%A9%E1%84%83%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB0.png",
-    titleText: `&nbsp;&nbsp;&nbsp;&nbsp;‘혼자서도 잘 살 수 있는 사람이 되는 것 에서 출발한 관심사 중 내 집 마련 이 키워드 였 다 작은
-      인간이 돋보이는 내 집 마련 ’ 시리즈는 내가 생각하는 내 집 마련 이라는 목표와 내 집 이 나에
-      게 어떤 이미지 인지 시각적으로 표현한 작품들이다<br/><br/><br/><br/>
-      &nbsp;&nbsp;&nbsp;&nbsp;회화 작 품 은 작 업 으 로 부터 도 망 치기 바 빴 던 내 게 도 망 치 지 않 고 완 성 해 본 기 억 을 선 물 하기 위 한
-      그 림 이 다 미 완 으로 자주 끝 났 던 나 의 그 림 을 마 지 막 으로 완 성 해 항 상 도 망 치 지 만 은 않 았 다 는 의
-      미로 대 학 생 의 4 년 을 마 무 리 하 는 작 업 이 다 앞 으 로 도 지 금 처 럼 멈추지 말고 잘 버 텨 봅 시다`,
+    titleText: `&nbsp;&nbsp;&nbsp;&nbsp;'혼자서도 잘 살 수 있는 사람이 되는 것'에서 출발한 관심사 중 내 집 마련이 키워드였다. 작은
+      인간이 돋보이는 '내 집 마련' 시리즈는 내가 생각하는 '내 집 마련'이라는 목표와 내 집이 나에
+      게 어떤 이미지인지 시각적으로 표현한 작품들이다.<br/><br/><br/><br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;회화작품은 작업으로부터 도망치기 바빴던 내게 도망치지 않고 완성해본 기억을 선물하기 위한
+      그림이다. 미완으로 자주 끝났던 나의 그림을 마지막으로 완성해 항상 도망치지만은 않았다는 의
+      미로 대학생의 4년을 마무리하는 작업이다. 앞으로도 지금처럼 멈추지 말고 잘 버텨봅시다.`,
     works: [
       {
         title: "<나의 집> 2021, 지점토와 철사, 가변설치",
@@ -4246,7 +4246,7 @@ export const data = [
         youtube: [],
       },
       {
-        title: "<go go bluberry:.:.> 2021, 나무판넬에 지점토, 유화, 38x38",
+        title: "<go go blueberry:.:.> 2021, 나무판넬에 지점토, 유화, 38x38",
         type: "평면",
         images: [
           {
@@ -4445,20 +4445,20 @@ export const data = [
         soundSubtitle: false,
         youtube: [],
       },
-      {
-        title: "<Silent Voyage> 2021, single-channel video, 44min 20sec (loop)",
-        type: "영상",
-        images: [
-          {
-            type: "image",
-            url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB2.png",
-          },
-        ],
-        text: "",
-        alttext: false,
-        soundSubtitle: false,
-        youtube: ["https://www.youtube.com/channel/UCqB-X6XsTI_l3Ud_DlgTniQ/featured"],
-      },
+      // {
+      //   title: "<Silent Voyage> 2021, single-channel video, 44min 20sec (loop)",
+      //   type: "영상",
+      //   images: [
+      //     {
+      //       type: "image",
+      //       url: "https://graduation-cdn.s3.ap-northeast-2.amazonaws.com/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB/%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%AB2.png",
+      //     },
+      //   ],
+      //   text: "",
+      //   alttext: false,
+      //   soundSubtitle: false,
+      //   youtube: ["https://www.youtube.com/channel/UCqB-X6XsTI_l3Ud_DlgTniQ/featured"],
+      // },
       {
         title:
           "<Silent Oscillation> 2021, sound sculpture (3D printing, mechanical device, genetic data-sound algorithm)",
