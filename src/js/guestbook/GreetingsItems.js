@@ -128,7 +128,7 @@ const GreetingsItems = () => {
       </div>
       {/* 카드반복시작 */}
       <div className="row justify-content-center greeting-list">
-        {greetings.reverse().map((greeting) => (
+        {greetings.map((greeting) => (
           <div className="col-8 greeting-card">
             <div className="row">
               <div className="col-6 text-left text-size20 koreannmjb-font" tabindex="0">

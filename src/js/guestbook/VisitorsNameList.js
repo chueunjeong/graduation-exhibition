@@ -30,7 +30,7 @@ const VisitorsNameList = (props) => {
             <div className="col-6 border-r border-b p-2">이름</div>
             <div className="col-6 border-b p-2">방문 일자</div>
           </div>
-          {nameListOnPage.reverse().map((visitor) => (
+          {nameListOnPage.map((visitor) => (
             <div className="row text-center px-1" key={visitor.id} tabindex="0">
               <div className="col-6 border-r p-2">{visitor.visitorName}</div>
               <div className="col-6 p-2">{dateType(visitor.visitDate)}</div>

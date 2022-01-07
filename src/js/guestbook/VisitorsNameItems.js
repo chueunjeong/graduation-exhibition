@@ -33,9 +33,14 @@ const VisitorsNameItems = () => {
 
   const init = async () => {
     const nameData = await getData("nameboard");
-    console.log("nameData===>", nameData);
+    // console.log("nameData===>", nameData);
 
-    setVisitors(nameData);
+    let temp = [...nameData];
+    temp.sort((a, b) => b.timestamp - a.timestamp);
+
+    console.log("tempData", temp);
+
+    setVisitors(temp);
   };
 
   const onChange = (e) => {
